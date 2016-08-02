@@ -10,7 +10,7 @@ tagline: Assistant Professor UC Berkeley.
 
 <div>
 <div style="float:right;padding:12px">
-<img src="{{ BASE_PATH }}assets/jegonzal.jpg">
+<img src="{{ BASE_PATH }}/assets/jegonzal.jpg">
 </div>
 
 <h1> Joseph E. Gonzalez </h1>
