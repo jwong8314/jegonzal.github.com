@@ -9,7 +9,7 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : Joseph Gonzalez
-tagline: Site Tagline
+tagline: Leanring how to Teach People and Machines 
 author :
   name : Joseph Gonzalez
   email : jegonzal@cs.berkeley.edu
@@ -26,6 +26,7 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://jegonzal.github.io
+site.baseURL : .
 
 gems: ["jekyll-sitemap"]
 
