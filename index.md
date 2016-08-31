@@ -23,6 +23,9 @@ tagline: Assistant Professor UC Berkeley.
 
   <li> <b>Office:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley CA 94720</li>
 
+  <li> <b>Office Hours:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a> Thursdays at 3:00PM </li>
+
+
   <li> <b>Email:</b>
     <script type="text/javascript"> email_address("jegonzal") </script>
   </li>
@@ -34,10 +37,12 @@ tagline: Assistant Professor UC Berkeley.
 
 
 
-<b>Professor:</b> I recently joined the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley as an assistant professor.
-My <a href="assets/joseph_gonzalez_research_statement.pdf">research interests</a> are at the intersection of machine learning and data systems and explore the challenges of distributed learning and inference on large models and datasets, real-time model serving and personalization, and applying ML techniques to system tuning and management.
 
-<b>Co-founder:</b> I am a co-founder of <a href="http://dato.com">Dato Inc.</a> (formerly GraphLab), which spun out of my thesis work on the <a href="https://github.com/dato-code/PowerGraph">GraphLab & PowerGraph Systems</a>. At Dato we build software that enables data scientists to easily and efficiently extract signal from complex and noisy data and create intelligent applications and services.
+
+
+I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley.  My <a href="assets/joseph_gonzalez_research_statement.pdf">research interests</a> are at the intersection of machine learning and data systems and explore the challenges of distributed learning and inference on large models and datasets, real-time model serving and personalization, and applying ML techniques to system tuning and management.
+
+<b>Co-founder:</b> I am also co-founder of <a href="http://Turi.com">Turi Inc.</a> (formerly GraphLab), which was originally based on my thesis work on the <a href="https://github.com/dato-code/PowerGraph">GraphLab & PowerGraph Systems</a>.  Turi was recently <a href="http://www.geekwire.com/2016/exclusive-apple-acquires-turi-major-exit-seattle-based-machine-learning-ai-startup/">acquired</a> by Apple Inc.
 
 
 <b>Background:</b> Before joining UC Berkeley as an assistant professor, I was a post-doc in the UC Berkeley <a href="https://amplab.cs.berkeley.edu">AMPLab</a> working on several projects including <a href="http://spark.apache.org/graphx/">GraphX</a> (now part of <a href="http://spark.apache.org">Apache Spark</a>), early versions of <a href="http://mlbase.org">MLbase</a>, <a href="https://amplab.cs.berkeley.edu/projects/velox/">Velox</a>, and <a href="https://amplab.cs.berkeley.edu/projects/ccml/">concurrency control for ML</a>.
