@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Publications"
-description: "Bibliography of Recent Publications"
+description: "Recent Publications"
 group: navigation
 order: 2
 ---
@@ -10,6 +10,15 @@ order: 2
 A relatively up-to-date list of publications:
 
 <ul>
+
+<li>
+Ankur Dave, Alekh Jindal, Li Erran Li, Reynold Xin, Joseph Gonzalez, and Matei Zaharia. <b>"GraphFrames: An Integrated API for Mixing Graph and Relational Queries."</b> In SIGMOD Grades Workshop, 2016. [<a href="http://event.cwi.nl/grades/2016/02-Dave.pdf">Paper</a>]
+</li>
+
+<li>
+Neeraja J. Yadwadkar, Bharath Hariharan, Joseph E. Gonzalez, and Randy Katz. <b>"Multi-task Learning for Straggler Avoiding Predictive Job Scheduling."</b> In Journal of Machine Learning Research (JMLR ’16), 2016.[<a href="http://jmlr.org/papers/v17/15-149.html">Paper</a>]
+</li>
+
 <li>
 Neeraja J. Yadwadkar, Bharath Hariharan, Joseph Gonzalez and Randy Katz (2015). "<b>Faster Jobs in Distributed Data Processing using Multi-Task Learning</b>" Conference: SIAM International Conference on Data Mining (SDM15).
 [<a href="papers/faster_mtl.pdf">Paper</a>]

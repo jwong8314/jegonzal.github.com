@@ -15,8 +15,10 @@
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  color: #043361;
+  /*text-shadow: none;*/
 }
+
 #footer {
   background-color: #fdcd60;
 }
@@ -53,6 +55,9 @@ h1, h2, h3, h4 {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+
+
+
 .navbar-default .navbar-nav > li > a {
   background-color: #043361;
   color: #feb834;
@@ -61,6 +66,7 @@ h1, h2, h3, h4 {
 .navbar-default .navbar-brand {
   background-color: #043361;
   color: #feb834;
+  text-shadow: none;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -76,21 +82,25 @@ h1, h2, h3, h4 {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   background-color: #043361;
   color: #feb834;
+  text-shadow: none;
 }
 
 .navbar-brand {
   background-color: #043361;
   color: #feb834;
+  text-shadow: none;
 }
 
 .navbar-header {
   background-color: #043361;
   color: #feb834;
+  text-shadow: none;
 }
 
 .navbar .nav  a {
   background-color: #043361;
   color: #feb834;
+  text-shadow: none;
 }
 
 
