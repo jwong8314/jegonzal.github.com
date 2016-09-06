@@ -49,10 +49,12 @@ I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS d
 I got my PhD from the Machine Learning Department at Carnegie Mellon University
 where I worked with <a href="https://homes.cs.washington.edu/~guestrin/">Carlos Guestrin</a> on <a href="assets/papers/jegonzal_thesis.pdf">Parallel and Distributed Systems for Probabilistic Reasoning</a>.  I am a recipient of the AT&amp;T Labs Graduate Research Fellowship and the National Science Foundation Graduate Research Fellowship.
 
-<!-- ## Prospective Students ##
+## Prospective Graduate Students
 
-I am looking for additional graduate and undergraduate students to join my active projects on large-scale and real-time machine learning.  If you are interested please send me an email and we can setup a time to meet.
+I am looking for additional graduate students to join my active projects on large-scale systems for real-time machine learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.
 
+
+<!--
 
 I am in the process of updating this website with additional information on active projects, my research group, and teaching information so stay tuned!
  -->
