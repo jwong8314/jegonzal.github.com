@@ -21,7 +21,7 @@ Neeraja J. Yadwadkar, Bharath Hariharan, Joseph E. Gonzalez, and Randy Katz. <b>
 
 <li>
 Neeraja J. Yadwadkar, Bharath Hariharan, Joseph Gonzalez and Randy Katz (2015). "<b>Faster Jobs in Distributed Data Processing using Multi-Task Learning</b>" Conference: SIAM International Conference on Data Mining (SDM15).
-[<a href="papers/faster_mtl.pdf">Paper</a>]
+[<a href="./assets/papers/faster_mtl.pdf">Paper</a>]
 </li>
 
 
@@ -86,8 +86,8 @@ Carlos Guestrin (2012).
 Narayanamurthy, Alex Smola (2012).
 "<b>Scalable Inference in Latent Variable Models</b>."
 <i>Conference on Web Search and Data Mining (WSDM)</i>.
-[<a href="papers/ahmed_scalable_inference_in_latent_variable_models.bib">bibtex</a>]
-[<a href="papers/ahmed_scalable_inference_in_latent_variable_models.pdf">pdf</a>]
+[<a href="./assets/papers/ahmed_scalable_inference_in_latent_variable_models.bib">bibtex</a>]
+[<a href="./assets/papers/ahmed_scalable_inference_in_latent_variable_models.pdf">pdf</a>]
 </li>
 
 <li> Joseph Gonzalez, Yucheng Low, Arthur Gretton, Carlos
