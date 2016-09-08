@@ -43,7 +43,7 @@ h1, h2, h3, h4 {
   padding: 5px 5px 5px 5px;
   border: solid #ffffff 2px;
   text-decoration: none;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 10px 10px 10px;
 }
 
 .btn-details:hover {
