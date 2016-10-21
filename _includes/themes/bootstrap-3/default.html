@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    {% if page.redirect %}
+      <meta http-equiv="refresh" content="2; URL='{{ page.redirect }}'" />
+    {% endif %}
+
+
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
@@ -17,7 +22,7 @@
     <link href="{{ ASSET_PATH }}/css/bootstrap-theme.min.css" rel="stylesheet">
     <!-- Sticky Footer -->
     <link href="{{ ASSET_PATH }}/css/bs-sticky-footer.css" rel="stylesheet">
-    
+
     <!-- Custom styles -->
     <link href="{{ site.baseurl }}/assets/themes/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
