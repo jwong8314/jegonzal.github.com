@@ -7,7 +7,7 @@ order: 3
 ---
 {% include JB/setup %}
 
-In Sprint 2017 I am co-teaching [Data Science 100](http://ds100.org/spring-17) a new intermediate undergraduate data science class.
+In Sprint 2017 I am co-teaching [Data Science 100](http://www.ds100.org/sp17/) a new intermediate undergraduate data science class.
 
 <!-- I am also in the process of planning a new intermediate data-science class ([DS100](DS100)) to be taught in Spring 2017.
 If you are interested in Data Science and would like to help in building this new class please let me know!
