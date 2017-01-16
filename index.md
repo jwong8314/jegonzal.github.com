@@ -23,7 +23,7 @@ tagline: Assistant Professor UC Berkeley.
 
   <li> <b>Office:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley CA 94720</li>
 
-  <li> <b>Office Hours:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a> Thursdays at 3:00PM </li>
+  <li> <b>Office Hours:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a> Thursdays at 3:30PM </li>
 
 
   <li> <b>Email:</b>
@@ -46,12 +46,15 @@ I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS d
 
 
 <b>Background:</b> Before joining UC Berkeley as an assistant professor, I was a post-doc in the UC Berkeley <a href="https://amplab.cs.berkeley.edu">AMPLab</a> working on several projects including <a href="http://spark.apache.org/graphx/">GraphX</a> (now part of <a href="http://spark.apache.org">Apache Spark</a>), early versions of <a href="http://mlbase.org">MLbase</a>, <a href="https://amplab.cs.berkeley.edu/projects/velox/">Velox</a>, and <a href="https://amplab.cs.berkeley.edu/projects/ccml/">concurrency control for ML</a>.
-I got my PhD from the Machine Learning Department at Carnegie Mellon University
-where I worked with <a href="https://homes.cs.washington.edu/~guestrin/">Carlos Guestrin</a> on <a href="assets/papers/jegonzal_thesis.pdf">Parallel and Distributed Systems for Probabilistic Reasoning</a>.  I am a recipient of the AT&amp;T Labs Graduate Research Fellowship and the National Science Foundation Graduate Research Fellowship.
+I did my PhD in the Machine Learning Department at Carnegie Mellon University
+where I worked with <a href="https://homes.cs.washington.edu/~guestrin/">Carlos Guestrin</a> on <a href="assets/papers/jegonzal_thesis.pdf">Parallel and Distributed Systems for Probabilistic Reasoning</a>. 
 
+<!--  There I was also a recipient of the AT&amp;T Labs Graduate Research Fellowship and the National Science Foundation Graduate Research Fellowship.
+ -->
+ 
 ## Prospective Graduate Students
 
-I am looking for additional graduate students to join my active projects on large-scale systems for real-time machine learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.
+I am looking for graduate students to join me in the new <a href="https://rise.cs.berkeley.edu">UC Berkeley RISE Lab</a>.  As a founding member of the RISE Lab I am working on several projects in large-scale systems for real-time and secure machine learning, time-series analysis, system management, and reinforcement learning.  My machine learning research spans both classical statistical machine learning methods as well as new work in deep learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.
 
 
 <!--

@@ -7,10 +7,41 @@ order: 1
 ---
 {% include JB/setup %}
 
-This is a slightly out-of-date list of active projects in my group.  I will be updating these in the next few weeks.
+## RISE Lab Research Vision
+
+I am part of the new [UC Berkeley RISE Lab](https://rise.cs.berkeley.edu).  The following is the vision of the RISE Lab research agenda.
+
+A long-standing grand challenge in computing is to enable machines to behave intelligently: to rapidly and repeatedly take appropriate actions based on information in the world around them. 
+This challenge has been addressed in specific applications such as online advertising and high-frequency trading, and has been a focus in specialized physical systems like self-driving cars and drones. 
+While the progress has been encouraging, the general challenge of intelligent real-time decision-making has not yet been addressed. 
+There are three broad trends that frame the challenge:
+
+1. **Timely Data:** Networked sensors have become ubiquitous, carried in our pockets and embedded in our vehicles, buildings, streets, and appliances. These devices allow continuous monitoring of the world around us in ways that have never been possible before and are highly vulnerable to privacy and security breaches. *While many experiments are underway, we have yet to see a wide range of applications that harness data with the degree of recency, granularity, and security that is enabled by networked sensing and control.*
+
+1. **Practical Artificial Intelligence:** In recent years, AI has graduated from research labs into a surprising breadth of complex applications. 
+Much of the recent practical success of AI has come from a convergence of massive training sets and new programmable systems for learning at scale. *Systems for offline learning have fueled widespread experimentation with AI; real-time decision-making is the natural next step.*
+
+1. **Programmable Actuation:** The devices around us are increasingly programmable. 
+Our vehicles, houses, and workplaces are heavily networked and controlled by malleable software. Robots, drones, and embedded medical devices will extend the programmable world to our homes, airspace, and bloodstreams. *The first generation of pervasive programmable actuation is already here, and significant disruption is on the horizon.*
 
 
-## Real-time Interactive Machine Learning
+Today, we are at an inflection point, poised for a wave of applications that close the loop between computational intelligence and the physical world. 
+The critical missing catalysts are secure, general-purpose systems that can learn and act in real time on large-scale streams of live data. 
+To this end, we are studying the design of new algorithms and systems for *Real-time Intelligent Secure Execution* (**RISE**) that will enable the next decade of innovation centered around widespread, intelligent, and trustworthy computing.  
+
+In the RISE Lab we are pursuing research challenges in the following three areas:
+
+1. **Systems:** We are designing responsive software and hardware that provide orders-of-magnitude lower latency and higher throughput than existing platforms. These systems support a diversity of real-time, intelligent and secure applications, much like Hadoop and Spark powered big data analytics over the past decade. These systems are designed to respond in real time and at scale, closing the loop between data, models, and decisions. 
+
+1. **Machine Learning:** We are developing robust online learning techniques that rapidly explore massive solution spaces and adapt to feedback in real time. We are exploring the design of systems for reinforcement learning, to close the loop between data and decisions. We are also pursuing mechanisms that incentivize data and model sharing across organizations to promote collaboration. 
+
+1. **Security:** We are studying the design of systems and algorithms thare are able to process sensitive data in an untrusted infrastructure, while preserving data confidentiality and building mechanisms to guarantee post-hoc auditability for social and legal requirements.  
+
+The [UC Berkeley RISE Lab](https://rise.cs.berkeley.edu) is a joint effort with faculty spanning systems, machine learning, databases, and security and is funded by a consortium of world class sponsors who are actively participating in the ongoing research.
+
+
+
+### Real-time Interactive Machine Learning
 
 Machine learning and systems research have largely focused on the design of algorithms and systems to train models at scale on static datasets.
 However, training models is only a small part of the greater _life-cycle of machine learning_ which spans training, model serving, performance evaluation, exploration, and eventually re-training.
@@ -31,7 +62,7 @@ Model selection is often accomplished using A/B testing, however this approach i
 I believe that by applying active learning techniques we can adaptively select the best models for different groups at different times.
 This will require the development of new systems to support active learning in a low-latency serving environment.
 
-## Graph Systems and Analytics
+### Graph Systems and Analytics
 
 The GraphX project was initial created to address the need to unify tables and graphs support entire graph analytics pipelines which combines tabular pre-processing and post-processing with complex graph algorithms.
 GraphX recast the essential patterns and optimizations in graph-processing systems as new distributed join strategies and new techniques for incremental materialized view maintenance.
@@ -40,7 +71,7 @@ GraphX is now part of Apache Spark and has been put into production at major tec
 
 
 
-## Hybrid Synchronous and Asynchronous Systems
+### Hybrid Synchronous and Asynchronous Systems
 
 Much of my early work on graph processing systems, the parameter servers, and even transactional models for machine learning leveraged nondeterminism and asynchrony to improve performance.
 Meanwhile, many contemporary data processing systems have abandoned asynchrony, in favor of the simpler Bulk Synchronous Parallel (BSP) execution model and the determinism it affords.
