@@ -40,7 +40,7 @@ tagline: Assistant Professor UC Berkeley.
 
 
 
-I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley.  My <a href="assets/joseph_gonzalez_research_statement.pdf">research interests</a> are at the intersection of machine learning and data systems and explore the challenges of distributed learning and inference on large models and datasets, real-time model serving and personalization, and applying ML techniques to system tuning and management.
+I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley and a founding member of the new UC Berkeley [RISE Lab](http://rise.cs.berkeley.edu).  My [research interests](research) are at the intersection of machine learning and data systems and explore the challenges of distributed learning and inference on large models and datasets, real-time model serving and personalization, and applying ML techniques to system tuning and management.
 
 <b>Co-founder:</b> I am also co-founder of <a href="http://Turi.com">Turi Inc.</a> (formerly GraphLab), which was originally based on my thesis work on the <a href="https://github.com/dato-code/PowerGraph">GraphLab & PowerGraph Systems</a>.  Turi was recently <a href="http://www.geekwire.com/2016/exclusive-apple-acquires-turi-major-exit-seattle-based-machine-learning-ai-startup/">acquired</a> by Apple Inc.
 
@@ -52,9 +52,28 @@ where I worked with <a href="https://homes.cs.washington.edu/~guestrin/">Carlos 
 <!--  There I was also a recipient of the AT&amp;T Labs Graduate Research Fellowship and the National Science Foundation Graduate Research Fellowship.
  -->
  
-## Prospective Graduate Students
+## Current Graduate Students
 
-I am looking for graduate students to join me in the new <a href="https://rise.cs.berkeley.edu">UC Berkeley RISE Lab</a>.  As a founding member of the RISE Lab I am working on several projects in large-scale systems for real-time and secure machine learning, time-series analysis, system management, and reinforcement learning.  My machine learning research spans both classical statistical machine learning methods as well as new work in deep learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.
+I am fortunate to advise the following excellent graduate and undergraduate students.
+
+* [Francios Belletti](https://github.com/bellettif)
+* [Daniel Crankshaw](https://amplab.cs.berkeley.edu/author/crankshaw/)
+* [Xin Wang](https://www.linkedin.com/in/xin-wang-aa83a577)
+* [Neeraja Yadwadkar](https://people.eecs.berkeley.edu/~neerajay/)
+
+
+#### Undergraduates
+
+* [Noah Golmant](http://noahgolmant.com)
+* [Richard Liaw](https://www.linkedin.com/in/richardliaw)
+* [Guilio Zhou](http://giuliozhou.com)
+* [Corey Zumar](https://www.linkedin.com/in/corey-zumar-0a770982)
+* [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
+
+
+## Prospective  Postdocs and Graduate Students
+
+We are looking for postdocs and graduate students to join the new <a href="https://rise.cs.berkeley.edu">UC Berkeley RISE Lab</a>.  As a founding member of the RISE Lab I am working on several projects in large-scale systems for real-time and secure machine learning, time-series analysis, system management, and reinforcement learning.  My machine learning research spans both classical statistical machine learning methods as well as new work in deep learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.
 
 
 <!--

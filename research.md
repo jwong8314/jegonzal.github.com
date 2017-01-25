@@ -1,15 +1,15 @@
 ---
 layout: page
 title: "Research"
-description: "Previous and Active Research Projects"
+description: "Research"
 group: navigation
 order: 1
 ---
 {% include JB/setup %}
 
-## RISE Lab Research Vision
+I am a founding member of the new UC Berkeley RISE Lab
 
-I am part of the new [UC Berkeley RISE Lab](https://rise.cs.berkeley.edu).  The following is the vision of the RISE Lab research agenda.
+## [RISE Lab](https://rise.cs.berkeley.edu) Research Vision
 
 A long-standing grand challenge in computing is to enable machines to behave intelligently: to rapidly and repeatedly take appropriate actions based on information in the world around them. 
 This challenge has been addressed in specific applications such as online advertising and high-frequency trading, and has been a focus in specialized physical systems like self-driving cars and drones. 
