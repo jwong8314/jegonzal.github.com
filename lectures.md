@@ -9,6 +9,11 @@ order: 5
 
 Over the years I have given a lot of talks and the following are slides from many of these talks.  Feel free to reuse the slides with the appropriate attribution.
 
+1. **Data Science Activities at Berkeley.** Invited Talk at the Student run Berkeley [Data Science Society](http://www.dssberkeley.org/index.html). 2017
+[[pdf](assets/slides/berkeley_data_science_activities.pdf), 
+[pptx](assets/slides/berkeley_data_science_activities.pptx)]
+
+
 1. **Ongoing Research Overview.** Invited Talk _Berkeley AI Research Seminar Series._ 2016
 [[pdf](assets/slides/joseph_research_overview_bair_2016.pdf), 
 [pptx](assets/slides/joseph_research_overview_bair_2016.pptx)]
