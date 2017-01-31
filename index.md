@@ -36,10 +36,6 @@ tagline: Assistant Professor UC Berkeley.
 </div>
 
 
-
-
-
-
 I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley and a founding member of the new UC Berkeley [RISE Lab](http://rise.cs.berkeley.edu).  My [research interests](research) are at the intersection of machine learning and data systems and explore the challenges of distributed machine learning and inference on large models and datasets, real-time model serving and personalization, and applying machine learning techniques to system tuning and management.
 
 <b>Co-founder:</b> I am also co-founder of <a href="http://Turi.com">Turi Inc.</a> (formerly GraphLab), which was originally based on my thesis work on the <a href="https://github.com/dato-code/PowerGraph">GraphLab and PowerGraph Systems</a>.  Turi was recently <a href="http://www.geekwire.com/2016/exclusive-apple-acquires-turi-major-exit-seattle-based-machine-learning-ai-startup/">acquired</a> by Apple Inc.
@@ -77,10 +73,15 @@ I am fortunate to advise the following excellent students.
 
 We are looking for postdocs and graduate students to join the new <a href="https://rise.cs.berkeley.edu">UC Berkeley RISE Lab</a>.  As a founding member of the RISE Lab I am working on several projects in large-scale systems for real-time and secure machine learning, time-series analysis, system management, and reinforcement learning.  My machine learning research spans both classical statistical machine learning methods as well as new work in deep learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.
 
+### Entrepreneurship 
 
-<!--
+I am currently on the technical advisory board for [Deepscale.ai](http://deepscale.ai) which is developing new computer vision software and systems for autonomous vehicles.  Deepscale.ai is currently hiring!
 
-I am in the process of updating this website with additional information on active projects, my research group, and teaching information so stay tuned!
- -->
+## Funding
+
+My research as part of the UC Berkeley RISE Lab is funded by a group of 10 core industrial partners.
+
+<img src="assets/images/sponsors.png" width="800">
+
 
 
