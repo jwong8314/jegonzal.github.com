@@ -41,6 +41,11 @@ The [UC Berkeley RISE Lab](https://rise.cs.berkeley.edu) is a joint effort with 
 
 
 
+---
+
+## Other more Specific Research Projects
+
+
 ### Real-time Interactive Machine Learning
 
 Machine learning and systems research have largely focused on the design of algorithms and systems to train models at scale on static datasets.
