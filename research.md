@@ -35,7 +35,7 @@ In the RISE Lab we are pursuing research challenges in the following three areas
 
 1. **Machine Learning:** We are developing robust online learning techniques that rapidly explore massive solution spaces and adapt to feedback in real time. We are exploring the design of systems for reinforcement learning, to close the loop between data and decisions. We are also pursuing mechanisms that incentivize data and model sharing across organizations to promote collaboration. 
 
-1. **Security:** We are studying the design of systems and algorithms thare are able to process sensitive data in an untrusted infrastructure, while preserving data confidentiality and building mechanisms to guarantee post-hoc auditability for social and legal requirements.  
+1. **Security:** We are studying the design of systems and algorithms that  are able to process sensitive data in an untrusted infrastructure, while preserving data confidentiality and building mechanisms to guarantee post-hoc auditability for social and legal requirements.  
 
 The [UC Berkeley RISE Lab](https://rise.cs.berkeley.edu) is a joint effort with faculty spanning systems, machine learning, databases, and security and is funded by a consortium of world class sponsors who are actively participating in the ongoing research.
 
@@ -43,7 +43,7 @@ The [UC Berkeley RISE Lab](https://rise.cs.berkeley.edu) is a joint effort with 
 
 ---
 
-## Other more Specific Research Projects
+## Other Research Directions 
 
 
 ### Real-time Interactive Machine Learning
