@@ -64,7 +64,7 @@ I am fortunate to advise the following excellent students.
 
 * [Noah Golmant](http://noahgolmant.com)
 * [Richard Liaw](https://www.linkedin.com/in/richardliaw)
-* [Guilio Zhou](http://giuliozhou.com)
+* [Giulio Zhou](http://giuliozhou.com)
 * [Corey Zumar](https://www.linkedin.com/in/corey-zumar-0a770982)
 * [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
 
