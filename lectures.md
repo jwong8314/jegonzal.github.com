@@ -9,6 +9,11 @@ order: 5
 
 Over the years I have given a lot of talks and the following are slides from many of these talks.  Feel free to reuse the slides with the appropriate attribution.
 
+1. **Rise to the Challenges of AI Systems.** Invited Talk at the AAAI Systems Workshop. 2017
+[[pdf](assets/slides/rise_ml_aaai_workshop_3.pdf), 
+[pptx](assets/slides/rise_ml_aaai_workshop_3.pptx)]
+
+
 1. **Data Science Activities at Berkeley.** Invited Talk at the Student run Berkeley [Data Science Society](http://www.dssberkeley.org/index.html). 2017
 [[pdf](assets/slides/berkeley_data_science_activities.pdf), 
 [pptx](assets/slides/berkeley_data_science_activities.pptx)]
