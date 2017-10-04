@@ -58,14 +58,19 @@ I am fortunate to advise the following excellent students.
 * [Daniel Crankshaw](https://amplab.cs.berkeley.edu/author/crankshaw/)
 * [Xin Wang](https://people.eecs.berkeley.edu/~xinw/)
 * [Neeraja Yadwadkar](https://people.eecs.berkeley.edu/~neerajay/)
+* [Richard Liaw](https://www.linkedin.com/in/richardliaw)
+* [Vlad Feinberg](https://vlad17.github.io/about)
 
+
+#### Masters Students
+
+* [Corey Zumar](https://www.linkedin.com/in/corey-zumar-0a770982)
+* [Alexander Ku](https://www.linkedin.com/in/alexyku/)
+* [Samvit Jain](http://www.samvitjain.com)
 
 #### Undergraduate Student
 
 * [Noah Golmant](http://noahgolmant.com)
-* [Richard Liaw](https://www.linkedin.com/in/richardliaw)
-* [Giulio Zhou](http://giuliozhou.com)
-* [Corey Zumar](https://www.linkedin.com/in/corey-zumar-0a770982)
 * [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
 
 
