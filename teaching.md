@@ -8,8 +8,6 @@ order: 3
 {% include JB/setup %}
 
 
-<a href="mailto:csconners@cs.berkeley.edu?subject=[DS100 Enrollment]">Cindy Conners</a>
-
 
 I am currently co-teaching [Data Science 100 (FA17)](http://www.ds100.org/fa17/) the second revision of the new upper division data science class.  In the Spring I will again be teaching [Data Science 100 (SP18)](http://www.ds100.org/sp18/). If you are having issues enrolling please contact <a href="mailto:csconners@cs.berkeley.edu?subject=[DS100 Enrollment]">Cindy Conners</a> who is graciously managing enrollment.
 
