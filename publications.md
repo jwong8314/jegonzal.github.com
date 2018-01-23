@@ -10,6 +10,26 @@ order: 2
 A relatively up-to-date list of publications:
 
 
+* Bichen Wu, Alvin Wan, Xiangyu Yue, Peter Jin, Sicheng Zhao, Noah Golmant, Amir Gholaminejad, Joseph Gonzalez, Kurt Keutzer. <b>"Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions"</b> Preprint 2017 [<a href="https://arxiv.org/abs/1711.08141">arXiv</a>]
+
+
+* Xin Wang, Fisher Yu, Zi-Yi Dou, Joseph E. Gonzalez. <b>"SkipNet: Learning Dynamic Routing in Convolutional Networks."</b> Preprint 2017 [<a href="https://arxiv.org/abs/1711.09485">arXiv</a>]
+
+* Xin Wang, Yujia Luo, Daniel Crankshaw, Alexey Tumanov, Fisher Yu, Joseph E. Gonzalez <b>"IDK Cascades: Fast Deep Learning by Learning not to Overthink."</b> Preprint 2017 [<a href="https://arxiv.org/abs/1706.00885">arXiv</a>]
+
+
+* Ion Stoica, Dawn Song, Raluca Ada Popa, David A. Patterson, Michael W. Mahoney, Randy H. Katz, Anthony D. Joseph, Michael Jordan, Joseph M. Hellerstein, Joseph E. Gonzalez, Ken Goldberg, Ali Ghodsi, David E. Culler, Pieter Abbeel. <b>"Electrical Engineering and Computer Sciences University of California at Berkeley"</b> Berkeley Technical Report 2017. [<a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-159.pdf">Paper</a>]
+
+* Neeraja J. Yadwadkar, Bharath Hariharan, Joseph E. Gonzalez, Burton Smith, and Randy H. Katz. <b>"Selecting the Best VM Across Multiple Public Clouds: A Data-driven Performance Modeling Approach."</b> SoCC '17. [<a href="https://dl.acm.org/citation.cfm?id=3127479.3131614">Paper</a>]
+
+* Francois W. Belletti, Evan R. Sparks, Michael J. Franklin, Alexandre M. Bayen, and Joseph E. Gonzalez. <b>"Random Projection Design for Scalable Implicit Smoothing of Randomly Observed Stochastic Processes."</b> AIStats ’17. [<a href="http://proceedings.mlr.press/v54/belletti17a.html">Paper</a>]
+
+* Daniel Crankshaw, Xin Wang, Guilio Zhou, Michael J. Franklin, Joseph E. Gonzalez, and Ion Stoica. <b>"Clipper: A low-latency online prediction serving system."</b> NSDI '17. [<a href="https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf">Paper</a>]
+
+
+* Wenting Zheng, Ankur Dave, Jethro G. Beekman, Raluca Ada Popa, Joseph E. Gonzalez, and Ion Stoica. <b>"Opaque: An oblivious and encrypted distributed analytics platform."</b> NSDI '17. [<a href="hhttps://www.usenix.org/system/files/conference/nsdi17/nsdi17-zheng.pdf">Paper</a>]
+
+
 * Joseph M. Hellerstein, Vikram Sreekanti, Joseph E. Gonzalez, Sudhansku Arora, Arka Bhattacharyya, Shirshanka Das, Akon Dey, Mark Donsky, Gabriel Fierro, Sreyashi Nag, Krishna Ramachandran, Chang She, Eric Sun, Carl Steinbach, Venkat Subramanian. <b>"Establishing Common Ground with Data Context."</b> CIDR, 2017. [<a href="http://cidrdb.org/cidr2017/papers/p111-hellerstein-cidr17.pdf">Paper</a>]
 
 * Francois W. Belletti, Evan R. Sparks, Michael J. Franklin, Alexandre M. Bayen, Joseph E. Gonzalez.

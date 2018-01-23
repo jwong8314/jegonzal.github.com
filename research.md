@@ -48,9 +48,11 @@ The [UC Berkeley RISE Lab](https://rise.cs.berkeley.edu) is a joint effort with 
 
 
 
+
+
 ---
 
-## Other Research Directions 
+# Other Research Directions 
 
 
 ### Real-time Interactive Machine Learning
