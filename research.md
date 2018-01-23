@@ -7,11 +7,18 @@ order: 1
 ---
 {% include JB/setup %}
 
+
+
+<img src="assets/images/riselab.png" width="400">
+
+
 I am a founding member of the new UC Berkeley RISE Lab
 
 ## [RISE Lab](https://rise.cs.berkeley.edu) Research Vision
 
-A long-standing grand challenge in computing is to enable machines to behave intelligently: to rapidly and repeatedly take appropriate actions based on information in the world around them. 
+
+
+A long-standing grand challenge in computing is to enable machines to behave intelligently: *to rapidly and robustly take appropriate actions based on information in the world around them.*
 This challenge has been addressed in specific applications such as online advertising and high-frequency trading, and has been a focus in specialized physical systems like self-driving cars and drones. 
 While the progress has been encouraging, the general challenge of intelligent real-time decision-making has not yet been addressed. 
 There are three broad trends that frame the challenge:

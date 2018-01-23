@@ -36,21 +36,29 @@ tagline: Assistant Professor UC Berkeley.
 </div>
 
 
-I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley and a founding member of the new UC Berkeley [RISE Lab](http://rise.cs.berkeley.edu).  My [research interests](research) are at the intersection of machine learning and data systems and explore the challenges of distributed machine learning and inference on large models and datasets, real-time model serving and personalization, and applying machine learning techniques to system tuning and management.
+I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley and a founding member of the new UC Berkeley [RISE Lab](http://rise.cs.berkeley.edu).  My [research interests](research) are at the intersection of machine learning and data systems and my students are working on a wide range of projects including:
+
+* real-time model serving 
+* machine learning life-cycle management
+* accelerated deep learning for computer vision
+* new cryptographic primitives for federated learning
+* frameworks for deep reinforcement learning and parameter tuning
+* model based cloud resource management
+* software platforms for autonomous vehicles research
+* computational efficient representations for asynchronous time series
+* frameworks for graph query processing
 
 <b>Co-founder:</b> I am also co-founder of <a href="http://Turi.com">Turi Inc.</a> (formerly GraphLab), which was originally based on my thesis work on the <a href="https://github.com/dato-code/PowerGraph">GraphLab and PowerGraph Systems</a>.  Turi was recently <a href="http://www.geekwire.com/2016/exclusive-apple-acquires-turi-major-exit-seattle-based-machine-learning-ai-startup/">acquired</a> by Apple Inc.
 
 
 <b>Background:</b> Before joining UC Berkeley as an assistant professor, I was a post-doc in the UC Berkeley <a href="https://amplab.cs.berkeley.edu">AMPLab</a> working on several projects including <a href="http://spark.apache.org/graphx/">GraphX</a> (now part of <a href="http://spark.apache.org">Apache Spark</a>), early versions of <a href="http://mlbase.org">MLbase</a>, <a href="https://amplab.cs.berkeley.edu/projects/velox/">Velox</a>, and <a href="https://amplab.cs.berkeley.edu/projects/ccml/">concurrency control for ML</a>.
 I obtained my PhD from the Machine Learning Department at Carnegie Mellon University
-where I worked with <a href="https://homes.cs.washington.edu/~guestrin/">Carlos Guestrin</a> on <a href="assets/papers/jegonzal_thesis.pdf">Parallel and Distributed Systems for Probabilistic Reasoning</a>. 
+where I worked with on Parallel and Distributed Systems for Probabilistic Reasoning. 
 
-<!--  There I was also a recipient of the AT&amp;T Labs Graduate Research Fellowship and the National Science Foundation Graduate Research Fellowship.
- -->
  
 ## Current Graduate Students
 
-I am fortunate to advise the following excellent students.
+I am fortunate to advise the following amazing students.
 
 #### Graduate Students
 
@@ -68,7 +76,7 @@ I am fortunate to advise the following excellent students.
 * [Alexander Ku](https://www.linkedin.com/in/alexyku/)
 * [Samvit Jain](http://www.samvitjain.com)
 
-#### Undergraduate Student
+#### Undergraduate Students
 
 * [Noah Golmant](http://noahgolmant.com)
 * [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
@@ -76,7 +84,7 @@ I am fortunate to advise the following excellent students.
 
 ## Prospective Postdocs and Graduate Students
 
-We are looking for postdocs and graduate students to join the new <a href="https://rise.cs.berkeley.edu">UC Berkeley RISE Lab</a>.  As a founding member of the RISE Lab I am working on several projects in large-scale systems for real-time and secure machine learning, time-series analysis, system management, and reinforcement learning.  My machine learning research spans both classical statistical machine learning methods as well as new work in deep learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.
+We are looking for postdocs and graduate students to join the new <a href="https://rise.cs.berkeley.edu">UC Berkeley RISE Lab</a>.  As a founding member of the RISE Lab, I am working on several projects in large-scale systems for real-time and secure machine learning, time-series analysis, system management, and reinforcement learning.  My machine learning research spans both classical statistical machine learning methods as well as new work in deep learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.
 
 ### Entrepreneurship 
 
