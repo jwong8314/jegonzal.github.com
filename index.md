@@ -86,6 +86,10 @@ I am fortunate to advise the following amazing students.
 
 We are looking for postdocs and graduate students to join the new <a href="https://rise.cs.berkeley.edu">UC Berkeley RISE Lab</a>.  As a founding member of the RISE Lab, I am working on several projects in large-scale systems for real-time and secure machine learning, time-series analysis, system management, and reinforcement learning.  My machine learning research spans both classical statistical machine learning methods as well as new work in deep learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.
 
+## Research Opportunities for Undergraduate Students
+
+We are also looking for motivated undergraduate students who would like to get involved in doing cutting edge research.  If you are an undergraduate at Berkeley and are interested in getting involved in research please fill out this [Google Form](https://goo.gl/forms/OuubGEVi0U3l3Z2B2).
+
 ### Entrepreneurship 
 
 I am currently on the technical advisory board for [Deepscale.ai](http://deepscale.ai) which is developing new computer vision software and systems for autonomous vehicles.  Deepscale.ai is currently hiring!
