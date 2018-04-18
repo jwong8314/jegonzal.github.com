@@ -9,6 +9,12 @@ order: 5
 
 Over the years I have given a lot of talks and the following are slides from many of these talks.  Feel free to reuse the slides with the appropriate attribution.
 
+
+1. **Managing the Machine Learning Lifecycle** Invited Talk at the [DataEngConf](http://www.dataengconf.com/). 2018
+[[pdf](assets/slides/dataeng/joseph_dataeng.pdf), 
+[pptx](assets/slides/dataeng/joseph_dataeng.pptx)]
+
+
 1. **Rise to the Challenges of AI Systems.** Invited Talk at the AAAI Systems Workshop. 2017
 [[pdf](assets/slides/rise_ml_aaai_workshop_3.pdf), 
 [pptx](assets/slides/rise_ml_aaai_workshop_3.pptx)]
