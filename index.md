@@ -63,7 +63,7 @@ I am fortunate to advise the following amazing students.
 #### Graduate Students
 
 * [Francios Belletti](https://github.com/bellettif)
-* [Daniel Crankshaw](https://amplab.cs.berkeley.edu/author/crankshaw/)
+* [Daniel Crankshaw](https://dancrankshaw.com/)
 * [Xin Wang](https://people.eecs.berkeley.edu/~xinw/)
 * [Neeraja Yadwadkar](https://people.eecs.berkeley.edu/~neerajay/)
 * [Richard Liaw](https://www.linkedin.com/in/richardliaw)
