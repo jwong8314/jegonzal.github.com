@@ -85,6 +85,7 @@ I am fortunate to advise the following amazing students.
 * [Simon Mo](https://www.linkedin.com/in/simon-mo-40151a87)
 * [Peter Schafhalter](https://github.com/pschafhalter)
 * [Hari Subbaraj](https://www.linkedin.com/in/hsubbaraj)
+* [Victor Sun]()
 * [Nikita Vemuri](https://www.linkedin.com/in/nikitavemuri)
 
 
