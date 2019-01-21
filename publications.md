@@ -207,6 +207,66 @@ In this paper we introduce InferLine, a system which efficiently provisions and 
 </code></pre></div></div>
 </div></div>
 
+<div id="Golmant18" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Noah Golmant and
+Nikita Vemuri and
+Zhewei Yao and
+Vladimir Feinberg and
+Amir Gholami and
+Kai Rothauge and
+Michael W. Mahoney and
+Joseph Gonzalez</li>
+</ul>
+</div>
+<div class="title">On the Computational Inefficiency of Large Batch Sizes for Stochastic
+Gradient Descent</div><div class="venue">CoRR</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Golmant18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Golmant18_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1811.12941">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Golmant18_abs" class="collapse abstract"><div class="card card-body">
+On the Computational Inefficiency of Large Batch Sizes for Stochastic Gradient Descent
+
+Noah Golmant, Nikita Vemuri, Zhewei Yao, Vladimir Feinberg, Amir Gholami, Kai Rothauge, Michael W. Mahoney, Joseph Gonzalez
+(Submitted on 30 Nov 2018)
+Increasing the mini-batch size for stochastic gradient descent offers significant opportunities to reduce wall-clock training time, but there are a variety of theoretical and systems challenges that impede the widespread success of this technique. We investigate these issues, with an emphasis on time to convergence and total computational cost, through an extensive empirical analysis of network training across several architectures and problem domains, including image classification, image segmentation, and language modeling. Although it is common practice to increase the batch size in order to fully exploit available computational resources, we find a substantially more nuanced picture. Our main finding is that across a wide range of network architectures and problem domains, increasing the batch size beyond a certain point yields no decrease in wall-clock time to convergence for \emph{either} train or test loss. This batch size is usually substantially below the capacity of current systems. We show that popular training strategies for large batch size optimization begin to fail before we can populate all available compute resources, and we show that the point at which these methods break down depends more on attributes like model architecture and data complexity than it does directly on the size of the dataset.</div></div><div id="Golmant18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Golmant18,
+ abstract = {
+On the Computational Inefficiency of Large Batch Sizes for Stochastic Gradient Descent
+
+Noah Golmant, Nikita Vemuri, Zhewei Yao, Vladimir Feinberg, Amir Gholami, Kai Rothauge, Michael W. Mahoney, Joseph Gonzalez
+(Submitted on 30 Nov 2018)
+Increasing the mini-batch size for stochastic gradient descent offers significant opportunities to reduce wall-clock training time, but there are a variety of theoretical and systems challenges that impede the widespread success of this technique. We investigate these issues, with an emphasis on time to convergence and total computational cost, through an extensive empirical analysis of network training across several architectures and problem domains, including image classification, image segmentation, and language modeling. Although it is common practice to increase the batch size in order to fully exploit available computational resources, we find a substantially more nuanced picture. Our main finding is that across a wide range of network architectures and problem domains, increasing the batch size beyond a certain point yields no decrease in wall-clock time to convergence for \emph{either} train or test loss. This batch size is usually substantially below the capacity of current systems. We show that popular training strategies for large batch size optimization begin to fail before we can populate all available compute resources, and we show that the point at which these methods break down depends more on attributes like model architecture and data complexity than it does directly on the size of the dataset.},
+ archiveprefix = {arXiv},
+ author = {Noah Golmant and
+Nikita Vemuri and
+Zhewei Yao and
+Vladimir Feinberg and
+Amir Gholami and
+Kai Rothauge and
+Michael W. Mahoney and
+Joseph Gonzalez},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1811-12941},
+ eprint = {1811.12941},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ month = {11},
+ timestamp = {Mon, 03 Dec 2018 07:50:28 +0100},
+ title = {On the Computational Inefficiency of Large Batch Sizes for Stochastic
+Gradient Descent},
+ url = {http://arxiv.org/abs/1811.12941},
+ volume = {abs/1811.12941},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
+
 <div id="Jain18" class="publication">
 <div class="summary"><div class="authors">
 <ul class="author">
