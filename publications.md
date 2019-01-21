@@ -6,7 +6,7 @@ group: navigation
 order: 2
 ---
 
-# Preprint Publications
+# ArXiv Preprints
 
 <div id="Wang18" class="publication">
 <div class="summary"><div class="authors">
@@ -362,7 +362,7 @@ In this paper we introduce InferLine, a system which efficiently provisions and 
 
 ---
 
-# Published
+# Publications
 
 
 <div id="Hotmobil2019" class="publication">

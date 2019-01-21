@@ -105,7 +105,7 @@ group: navigation
 order: 2
 ---
 
-# Preprint Publications
+# ArXiv Preprints
 
 """)
     write_entries(arxivpre, f)
@@ -116,7 +116,7 @@ order: 2
 
 ---
 
-# Published
+# Publications
 
 
 """)
