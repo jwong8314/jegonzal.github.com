@@ -210,18 +210,17 @@ In this paper we introduce InferLine, a system which efficiently provisions and 
 <div id="Golmant18" class="publication">
 <div class="summary"><div class="authors">
 <ul class="author">
-	<li>Noah Golmant and
-Nikita Vemuri and
-Zhewei Yao and
-Vladimir Feinberg and
-Amir Gholami and
-Kai Rothauge and
-Michael W. Mahoney and
-Joseph Gonzalez</li>
+	<li>Noah Golmant</li>
+	<li>Nikita Vemuri</li>
+	<li>Zhewei Yao</li>
+	<li>Vladimir Feinberg</li>
+	<li>Amir Gholami</li>
+	<li>Kai Rothauge</li>
+	<li>Michael W. Mahoney</li>
+	<li>Joseph Gonzalez</li>
 </ul>
 </div>
-<div class="title">On the Computational Inefficiency of Large Batch Sizes for Stochastic
-Gradient Descent</div><div class="venue">CoRR</div>
+<div class="title">On the Computational Inefficiency of Large Batch Sizes for Stochastic Gradient Descent</div><div class="venue">CoRR</div>
 <div class="year">2018</div></div><div class="links">
 <ul>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Golmant18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
@@ -229,28 +228,19 @@ Gradient Descent</div><div class="venue">CoRR</div>
 	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1811.12941">paper</a></li>
 </ul>
 </div>
-<div class="cards"><div id="Golmant18_abs" class="collapse abstract"><div class="card card-body">
-Increasing the mini-batch size for stochastic gradient descent offers significant opportunities to reduce wall-clock training time, but there are a variety of theoretical and systems challenges that impede the widespread success of this technique. We investigate these issues, with an emphasis on time to convergence and total computational cost, through an extensive empirical analysis of network training across several architectures and problem domains, including image classification, image segmentation, and language modeling. Although it is common practice to increase the batch size in order to fully exploit available computational resources, we find a substantially more nuanced picture. Our main finding is that across a wide range of network architectures and problem domains, increasing the batch size beyond a certain point yields no decrease in wall-clock time to convergence for \emph{either} train or test loss. This batch size is usually substantially below the capacity of current systems. We show that popular training strategies for large batch size optimization begin to fail before we can populate all available compute resources, and we show that the point at which these methods break down depends more on attributes like model architecture and data complexity than it does directly on the size of the dataset.</div></div><div id="Golmant18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+<div class="cards"><div id="Golmant18_abs" class="collapse abstract"><div class="card card-body">Increasing the mini-batch size for stochastic gradient descent offers significant opportunities to reduce wall-clock training time, but there are a variety of theoretical and systems challenges that impede the widespread success of this technique. We investigate these issues, with an emphasis on time to convergence and total computational cost, through an extensive empirical analysis of network training across several architectures and problem domains, including image classification, image segmentation, and language modeling. Although it is common practice to increase the batch size in order to fully exploit available computational resources, we find a substantially more nuanced picture. Our main finding is that across a wide range of network architectures and problem domains, increasing the batch size beyond a certain point yields no decrease in wall-clock time to convergence for \emph{either} train or test loss. This batch size is usually substantially below the capacity of current systems. We show that popular training strategies for large batch size optimization begin to fail before we can populate all available compute resources, and we show that the point at which these methods break down depends more on attributes like model architecture and data complexity than it does directly on the size of the dataset.</div></div><div id="Golmant18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
 @article{Golmant18,
- abstract = {
-Increasing the mini-batch size for stochastic gradient descent offers significant opportunities to reduce wall-clock training time, but there are a variety of theoretical and systems challenges that impede the widespread success of this technique. We investigate these issues, with an emphasis on time to convergence and total computational cost, through an extensive empirical analysis of network training across several architectures and problem domains, including image classification, image segmentation, and language modeling. Although it is common practice to increase the batch size in order to fully exploit available computational resources, we find a substantially more nuanced picture. Our main finding is that across a wide range of network architectures and problem domains, increasing the batch size beyond a certain point yields no decrease in wall-clock time to convergence for \emph{either} train or test loss. This batch size is usually substantially below the capacity of current systems. We show that popular training strategies for large batch size optimization begin to fail before we can populate all available compute resources, and we show that the point at which these methods break down depends more on attributes like model architecture and data complexity than it does directly on the size of the dataset.},
+ abstract = {Increasing the mini-batch size for stochastic gradient descent offers significant opportunities to reduce wall-clock training time, but there are a variety of theoretical and systems challenges that impede the widespread success of this technique. We investigate these issues, with an emphasis on time to convergence and total computational cost, through an extensive empirical analysis of network training across several architectures and problem domains, including image classification, image segmentation, and language modeling. Although it is common practice to increase the batch size in order to fully exploit available computational resources, we find a substantially more nuanced picture. Our main finding is that across a wide range of network architectures and problem domains, increasing the batch size beyond a certain point yields no decrease in wall-clock time to convergence for \emph{either} train or test loss. This batch size is usually substantially below the capacity of current systems. We show that popular training strategies for large batch size optimization begin to fail before we can populate all available compute resources, and we show that the point at which these methods break down depends more on attributes like model architecture and data complexity than it does directly on the size of the dataset.},
  archiveprefix = {arXiv},
- author = {Noah Golmant and
-Nikita Vemuri and
-Zhewei Yao and
-Vladimir Feinberg and
-Amir Gholami and
-Kai Rothauge and
-Michael W. Mahoney and
-Joseph Gonzalez},
+ author = {Noah Golmant and Nikita Vemuri and Zhewei Yao and Vladimir Feinberg and Amir Gholami and Kai Rothauge and Michael W. Mahoney and Joseph Gonzalez},
+ bdsk-url-1 = {http://arxiv.org/abs/1811.12941},
  bibsource = {dblp computer science bibliography, https://dblp.org},
  biburl = {https://dblp.org/rec/bib/journals/corr/abs-1811-12941},
  eprint = {1811.12941},
  journal = {CoRR},
  keywords = {arxivpre},
  month = {11},
- title = {On the Computational Inefficiency of Large Batch Sizes for Stochastic
-Gradient Descent},
+ title = {On the Computational Inefficiency of Large Batch Sizes for Stochastic Gradient Descent},
  url = {http://arxiv.org/abs/1811.12941},
  volume = {abs/1811.12941},
  year = {2018}
@@ -438,6 +428,7 @@ Gradient Descent},
 @inproceedings{Hotmobil2019,
  abstract = {Driven by advances in computer vision and the falling costs of camera hardware, organizations are deploying video cameras en masse for the spatial monitoring of their physical premises. Scaling video analytics to massive camera deployments, however, presents a new and mounting challenge, as compute cost grows proportionally to the number of camera feeds. This paper is driven by a simple question: can we scale video analytics in such a way that cost grows sublinearly, or even remains constant, as we deploy more cameras, while inference accuracy remains stable, or even improves. We believe the answer is yes. Our key observation is that video feeds from wide-area camera deployments demonstrate significant content correlations (e.g. to other geographically proximate feeds), both in space and over time. These spatio-temporal correlations can be harnessed to dramatically reduce the size of the inference search space, decreasing both workload and false positive rates in multi-camera video analytics. By discussing use-cases and technical challenges, we propose a roadmap for scaling video analytics to large camera networks, and outline a plan for its realization.},
  author = {Samvit Jain and Ganesh Ananthanarayanan and Junchen Jiang and Yuanchao Shu and Joseph E. Gonzalez},
+ bdsk-url-1 = {https://arxiv.org/abs/1809.02318},
  booktitle = {HotMobile `19, Proceedings of the 20th International Workshop on Mobile Computing Systems and Applications},
  keywords = {peerrev},
  month = {2},
@@ -472,6 +463,7 @@ Gradient Descent},
 @inproceedings{cidr19,
  abstract = {Serverless computing offers the potential to program the cloud in an autoscaling, pay-as-you go manner. In this paper we address critical gaps in first-generation serverless computing, which place its autoscaling potential at odds with dominant trends in modern computing: notably data-centric and distributed computing, but also open source and custom hardware. Put together, these gaps make current serverless offerings a bad fit for cloud innovation and particularly bad for data systems innovation. In addition to pinpointing some of the main shortfalls of current serverless architectures, we raise a set of challenges we believe must be met to unlock the radical potential that the cloud---with its exabytes of storage and millions of cores---should offer to innovative developers.},
  author = {Joseph M. Hellerstein and Jose M. Faleiro and Joseph E. Gonzalez and Johann Schleier{-}Smith and Vikram Sreekanti and Alexey Tumanov and Chenggang Wu},
+ bdsk-url-1 = {https://arxiv.org/abs/1812.03651},
  booktitle = {Conference on Innovative Data Systems Research ({CIDR} '19)},
  keywords = {peerrev},
  month = {1},
@@ -505,6 +497,7 @@ Gradient Descent},
 @inproceedings{cmi2018,
  abstract = {Machine learning models have become ubiquitous in modern applications. The ML Lifecycle describes a three-phase process used by data scientists and data engineers to develop, train, and serve models. Unfortunately, context around the data, code, people, and systems involved in these pipelines is not captured today. In this paper, we first discuss common pitfalls that missing context creates. Some examples where context is missing include tracking the relationships between code and data and capturing experimental processes over time. We then discuss techniques to address these challenges and briefly mention future work around designing and implementing systems in this space.},
  author = {Rolando Garcia and Vikram Sreekanti and Neeraja Yadwadkar and Daniel Crankshaw and Joseph E. Gonzalez and Joseph M. Hellerstein},
+ bdsk-url-1 = {http://www.vikrams.io/papers/flor-cmi18.pdf},
  booktitle = {Proceedings of the KDD Workshop on Common Model Infrastructure (CMI)},
  keywords = {peerrev},
  month = {8},
@@ -538,6 +531,7 @@ Gradient Descent},
 @inproceedings{uai2018,
  abstract = {Advances in deep learning have led to substantial increases in prediction accuracy but have been accompanied by increases in the cost of rendering predictions. We conjecture that fora majority of real-world inputs, the recent advances in deep learning have created models that effectively "overthink" on simple inputs. In this paper, we revisit the classic question of building model cascades that primarily leverage class asymmetry to reduce cost. We introduce the "I Don't Know"(IDK) prediction cascades framework, a general framework to systematically compose a set of pre-trained models to accelerate inference without a loss in prediction accuracy. We propose two search based methods for constructing cascades as well as a new cost-aware objective within this framework. The proposed IDK cascade framework can be easily adopted in the existing model serving systems without additional model re-training. We evaluate the proposed techniques on a range of benchmarks to demonstrate the effectiveness of the proposed framework.},
  author = {Xin Wang and Yujia Luo and Dan Crankshaw and Alexey Tumanov and Fisher Yu and Joseph E. Gonzalez},
+ bdsk-url-1 = {https://arxiv.org/abs/1706.00885},
  booktitle = {Conference on Uncertainty in Artificial Intelligence (UAI)},
  keywords = {peerrev},
  month = {7},
@@ -574,6 +568,7 @@ Gradient Descent},
 @inproceedings{icml2018,
  abstract = {Reinforcement learning (RL) algorithms involve the deep nesting of highly irregular computation patterns, each of which typically exhibits opportunities for distributed computation. We argue for distributing RL components in a composable way by adapting algorithms for top-down hierarchical control, thereby encapsulating parallelism and resource requirements within short-running compute tasks. We demonstrate the benefits of this principle through RLlib: a library that provides scalable software primitives for RL. These primitives enable a broad range of algorithms to be implemented with high performance, scalability, and substantial code reuse.},
  author = {Eric Liang and Richard Liaw and Robert Nishihara and Philipp Moritz and Roy Fox and Joseph Gonzalez and Ken Goldberg and Ion Stoica},
+ bdsk-url-1 = {https://arxiv.org/abs/1712.09381},
  booktitle = {Proceedings of the 35th International Conference on Machine Learning},
  code = {https://ray.readthedocs.io/en/latest/rllib.html},
  keywords = {peerrev},
@@ -650,6 +645,7 @@ Gradient Descent},
 @inproceedings{eccv2018,
  abstract = {While deeper convolutional networks are needed to achieve maximum accuracy in visual perception tasks, for many inputs shallower networks are sufficient. We exploit this observation by learning to skip convolutional layers on a per-input basis. We introduce SkipNet, a modified residual network, that uses a gating network to selectively skip convolutional blocks based on the activations of the previous layer. We formulate the dynamic skipping problem in the context of sequential decision making and propose a hybrid learning algorithm that combines supervised learning and reinforcement learning to address the challenges of non-differentiable skipping decisions. We show SkipNet reduces computation by 30-90% while preserving the accuracy of the original model on four benchmark datasets and outperforms the state-of-the-art dynamic networks and static compression methods. We also qualitatively evaluate the gating policy to reveal a relationship between image scale and saliency and the number of layers skipped.},
  author = {Xin Wang and Fisher Yu and Zi{-}Yi Dou and Joseph E. Gonzalez},
+ bdsk-url-1 = {https://arxiv.org/abs/1711.09485},
  booktitle = {Proceedings of the European Conference on Computer Vision ({ECCV})},
  keywords = {peerrev},
  month = {7},
@@ -686,6 +682,7 @@ Gradient Descent},
 @inproceedings{Wu_2018_CVPR,
  abstract = {Neural networks rely on convolutions to aggregate spatial information. However, spatial convolutions are expensive in terms of model size and computation, both of which grow quadratically with respect to kernel size. In this paper, we present a parameter-free, FLOP-free "shift" operation as an alternative to spatial convolutions. We fuse shifts and point-wise convolutions to construct end-to-end trainable shift-based modules, with a hyperparameter characterizing the tradeoff between accuracy and efficiency. To demonstrate the operation's efficacy, we replace ResNet's 3x3 convolutions with shift-based modules for improved CIFAR10 and CIFAR100 accuracy using 60% fewer parameters; we additionally demonstrate the operation's resilience to parameter reduction on ImageNet, outperforming ResNet family members. We finally show the shift operation's applicability across domains, achieving strong performance with fewer parameters on classification, face verification and style transfer.},
  author = {Bichen Wu and Alvin Wan and Xiangyu Yue and Peter Jin and Sicheng Zhao and Noah Golmant and Amir Gholaminejad and Joseph E. Gonzalez and Kurt Keutzer},
+ bdsk-url-1 = {https://arxiv.org/abs/1711.08141},
  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
  keywords = {peerrev},
  month = {6},
@@ -715,6 +712,7 @@ Gradient Descent},
 @inproceedings{Samvit2018,
  abstract = {Convolutional networks optimized for accuracy on challenging, dense prediction tasks are prohibitively slow to run on each frame in a video. The spatial similarity of nearby video frames, however, suggests opportunity to reuse computation. Existing work has explored basic feature reuse and feature warping based on optical flow, but has encountered limits to the speedup attainable with these techniques. In this paper, we present a new, two part approach to accelerating inference on video. First, we propose a fast feature propagation technique that utilizes the block motion vectors present in compressed video (e.g. H.264 codecs) to cheaply propagate features from frame to frame. Second, we develop a novel feature estimation scheme, termed feature interpolation, that fuses features propagated from enclosing keyframes to render accurate feature estimates, even at sparse keyframe frequencies. We evaluate our system on the Cityscapes and CamVid datasets, comparing to both a frame-by-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20.1 frames per second) on large images (960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.},
  author = {Samvit Jain and Joseph E. Gonzalez},
+ bdsk-url-1 = {https://arxiv.org/abs/1803.07742},
  booktitle = {The Third International Workshop on Video Segmentation (IWVS)},
  keywords = {peerrev},
  month = {3},
@@ -748,6 +746,7 @@ Gradient Descent},
 @inproceedings{LearningSys2018,
  abstract = {Serving deep neural networks in latency critical interactive settings often requires GPU acceleration. However, the small batch sizes typical in online inference results in poor GPU utilization, a potential performance gap which GPU resource sharing can address. In this paper, we explore several techniques to leverage both temporal and spatial multiplexing to improve GPU utilization for deep learning inference workloads. We evaluate the performance trade-offs of each approach with respect to resource-efficiency, latency predictability, and isolation when compared with conventional batched inference. Our experimental analysis suggests at least a 5x potential for improved utilization through the exploration of more advanced spatial and temporal multiplexing strategies. Our preliminary prototype of a dynamic space-time scheduler demonstrates a 3.18x speedup over space-only multiplexing and a 7.76x speedup over time-only multiplexing, while also providing better isolation and latency predictability.},
  author = {Xiangxi Mo and Paras Jain and Ajay Jain and Alexey Tumanov and Joseph E. Gonzalez and Ion Stoica},
+ bdsk-url-1 = {http://learningsys.org/nips18/assets/papers/102CameraReadySubmissionGPU_Virtualization%20(8).pdf},
  booktitle = {Proceedings of the Learning Systems Workshop at NIPS 2018},
  keywords = {peerrev},
  month = {12},
@@ -782,6 +781,7 @@ Gradient Descent},
 @inproceedings{icml_automl2018,
  abstract = {Modern machine learning algorithms are increasingly computationally demanding, requiring specialized hardware and distributed computation to achieve high performance in a reasonable time frame. Many hyperparameter search algorithms have been proposed for improving the efficiency of model selection, however their adaptation to the distributed compute environment is often ad-hoc. We propose Tune, a unified framework for model selection and training that provides a narrow-waist interface between training scripts and search algorithms. We show that this interface meets the requirements for a broad range of hyperparameter search algorithms, allows straightforward scaling of search to large clusters, and simplifies algorithm implementation. We demonstrate the implementation of several state-of-the-art hyperparameter search algorithms in Tune.},
  author = {Richard Liaw and Eric Liang and Robert Nishihara and Philipp Moritz and Joseph E. Gonzalez and Ion Stoica},
+ bdsk-url-1 = {https://arxiv.org/abs/1807.05118},
  booktitle = {Proceedings of the ICML Workshop on AutoML},
  code = {https://ray.readthedocs.io/en/latest/tune.html},
  keywords = {peerrev},
@@ -821,12 +821,12 @@ Gradient Descent},
 </div>
 <div class="cards"><div id="Stoica17_abs" class="collapse abstract"><div class="card card-body">With the increasing commoditization of computer vision, speech recognition and machine translation systems and the widespread deployment of learning-based back-end technologies such as digital advertising and intelligent infrastructures, AI (Artificial Intelligence) has moved from research labs to production. These changes have been made possible by unprecedented levels of data and computation, by methodological advances in machine learning, by innovations in systems software and architectures, and by the broad accessibility of these technologies.
 
-The next generation of AI systems promises to accelerate these developments and increasingly impact our lives via frequent interactions and making (often mission-critical) decisions on our behalf, often in highly personalized contexts. Realizing this promise, however, raises daunting challenges. In particular, we need AI systems that make timely and safe decisions in unpredictable environments, that are robust against sophisticated adversaries, and that can process ever increasing amounts of data across organizations and individuals without compromising confidentiality. These challenges will be exacerbated by the end of the Moore’s Law, which will constrain the amount of data these technologies can store and process. In this paper, we propose several open research directions in systems, architectures, and security that can address these challenges and help unlock AI’s potential to improve lives and society.</div></div><div id="Stoica17_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+The next generation of AI systems promises to accelerate these developments and increasingly impact our lives via frequent interactions and making (often mission-critical) decisions on our behalf, often in highly personalized contexts. Realizing this promise, however, raises daunting challenges. In particular, we need AI systems that make timely and safe decisions in unpredictable environments, that are robust against sophisticated adversaries, and that can process ever increasing amounts of data across organizations and individuals without compromising confidentiality. These challenges will be exacerbated by the end of the Moore's Law, which will constrain the amount of data these technologies can store and process. In this paper, we propose several open research directions in systems, architectures, and security that can address these challenges and help unlock AI's potential to improve lives and society.</div></div><div id="Stoica17_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
 @techreport{Stoica17,
  abstract = {With the increasing commoditization of computer vision, speech recognition and machine translation systems and the widespread deployment of learning-based back-end technologies such as digital advertising and intelligent infrastructures, AI (Artificial Intelligence) has moved from research labs to production. These changes have been made possible by unprecedented levels of data and computation, by methodological advances in machine learning, by innovations in systems software and architectures, and by the broad accessibility of these technologies.
 
-The next generation of AI systems promises to accelerate these developments and increasingly impact our lives via frequent interactions and making (often mission-critical) decisions on our behalf, often in highly personalized contexts. Realizing this promise, however, raises daunting challenges. In particular, we need AI systems that make timely and safe decisions in unpredictable environments, that are robust against sophisticated adversaries, and that can process ever increasing amounts of data across organizations and individuals without compromising confidentiality. These challenges will be exacerbated by the end of the Moore’s Law, which will constrain the amount of data these technologies can store and process. In this paper, we propose several open research directions in systems, architectures, and security that can address these challenges and help unlock AI’s potential to improve lives and society.},
- author = {Ion Stoica and Dawn Song and Raluca Ada Popa and David A. Patterson  and Michael W. Mahoney  and Randy H. Katz  and Anthony D. Joseph and  Michael Jordan and Joseph M. Hellerstein  and Joseph E. Gonzalez and Ken Goldberg and Ali Ghodsi and David E. Culler and Pieter Abbeel},
+The next generation of AI systems promises to accelerate these developments and increasingly impact our lives via frequent interactions and making (often mission-critical) decisions on our behalf, often in highly personalized contexts. Realizing this promise, however, raises daunting challenges. In particular, we need AI systems that make timely and safe decisions in unpredictable environments, that are robust against sophisticated adversaries, and that can process ever increasing amounts of data across organizations and individuals without compromising confidentiality. These challenges will be exacerbated by the end of the Moore's Law, which will constrain the amount of data these technologies can store and process. In this paper, we propose several open research directions in systems, architectures, and security that can address these challenges and help unlock AI's potential to improve lives and society.},
+ author = {Ion Stoica and Dawn Song and Raluca Ada Popa and David A. Patterson and Michael W. Mahoney and Randy H. Katz and Anthony D. Joseph and Michael Jordan and Joseph M. Hellerstein and Joseph E. Gonzalez and Ken Goldberg and Ali Ghodsi and David E. Culler and Pieter Abbeel},
  bdsk-url-1 = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-159.html},
  institution = {EECS Department, University of California, Berkeley},
  keywords = {techreport},
@@ -904,6 +904,7 @@ The next generation of AI systems promises to accelerate these developments and 
 @inproceedings{aistats17,
  abstract = {Sampling at random timestamps, long range dependencies, and scale hamper standard meth- ods for multivariate time series analysis. In this paper we present a novel estimator for cross-covariance of randomly observed time series which unravels the dynamics of an unobserved stochastic process. We analyze the statistical properties of our estimator without needing the assumption that observation timestamps are independent from the process of interest and show that our solution is not hindered by the issues affecting standard estimators for cross-covariance. We implement and evaluate our statistically sound and scalable approach in the distributed setting using Apache Spark and demonstrate its ability to unravel causal dynamics on both simulations and high-frequency financial trading data.},
  author = {Francois W. Belletti and Evan R. Sparks and Michael J. Franklin and Alexandre M. Bayen and Joseph E. Gonzalez},
+ bdsk-url-1 = {http://proceedings.mlr.press/v54/belletti17a/belletti17a.pdf},
  booktitle = {Artificial Intelligence and Statistics ({AIStats} '17)},
  keywords = {peerrev},
  month = {7},
@@ -1060,7 +1061,7 @@ In this paper, we introduce Clipper, a general-purpose low-latency prediction se
 @article{acmqueu2016,
  acmid = {2934664},
  address = {New York, NY, USA},
- author = {Matei Zaharia and Reynold S. Xin and Patrick Wendell and Tathagata Das and Michael Armbrust  and Ankur Dave and Xiangrui Meng  and Josh Rosen and Shivaram Venkataraman and Michael J. Franklin,  and Ali Ghodsi and Joseph E. Gonzalez and Scott Shenker and Ion Stoica},
+ author = {Matei Zaharia and Reynold S. Xin and Patrick Wendell and Tathagata Das and Michael Armbrust and Ankur Dave and Xiangrui Meng and Josh Rosen and Shivaram Venkataraman and Michael J. Franklin, and Ali Ghodsi and Joseph E. Gonzalez and Scott Shenker and Ion Stoica},
  bdsk-url-1 = {http://doi.acm.org/10.1145/2934664},
  bdsk-url-2 = {https://doi.org/10.1145/2934664},
  doi = {10.1145/2934664},
@@ -1335,7 +1336,7 @@ In this paper, we introduce Clipper, a general-purpose low-latency prediction se
 @inproceedings{WWW2014,
  acmid = {2580059},
  address = {New York, NY, USA},
- author = {Joseph E. Gonzalez },
+ author = {Joseph E. Gonzalez},
  bdsk-url-1 = {http://doi.acm.org/10.1145/2567948.2580059},
  bdsk-url-2 = {https://doi.org/10.1145/2567948.2580059},
  booktitle = {Proceedings of the 23rd International Conference on World Wide Web},
@@ -1514,7 +1515,8 @@ In this paper, we introduce Clipper, a general-purpose low-latency prediction se
 <div class="cards"><div id="icdm13_abs" class="collapse abstract"><div class="card card-body">MLI is an Application Programming Interface designed to address the challenges of building Machine Learning algorithms in a distributed setting based on data-centric computing. Its primary goal is to simplify the development of high-performance, scalable, distributed algorithms. Our initial results show that, relative to existing systems, this interface can be used to build distributed implementations of a wide variety of common Machine Learning algorithms with minimal complexity and highly competitive performance and scalability.</div></div><div id="icdm13_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
 @inproceedings{icdm13,
  abstract = {MLI is an Application Programming Interface designed to address the challenges of building Machine Learning algorithms in a distributed setting based on data-centric computing. Its primary goal is to simplify the development of high-performance, scalable, distributed algorithms. Our initial results show that, relative to existing systems, this interface can be used to build distributed implementations of a wide variety of common Machine Learning algorithms with minimal complexity and highly competitive performance and scalability.},
- author = {Evan Sparks,  and Ameet Talwalkar  and Virginia Smith and Xinghao Pan  and Joseph E. Gonzalez and Tim Kraska and Michael I. Jordan and Michael J. Franklin},
+ author = {Evan Sparks, and Ameet Talwalkar and Virginia Smith and Xinghao Pan and Joseph E. Gonzalez and Tim Kraska and Michael I. Jordan and Michael J. Franklin},
+ bdsk-url-1 = {https://ieeexplore.ieee.org/abstract/document/6729619},
  booktitle = {International Conference on Data Mining (ICDM)},
  keywords = {peerrev},
  month = {12},
@@ -1551,6 +1553,7 @@ We introduce GraphX, which combines the advantages of both data-parallel and gra
 
 We introduce GraphX, which combines the advantages of both data-parallel and graph-parallel systems by efficiently expressing graph computation within the Spark data-parallel framework. We leverage new ideas in distributed graph representation to efficiently distribute graphs as tabular data-structures. Similarly, we leverage advances in data-flow systems to exploit in-memory computation and fault-tolerance. We provide powerful new operations to simplify graph construction and transformation. Using these primitives we implement the PowerGraph and Pregel abstractions in less than 20 lines of code. Finally, by exploiting the Scala foundation of Spark, we enable users to interactively load, transform, and compute on massive graphs.},
  author = {Reynold Xin and Joseph E. Gonzalez and Michael Franklin and Ion Stoica},
+ bdsk-url-1 = {https://dl.acm.org/citation.cfm?id=2484427},
  booktitle = { {SIGMOD} Grades Workshop},
  keywords = {peerrev},
  title = {GraphX: A Resilient Distributed Graph System on Spark},
@@ -1582,6 +1585,7 @@ We introduce GraphX, which combines the advantages of both data-parallel and gra
 @inproceedings{nips13,
  abstract = {Research on distributed machine learning algorithms has focused primarily on one of two extremes - algorithms that obey strict concurrency constraints or algorithms that obey few or no such constraints. We consider an intermediate alternative in which algorithms optimistically assume that conflicts are unlikely and if conflicts do arise a conflict-resolution protocol is invoked. We view this "optimistic concurrency control" paradigm as particularly appropriate for large-scale machine learning algorithms, particularly in the unsupervised setting. We demonstrate our approach in three problem areas: clustering, feature learning and online facility location. We evaluate our methods via large-scale experiments in a cluster computing environment.},
  author = {Xinghao Pan and Joseph E. Gonzalez and Stefanie Jegelka and Tamara Broderick and Michael I. Jordan},
+ bdsk-url-1 = {https://arxiv.org/abs/1307.8049},
  booktitle = { {NIPS} '13},
  keywords = {peerrev},
  title = {Optimistic Concurrency Control for Distributed Unsupervised Learning},
@@ -1609,6 +1613,7 @@ We introduce GraphX, which combines the advantages of both data-parallel and gra
 @inproceedings{vldb2012,
  abstract = {While high-level data parallel frameworks, like MapReduce, simplify the design and implementation of large-scale data processing systems, they do not naturally or efficiently support many important data mining and machine learning algorithms and can lead to inefficient learning systems. To help fill this critical void, we introduced the GraphLab abstraction which naturally expresses asynchronous, dynamic, graph-parallel computation while ensuring data consistency and achieving a high degree of parallel performance in the shared-memory setting. In this paper, we extend the GraphLab framework to the substantially more challenging distributed setting while preserving strong data consistency guarantees. We develop graph based extensions to pipelined locking and data versioning to reduce network congestion and mitigate the effect of network latency. We also introduce fault tolerance to the GraphLab abstraction using the classic Chandy-Lamport snapshot algorithm and demonstrate how it can be easily implemented by exploiting the GraphLab abstraction itself. Finally, we evaluate our distributed implementation of the GraphLab abstraction on a large Amazon EC2 deployment and show 1-2 orders of magnitude performance gains over Hadoop-based implementations.},
  author = {Yucheng Low AND Joseph E. Gonzalez AND Aapo Kyrola AND Danny Bickson AND Carlos Guestrin AND Joseph M. Hellerstein},
+ bdsk-url-1 = {https://arxiv.org/abs/1204.6078},
  booktitle = {Proceedings of Very Large Data Bases (PVLDB)},
  keywords = {peerrev},
  month = {8},
@@ -1647,6 +1652,7 @@ In this paper, we characterize the challenges of computation on natural graphs i
 In this paper, we characterize the challenges of computation on natural graphs in the context of existing graphparallel abstractions. We then introduce the PowerGraph abstraction which exploits the internal structure of graph programs to address these challenges. Leveraging the PowerGraph abstraction we introduce a new approach to distributed graph placement and representation that exploits the structure of power-law graphs. We provide a detailed analysis and experimental evaluation comparing PowerGraph to two popular graph-parallel systems. Finally, we describe three different implementation strategies for PowerGraph and discuss their relative merits with empirical evaluations on large-scale real-world problems demonstrating order of magnitude gains.
 },
  author = {Joseph E. Gonzalez and Yucheng Low and Haijie Gu and Danny Bickson and Carlos Guestrin},
+ bdsk-url-1 = {https://www.usenix.org/system/files/conference/osdi12/osdi12-final-167.pdf},
  booktitle = { {OSDI} '12},
  keywords = {peerrev},
  title = {PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs},
@@ -1682,6 +1688,7 @@ In this paper we present a scalable parallel framework for efficient inference i
 
 In this paper we present a scalable parallel framework for efficient inference in latent variable models over streaming web-scale data. Our framework addresses three key challenges: 1) synchronizing the global state which includes global latent variables (e.g., cluster centers and dictionaries); 2) efficiently storing and retrieving the large local state which includes the data-points and their corresponding latent variables (e.g., cluster membership); and 3) sequentially incorporating streaming data (e.g., the news). We address these challenges by introducing: 1) a novel delta-based aggregation system with a bandwidth-efficient communication protocol; 2) schedule-aware out-of-core storage; and 3) approximate forward sampling to rapidly incorporate new data. We demonstrate state-of-the-art performance of our framework by easily tackling datasets two orders of magnitude larger than those addressed by the current state-of-the-art. Furthermore, we provide an optimized and easily customizable open-source implementation of the framework},
  author = {Amr Ahmed and Mohamed Aly and Joseph Gonzalez and Shravan Narayanamurthy and Alex Smola},
+ bdsk-url-1 = {http://www.cs.cmu.edu/~jegonzal/papers/ahmed_scalable_inference_in_latent_variable_models.pdf},
  booktitle = {Conference on Web Search and Data Mining (WSDM)},
  keywords = {peerrev},
  title = {Scalable Inference in Latent Variable Models},
@@ -1712,6 +1719,7 @@ In this paper we present a scalable parallel framework for efficient inference i
 @inproceedings{aistats2011,
  abstract = {We explore the task of constructing a parallel Gibbs sampler, to both improve mixing and the exploration of high likelihood states. Recent work in parallel Gibbs sampling has focused on update schedules which do not guarantee convergence to the intended stationary distribution. In this work, we propose two methods to construct parallel Gibbs samplers guaranteed to draw from the targeted distribution. The first method, called the Chromatic sampler, uses graph coloring to construct a direct parallelization of the classic sequential scan Gibbs sampler. In the case of 2-colorable models we relate the Chromatic sampler to the Synchronous Gibbs sampler (which draws all variables simultaneously in parallel), and reveal new ergodic properties of Synchronous Gibbs chains. Our second method, the Splash sampler, is a complementary strategy which can be used when the variables are tightly coupled. This constructs and samples multiple blocks in parallel, using a novel locking protocol and an iterative junction tree generation algorithm. We further improve the Splash sampler through adaptive tree construction. We demonstrate the benefits of our two sampling algorithms on large synthetic and real-world models using a 32 processor multi-core system.},
  author = {Joseph E. Gonzalez and Yucheng Low and Arthur Gretton and Carlos Guestrin},
+ bdsk-url-1 = {http://proceedings.mlr.press/v15/gonzalez11a.html},
  booktitle = {Artificial Intelligence and Statistics (AISTATS)},
  keywords = {peerrev},
  month = {5},
@@ -1745,6 +1753,7 @@ In this paper we present a scalable parallel framework for efficient inference i
 @inproceedings{uai2010,
  abstract = {Designing and implementing efficient, provably correct parallel machine learning (ML) algorithms is challenging. Existing high-level parallel abstractions like MapReduce are insufficiently expressive while low-level tools like MPI and Pthreads leave ML experts repeatedly solving the same design challenges. By targeting common patterns in ML, we developed GraphLab, which improves upon abstractions like MapReduce by compactly expressing asynchronous iterative algorithms with sparse computational dependencies while ensuring data consistency and achieving a high degree of parallel performance. We demonstrate the expressiveness of the GraphLab framework by designing and implementing parallel versions of belief propagation, Gibbs sampling, Co-EM, Lasso and Compressed Sensing. We show that using GraphLab we can achieve excellent parallel performance on large scale real-world problems.},
  author = {Yucheng Low and Joseph E. Gonzalez and Aapo Kyrola and Daniel Bickson and Carlos Guestrin and Joseph M. Hellerstein},
+ bdsk-url-1 = {https://arxiv.org/abs/1006.4990},
  booktitle = {Conference on Uncertainty in Artificial Intelligence (UAI)},
  keywords = {peerrev},
  title = {GraphLab: A New Parallel Framework for Machine Learning},
@@ -1775,6 +1784,7 @@ In this paper we present a scalable parallel framework for efficient inference i
 @inproceedings{uai2009,
  abstract = {As computer clusters become more common and the size of the problems encountered in the field of AI grows, there is an increasing demand for efficient parallel inference algorithms. We consider the problem of parallel inference on large factor graphs in the distributed memory setting of computer clusters. We develop a new efficient parallel inference algorithm, DBRSplash, which incorporates over-segmented graph partitioning, belief residual scheduling, and uniform work Splash operations. We empirically evaluate the DBRSplash algorithm on a 120 processor cluster and demonstrate linear to super-linear performance gains on large factor graph models.},
  author = {Joseph E. Gonzalez and Yucheng Low and Carlos Guestrin and David O'Hallaron},
+ bdsk-url-1 = {https://arxiv.org/pdf/1205.2645.pdf},
  booktitle = {Conference on Uncertainty in Artificial Intelligence (UAI)},
  keywords = {peerrev},
  month = {7},
@@ -1805,6 +1815,7 @@ In this paper we present a scalable parallel framework for efficient inference i
 @inproceedings{aistats2009,
  abstract = {As computer architectures move towards parallelism we must build a new theoretical understanding of parallelism in machine learning. In this paper we focus on parallelizing message passing inference algorithms in graphical models. We develop a theoretical understanding of the limitations of parallelism in belief propagation and bound the optimal achievable running parallel performance on a certain class of graphical models. We demonstrate that the fully synchronous parallelization of belief propagation is highly inefficient. We provide a new parallel belief propagation which achieves optimal performance on a certain class of graphical models. Using two challenging real-world problems, we empirically evaluate the performance of our algorithm. On the real-world problems, we find that our new algorithm achieves near linear performance improvements and out performs alternative parallel belief propagation algorithms.},
  author = {Joseph E. Gonzalez and Yucheng Low and Carlos Guestrin},
+ bdsk-url-1 = {http://proceedings.mlr.press/v5/gonzalez09a.html},
  booktitle = {Artificial Intelligence and Statistics (AISTATS)},
  keywords = {peerrev},
  month = {4},
