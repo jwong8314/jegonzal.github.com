@@ -11,7 +11,7 @@ order: 2
 
 <div>
 <div style="float:right;padding:12px">
-<img src="{{ BASE_PATH }}/assets/jegonzal.jpg">
+<img src="{{ site.baseurl }}/assets/jegonzal.jpg">
 </div>
 
 <h1> Joseph E. Gonzalez </h1>
