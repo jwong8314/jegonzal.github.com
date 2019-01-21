@@ -1,9 +1,10 @@
 ---
-layout: page_nohead
-title: Joseph E. Gonzalez
-tagline: Assistant Professor UC Berkeley.
+layout: default
+title: "About"
+description: "About"
+group: navigation
+order: 2
 ---
-{% include JB/setup %}
 
 
 <script src="assets/scripts.js"></script>
@@ -120,6 +121,10 @@ I am currently on the technical advisory board for [Deepscale.ai](http://deepsca
 My research as part of the UC Berkeley RISE Lab is funded by a group of 10 core industrial partners.
 
 <img src="assets/images/sponsors.png" width="800">
+
+
+
+
 
 
 

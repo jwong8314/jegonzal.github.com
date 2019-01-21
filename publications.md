@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: "Publications"
 description: "Recent Publications"
 group: navigation
 order: 2
 ---
-{% include JB/setup %}
+
 
 A relatively up-to-date list of publications:
 
