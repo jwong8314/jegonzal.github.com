@@ -3,9 +3,12 @@
 # Site settings
 title: Joseph E. Gonzalez
 email: jegonzal@berkeley.edu 
-author: Joseph E. Gonzalez
 description: Joseph E. Gonzalez
 
+author :
+  name : Joseph E. Gonzalez
+  email : jegonzal@berkeley.edu
+  github : jegonzal.github.io
 
 # Build settings
 # permalink: :title/
