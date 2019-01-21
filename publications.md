@@ -249,7 +249,6 @@ Joseph Gonzalez},
  journal = {CoRR},
  keywords = {arxivpre},
  month = {11},
- timestamp = {Mon, 03 Dec 2018 07:50:28 +0100},
  title = {On the Computational Inefficiency of Large Batch Sizes for Stochastic
 Gradient Descent},
  url = {http://arxiv.org/abs/1811.12941},
