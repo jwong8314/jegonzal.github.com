@@ -6,146 +6,1761 @@ group: navigation
 order: 2
 ---
 
+# Preprint Publications
 
-A relatively up-to-date list of publications:
+<div id="Wang18" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Xin Wang</li>
+	<li>Fisher Yu</li>
+	<li>Ruth Wang</li>
+	<li>Trevor Darrell</li>
+	<li>Joseph E. Gonzalez</li>
+</ul>
+</div>
+<div class="title">TAFE-Net: Task-Aware Feature Embeddings for Efficient Learning and Inference</div><div class="venue">CoRR</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wang18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wang18_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1806.01531">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Wang18_abs" class="collapse abstract"><div class="card card-body">Learning good feature embeddings for images often requires substantial training data. As a consequence, in settings where training data is limited (e.g., few-shot and zero-shot learning), we are typically forced to use a general feature embedding across prediction tasks. Ideally, we would like to construct feature embeddings that are tuned for the given task and even input image. In this work, we propose Task-Aware Feature Embedding Networks (TAFE-Nets) to learn how to adapt the image representation to a new task in a meta-learning fashion. Our network is composed of a meta learner and a prediction network, where the meta learner generates parameters for the feature layers in the prediction network based on a task input so that the feature embedding can be accurately adjusted for that task. We show that our TAFE-Net is highly effective in generalizing to new tasks or concepts and offers efficient prediction with low computational cost. We demonstrate the general applicability of TAFE-Net in several tasks including zero-shot/ few-shot learning and dynamic efficient prediction. Our networks exceed or match the state-of-the-art on most tasks. In particular, our approach improves the prediction accuracy of unseen attribute-object pairs by 4 to 15 points on the challenging visual attributes composition task.</div></div><div id="Wang18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Wang18,
+ abstract = {Learning good feature embeddings for images often requires substantial training data. As a consequence, in settings where training data is limited (e.g., few-shot and zero-shot learning), we are typically forced to use a general feature embedding across prediction tasks. Ideally, we would like to construct feature embeddings that are tuned for the given task and even input image. In this work, we propose Task-Aware Feature Embedding Networks (TAFE-Nets) to learn how to adapt the image representation to a new task in a meta-learning fashion. Our network is composed of a meta learner and a prediction network, where the meta learner generates parameters for the feature layers in the prediction network based on a task input so that the feature embedding can be accurately adjusted for that task. We show that our TAFE-Net is highly effective in generalizing to new tasks or concepts and offers efficient prediction with low computational cost. We demonstrate the general applicability of TAFE-Net in several tasks including zero-shot/ few-shot learning and dynamic efficient prediction. Our networks exceed or match the state-of-the-art on most tasks. In particular, our approach improves the prediction accuracy of unseen attribute-object pairs by 4 to 15 points on the challenging visual attributes composition task.},
+ archiveprefix = {arXiv},
+ author = {Xin Wang and Fisher Yu and Ruth Wang and Trevor Darrell and Joseph E. Gonzalez},
+ bdsk-url-1 = {http://arxiv.org/abs/1806.01531},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1806-01531},
+ eprint = {1806.01531},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ month = {8},
+ timestamp = {Mon, 13 Aug 2018 16:47:38 +0200},
+ title = {TAFE-Net: Task-Aware Feature Embeddings for Efficient Learning and Inference},
+ url = {http://arxiv.org/abs/1806.01531},
+ volume = {abs/1806.01531},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="Zhao2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Sicheng Zhao</li>
+	<li>Bichen Wu</li>
+	<li>Joseph Gonzalez</li>
+	<li>Sanjit A. Seshia</li>
+	<li>Kurt Keutzer</li>
+</ul>
+</div>
+<div class="title">Unsupervised Domain Adaptation: from Simulation Engine to the RealWorld</div><div class="venue">CoRR</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Zhao2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Zhao2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1803.09180">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Zhao2018_abs" class="collapse abstract"><div class="card card-body">Large-scale labeled training datasets have enabled deep neural networks to excel on a wide range of benchmark vision tasks. However, in many applications it is prohibitively expensive or time-consuming to obtain large quantities of labeled data. To cope with limited labeled training data, many have attempted to directly apply models trained on a large-scale labeled source domain to another sparsely labeled target domain. Unfortunately, direct transfer across domains often performs poorly due to domain shift and dataset bias. Domain adaptation is the machine learning paradigm that aims to learn a model from a source domain that can perform well on a different (but related) target domain. In this paper, we summarize and compare the latest unsupervised domain adaptation methods in computer vision applications. We classify the non-deep approaches into sample re-weighting and intermediate subspace transformation categories, while the deep strategy includes discrepancy-based methods, adversarial generative models, adversarial discriminative models and reconstruction-based methods. We also discuss some potential directions.</div></div><div id="Zhao2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Zhao2018,
+ abstract = {Large-scale labeled training datasets have enabled deep neural networks to excel on a wide range of benchmark vision tasks. However, in many applications it is prohibitively expensive or time-consuming to obtain large quantities of labeled data. To cope with limited labeled training data, many have attempted to directly apply models trained on a large-scale labeled source domain to another sparsely labeled target domain. Unfortunately, direct transfer across domains often performs poorly due to domain shift and dataset bias. Domain adaptation is the machine learning paradigm that aims to learn a model from a source domain that can perform well on a different (but related) target domain. In this paper, we summarize and compare the latest unsupervised domain adaptation methods in computer vision applications. We classify the non-deep approaches into sample re-weighting and intermediate subspace transformation categories, while the deep strategy includes discrepancy-based methods, adversarial generative models, adversarial discriminative models and reconstruction-based methods. We also discuss some potential directions.},
+ archiveprefix = {arXiv},
+ author = {Sicheng Zhao and Bichen Wu and Joseph Gonzalez and Sanjit A. Seshia and Kurt Keutzer},
+ bdsk-url-1 = {http://arxiv.org/abs/1803.09180},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1803-09180},
+ eprint = {1803.09180},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ month = {3},
+ title = {Unsupervised Domain Adaptation: from Simulation Engine to the RealWorld},
+ url = {http://arxiv.org/abs/1803.09180},
+ volume = {abs/1803.09180},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="Feinberg2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Vladimir Feinberg</li>
+	<li>Alvin Wan</li>
+	<li>Ion Stoica</li>
+	<li>Michael I. Jordan</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Sergey Levine</li>
+</ul>
+</div>
+<div class="title">Model-Based Value Estimation for Efficient Model-Free Reinforcement Learning</div><div class="venue">CoRR</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Feinberg2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Feinberg2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1803.00101">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Feinberg2018_abs" class="collapse abstract"><div class="card card-body">Recent model-free reinforcement learning algorithms have proposed incorporating learned dynamics models as a source of additional data with the intention of reducing sample complexity. Such methods hold the promise of incorporating imagined data coupled with a notion of model uncertainty to accelerate the learning of continuous control tasks. Unfortunately, they rely on heuristics that limit usage of the dynamics model. We present model-based value expansion, which controls for uncertainty in the model by only allowing imagination to fixed depth. By enabling wider use of learned dynamics models within a model-free reinforcement learning algorithm, we improve value estimation, which, in turn, reduces the sample complexity of learning.</div></div><div id="Feinberg2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Feinberg2018,
+ abstract = {Recent model-free reinforcement learning algorithms have proposed incorporating learned dynamics models as a source of additional data with the intention of reducing sample complexity. Such methods hold the promise of incorporating imagined data coupled with a notion of model uncertainty to accelerate the learning of continuous control tasks. Unfortunately, they rely on heuristics that limit usage of the dynamics model. We present model-based value expansion, which controls for uncertainty in the model by only allowing imagination to fixed depth. By enabling wider use of learned dynamics models within a model-free reinforcement learning algorithm, we improve value estimation, which, in turn, reduces the sample complexity of learning.},
+ archiveprefix = {arXiv},
+ author = {Vladimir Feinberg and Alvin Wan and Ion Stoica and Michael I. Jordan and Joseph E. Gonzalez and Sergey Levine},
+ bdsk-url-1 = {http://arxiv.org/abs/1803.00101},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1803-00101},
+ eprint = {1803.00101},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ month = {2},
+ title = {Model-Based Value Estimation for Efficient Model-Free Reinforcement Learning},
+ url = {http://arxiv.org/abs/1803.00101},
+ volume = {abs/1803.00101},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="Hughes18" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>J. Weston Hughes</li>
+	<li>Taylor Sittler</li>
+	<li>Anthony D. Joseph</li>
+	<li>Jeffrey E. Olgin</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Geoffrey H. Tison</li>
+</ul>
+</div>
+<div class="title">Using Multitask Learning to Improve 12-Lead Electrocardiogram Classification</div><div class="venue">CoRR</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Hughes18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Hughes18_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1812.00497">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Hughes18_abs" class="collapse abstract"><div class="card card-body">We develop a multi-task convolutional neural network (CNN) to classify multiple diagnoses from 12-lead electrocardiograms (ECGs) using a dataset comprised of over 40,000 ECGs, with labels derived from cardiologist clinical interpretations. Since many clinically important classes can occur in low frequencies, approaches are needed to improve performance on rare classes. We compare the performance of several single-class classifiers on rare classes to a multi-headed classifier across all available classes. We demonstrate that the addition of common classes can significantly improve CNN performance on rarer classes when compared to a model trained on the rarer class in isolation. Using this method, we develop a model with high performance as measured by F1 score on multiple clinically relevant classes compared against the gold-standard cardiologist interpretation.</div></div><div id="Hughes18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Hughes18,
+ abstract = {We develop a multi-task convolutional neural network (CNN) to classify multiple diagnoses from 12-lead electrocardiograms (ECGs) using a dataset comprised of over 40,000 ECGs, with labels derived from cardiologist clinical interpretations. Since many clinically important classes can occur in low frequencies, approaches are needed to improve performance on rare classes. We compare the performance of several single-class classifiers on rare classes to a multi-headed classifier across all available classes. We demonstrate that the addition of common classes can significantly improve CNN performance on rarer classes when compared to a model trained on the rarer class in isolation. Using this method, we develop a model with high performance as measured by F1 score on multiple clinically relevant classes compared against the gold-standard cardiologist interpretation.},
+ archiveprefix = {arXiv},
+ author = {J. Weston Hughes and Taylor Sittler and Anthony D. Joseph and Jeffrey E. Olgin and Joseph E. Gonzalez and Geoffrey H. Tison},
+ bdsk-url-1 = {http://arxiv.org/abs/1812.00497},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1812-00497},
+ eprint = {1812.00497},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ month = {12},
+ title = {Using Multitask Learning to Improve 12-Lead Electrocardiogram Classification},
+ url = {http://arxiv.org/abs/1812.00497},
+ volume = {abs/1812.00497},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="Crankshaw18" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Daniel Crankshaw</li>
+	<li>Gur-Eyal Sela</li>
+	<li>Corey Zumar</li>
+	<li>Xiangxi Mo</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Ion Stoica</li>
+	<li>Alexey Tumanov</li>
+</ul>
+</div>
+<div class="title">InferLine: ML Inference Pipeline Composition Framework</div><div class="venue">CoRR</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Crankshaw18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Crankshaw18_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1812.01776">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Crankshaw18_abs" class="collapse abstract"><div class="card card-body">The dominant cost in production machine learning workloads is not training individual models but serving predictions from increasingly complex prediction pipelines spanning multiple models, machine learning frameworks, and parallel hardware accelerators. Due to the complex interaction between model configurations and parallel hardware, prediction pipelines are challenging to provision and costly to execute when serving interactive latency-sensitive applications. This challenge is exacerbated by the unpredictable dynamics of bursty workloads. 
+
+In this paper we introduce InferLine, a system which efficiently provisions and executes ML inference pipelines subject to end-to-end latency constraints by proactively optimizing and reactively controlling per-model configuration in a fine-grained fashion. Unpredictable changes in the serving workload are dynamically and cost-optimally accommodated with minimal service level degradation. InferLine introduces (1) automated model profiling and pipeline lineage extraction, (2) a fine-grain, cost-minimizing pipeline configuration planner, and (3) a fine-grain reactive controller. InferLine is able to configure and deploy prediction pipelines across a wide range of workload patterns and latency goals. It outperforms coarse-grained configuration alternatives by up 7.6x in cost while achieving up to 32x lower SLO miss rate on real workloads and generalizes across state-of-the-art model serving frameworks.</div></div><div id="Crankshaw18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Crankshaw18,
+ abstract = {The dominant cost in production machine learning workloads is not training individual models but serving predictions from increasingly complex prediction pipelines spanning multiple models, machine learning frameworks, and parallel hardware accelerators. Due to the complex interaction between model configurations and parallel hardware, prediction pipelines are challenging to provision and costly to execute when serving interactive latency-sensitive applications. This challenge is exacerbated by the unpredictable dynamics of bursty workloads. 
+
+In this paper we introduce InferLine, a system which efficiently provisions and executes ML inference pipelines subject to end-to-end latency constraints by proactively optimizing and reactively controlling per-model configuration in a fine-grained fashion. Unpredictable changes in the serving workload are dynamically and cost-optimally accommodated with minimal service level degradation. InferLine introduces (1) automated model profiling and pipeline lineage extraction, (2) a fine-grain, cost-minimizing pipeline configuration planner, and (3) a fine-grain reactive controller. InferLine is able to configure and deploy prediction pipelines across a wide range of workload patterns and latency goals. It outperforms coarse-grained configuration alternatives by up 7.6x in cost while achieving up to 32x lower SLO miss rate on real workloads and generalizes across state-of-the-art model serving frameworks.},
+ archiveprefix = {arXiv},
+ author = {Daniel Crankshaw and Gur{-}Eyal Sela and Corey Zumar and Xiangxi Mo and Joseph E. Gonzalez and Ion Stoica and Alexey Tumanov},
+ bdsk-url-1 = {http://arxiv.org/abs/1812.01776},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1812-01776},
+ eprint = {1812.01776},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ month = {11},
+ title = {InferLine: {ML} Inference Pipeline Composition Framework},
+ url = {http://arxiv.org/abs/1812.01776},
+ volume = {abs/1812.01776},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="Jain18" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Samvit Jain</li>
+	<li>Joseph E. Gonzalez</li>
+</ul>
+</div>
+<div class="title">Inter-BMV: Interpolation with Block Motion Vectors for Fast Semantic Segmentation on Video</div><div class="venue">CoRR</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1810.04047">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Jain18_abs" class="collapse abstract"><div class="card card-body">Models optimized for accuracy on single images are often prohibitively slow to run on each frame in a video. Recent work exploits the use of optical flow to warp image features forward from select keyframes, as a means to conserve computation on video. This approach, however, achieves only limited speedup, even when optimized, due to the accuracy degradation introduced by repeated forward warping, and the inference cost of optical flow estimation. To address these problems, we propose a new scheme that propagates features using the block motion vectors (BMV) present in compressed video (e.g. H.264 codecs), instead of optical flow, and bi-directionally warps and fuses features from enclosing keyframes to capture scene context on each video frame. Our technique, interpolation-BMV, enables us to accurately estimate the features of intermediate frames, while keeping inference costs low. We evaluate our system on the CamVid and Cityscapes datasets, comparing to both a strong single-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20+ frames per second) on large images (e.g. 960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.</div></div><div id="Jain18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Jain18,
+ abstract = {Models optimized for accuracy on single images are often prohibitively slow to run on each frame in a video. Recent work exploits the use of optical flow to warp image features forward from select keyframes, as a means to conserve computation on video. This approach, however, achieves only limited speedup, even when optimized, due to the accuracy degradation introduced by repeated forward warping, and the inference cost of optical flow estimation. To address these problems, we propose a new scheme that propagates features using the block motion vectors (BMV) present in compressed video (e.g. H.264 codecs), instead of optical flow, and bi-directionally warps and fuses features from enclosing keyframes to capture scene context on each video frame. Our technique, interpolation-BMV, enables us to accurately estimate the features of intermediate frames, while keeping inference costs low. We evaluate our system on the CamVid and Cityscapes datasets, comparing to both a strong single-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20+ frames per second) on large images (e.g. 960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.},
+ archiveprefix = {arXiv},
+ author = {Samvit Jain and Joseph E. Gonzalez},
+ bdsk-url-1 = {http://arxiv.org/abs/1810.04047},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1810-04047},
+ eprint = {1810.04047},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ month = {10},
+ timestamp = {Tue, 30 Oct 2018 20:39:56 +0100},
+ title = {Inter-BMV: Interpolation with Block Motion Vectors for Fast Semantic Segmentation on Video},
+ url = {http://arxiv.org/abs/1810.04047},
+ volume = {abs/1810.04047},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="Liaw2017" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Richard Liaw</li>
+	<li>Sanjay Krishnan</li>
+	<li>Animesh Garg</li>
+	<li>Daniel Crankshaw</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Ken Goldberg</li>
+</ul>
+</div>
+<div class="title">Composing Meta-Policies for Autonomous Driving Using Hierarchical Deep Reinforcement Learning</div><div class="venue">CoRR</div>
+<div class="year">2017</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Liaw2017_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Liaw2017_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1711.01503">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Liaw2017_abs" class="collapse abstract"><div class="card card-body">Rather than learning new control policies for each new task, it is possible, when tasks share some structure, to compose a "meta-policy" from previously learned policies. This paper reports results from experiments using Deep Reinforcement Learning on a continuous-state, discrete-action autonomous driving simulator. We explore how Deep Neural Networks can represent meta-policies that switch among a set of previously learned policies, specifically in settings where the dynamics of a new scenario are composed of a mixture of previously learned dynamics and where the state observation is possibly corrupted by sensing noise. We also report the results of experiments varying dynamics mixes, distractor policies, magnitudes/distributions of sensing noise, and obstacles. In a fully observed experiment, the meta-policy learning algorithm achieves 2.6x the reward achieved by the next best policy composition technique with 80% less exploration. In a partially observed experiment, the meta-policy learning algorithm converges after 50 iterations while a direct application of RL fails to converge even after 200 iterations.</div></div><div id="Liaw2017_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Liaw2017,
+ abstract = {Rather than learning new control policies for each new task, it is possible, when tasks share some structure, to compose a "meta-policy" from previously learned policies. This paper reports results from experiments using Deep Reinforcement Learning on a continuous-state, discrete-action autonomous driving simulator. We explore how Deep Neural Networks can represent meta-policies that switch among a set of previously learned policies, specifically in settings where the dynamics of a new scenario are composed of a mixture of previously learned dynamics and where the state observation is possibly corrupted by sensing noise. We also report the results of experiments varying dynamics mixes, distractor policies, magnitudes/distributions of sensing noise, and obstacles. In a fully observed experiment, the meta-policy learning algorithm achieves 2.6x the reward achieved by the next best policy composition technique with 80% less exploration. In a partially observed experiment, the meta-policy learning algorithm converges after 50 iterations while a direct application of RL fails to converge even after 200 iterations.},
+ archiveprefix = {arXiv},
+ author = {Richard Liaw and Sanjay Krishnan and Animesh Garg and Daniel Crankshaw and Joseph E. Gonzalez and Ken Goldberg},
+ bdsk-url-1 = {http://arxiv.org/abs/1711.01503},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1711-01503},
+ eprint = {1711.01503},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ month = {11},
+ title = {Composing Meta-Policies for Autonomous Driving Using Hierarchical Deep Reinforcement Learning},
+ url = {http://arxiv.org/abs/1711.01503},
+ volume = {abs/1711.01503},
+ year = {2017}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="BellettiSFBG16" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Francois W. Belletti</li>
+	<li>Evan R. Sparks</li>
+	<li>Michael J. Franklin</li>
+	<li>Alexandre M. Bayen</li>
+	<li>Joseph E. Gonzalez</li>
+</ul>
+</div>
+<div class="title">Scalable Linear Causal Inference for Irregularly Sampled Time Series with Long Range Dependencies</div><div class="venue">CoRR</div>
+<div class="year">2016</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#BellettiSFBG16_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1603.03336">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="BellettiSFBG16_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="BellettiSFBG16_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{BellettiSFBG16,
+ archiveprefix = {arXiv},
+ author = {Francois W. Belletti and Evan R. Sparks and Michael J. Franklin and Alexandre M. Bayen and Joseph E. Gonzalez},
+ bdsk-url-1 = {http://arxiv.org/abs/1603.03336},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/BellettiSFBG16},
+ eprint = {1603.03336},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ timestamp = {Mon, 13 Aug 2018 16:48:40 +0200},
+ title = {Scalable Linear Causal Inference for Irregularly Sampled Time Series with Long Range Dependencies},
+ url = {http://arxiv.org/abs/1603.03336},
+ volume = {abs/1603.03336},
+ year = {2016}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="Gonzalez15" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Joseph E. Gonzalez</li>
+	<li>Peter Bailis</li>
+	<li>Michael I. Jordan</li>
+	<li>Michael J. Franklin</li>
+	<li>Joseph M. Hellerstein</li>
+	<li>Ali Ghodsi</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">Asynchronous Complex Analytics in a Distributed Dataflow Architecture</div><div class="venue">CoRR</div>
+<div class="year">2015</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Gonzalez15_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1510.07092">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Gonzalez15_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="Gonzalez15_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Gonzalez15,
+ archiveprefix = {arXiv},
+ author = {Joseph E. Gonzalez and Peter Bailis and Michael I. Jordan and Michael J. Franklin and Joseph M. Hellerstein and Ali Ghodsi and Ion Stoica},
+ bdsk-url-1 = {http://arxiv.org/abs/1510.07092},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/GonzalezBJFHGS15},
+ eprint = {1510.07092},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ timestamp = {Mon, 13 Aug 2018 16:46:22 +0200},
+ title = {Asynchronous Complex Analytics in a Distributed Dataflow Architecture},
+ url = {http://arxiv.org/abs/1510.07092},
+ volume = {abs/1510.07092},
+ year = {2015}
+}
+</code></pre></div></div>
+</div></div>
 
 
-* Bichen Wu, Alvin Wan, Xiangyu Yue, Peter Jin, Sicheng Zhao, Noah Golmant, Amir Gholaminejad, Joseph Gonzalez, Kurt Keutzer. <b>"Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions"</b> Preprint 2017 [<a href="https://arxiv.org/abs/1711.08141">arXiv</a>]
+
+<br/><br/>
+
+---
+
+# Published
 
 
-* Xin Wang, Fisher Yu, Zi-Yi Dou, Joseph E. Gonzalez. <b>"SkipNet: Learning Dynamic Routing in Convolutional Networks."</b> Preprint 2017 [<a href="https://arxiv.org/abs/1711.09485">arXiv</a>]
+<div id="Hotmobil2019" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Samvit Jain</li>
+	<li>Ganesh Ananthanarayanan</li>
+	<li>Junchen Jiang</li>
+	<li>Yuanchao Shu</li>
+	<li>Joseph E. Gonzalez</li>
+</ul>
+</div>
+<div class="title">Scaling Video Analytics Systems to Large Camera Deployments</div><div class="venue">HotMobile `19, Proceedings of the 20th International Workshop on Mobile Computing Systems and Applications</div>
+<div class="year">2019</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Hotmobil2019_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Hotmobil2019_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1809.02318">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Hotmobil2019_abs" class="collapse abstract"><div class="card card-body">Driven by advances in computer vision and the falling costs of camera hardware, organizations are deploying video cameras en masse for the spatial monitoring of their physical premises. Scaling video analytics to massive camera deployments, however, presents a new and mounting challenge, as compute cost grows proportionally to the number of camera feeds. This paper is driven by a simple question: can we scale video analytics in such a way that cost grows sublinearly, or even remains constant, as we deploy more cameras, while inference accuracy remains stable, or even improves. We believe the answer is yes. Our key observation is that video feeds from wide-area camera deployments demonstrate significant content correlations (e.g. to other geographically proximate feeds), both in space and over time. These spatio-temporal correlations can be harnessed to dramatically reduce the size of the inference search space, decreasing both workload and false positive rates in multi-camera video analytics. By discussing use-cases and technical challenges, we propose a roadmap for scaling video analytics to large camera networks, and outline a plan for its realization.</div></div><div id="Hotmobil2019_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{Hotmobil2019,
+ abstract = {Driven by advances in computer vision and the falling costs of camera hardware, organizations are deploying video cameras en masse for the spatial monitoring of their physical premises. Scaling video analytics to massive camera deployments, however, presents a new and mounting challenge, as compute cost grows proportionally to the number of camera feeds. This paper is driven by a simple question: can we scale video analytics in such a way that cost grows sublinearly, or even remains constant, as we deploy more cameras, while inference accuracy remains stable, or even improves. We believe the answer is yes. Our key observation is that video feeds from wide-area camera deployments demonstrate significant content correlations (e.g. to other geographically proximate feeds), both in space and over time. These spatio-temporal correlations can be harnessed to dramatically reduce the size of the inference search space, decreasing both workload and false positive rates in multi-camera video analytics. By discussing use-cases and technical challenges, we propose a roadmap for scaling video analytics to large camera networks, and outline a plan for its realization.},
+ author = {Samvit Jain and Ganesh Ananthanarayanan and Junchen Jiang and Yuanchao Shu and Joseph E. Gonzalez},
+ booktitle = {HotMobile `19, Proceedings of the 20th International Workshop on Mobile Computing Systems and Applications},
+ keywords = {peerrev},
+ month = {2},
+ title = {Scaling Video Analytics Systems to Large Camera Deployments},
+ url = {https://arxiv.org/abs/1809.02318},
+ year = {2019}
+}
+</code></pre></div></div>
+</div></div>
 
-* Xin Wang, Yujia Luo, Daniel Crankshaw, Alexey Tumanov, Fisher Yu, Joseph E. Gonzalez <b>"IDK Cascades: Fast Deep Learning by Learning not to Overthink."</b> Preprint 2017 [<a href="https://arxiv.org/abs/1706.00885">arXiv</a>]
+<div id="cidr19" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Joseph M. Hellerstein</li>
+	<li>Jose M. Faleiro</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Johann Schleier-Smith</li>
+	<li>Vikram Sreekanti</li>
+	<li>Alexey Tumanov</li>
+	<li>Chenggang Wu</li>
+</ul>
+</div>
+<div class="title">Serverless Computing: One Step Forward, Two Steps Back</div><div class="venue">Conference on Innovative Data Systems Research (CIDR '19)</div>
+<div class="year">2019</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#cidr19_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#cidr19_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1812.03651">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="cidr19_abs" class="collapse abstract"><div class="card card-body">Serverless computing offers the potential to program the cloud in an autoscaling, pay-as-you go manner. In this paper we address critical gaps in first-generation serverless computing, which place its autoscaling potential at odds with dominant trends in modern computing: notably data-centric and distributed computing, but also open source and custom hardware. Put together, these gaps make current serverless offerings a bad fit for cloud innovation and particularly bad for data systems innovation. In addition to pinpointing some of the main shortfalls of current serverless architectures, we raise a set of challenges we believe must be met to unlock the radical potential that the cloud---with its exabytes of storage and millions of cores---should offer to innovative developers.</div></div><div id="cidr19_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{cidr19,
+ abstract = {Serverless computing offers the potential to program the cloud in an autoscaling, pay-as-you go manner. In this paper we address critical gaps in first-generation serverless computing, which place its autoscaling potential at odds with dominant trends in modern computing: notably data-centric and distributed computing, but also open source and custom hardware. Put together, these gaps make current serverless offerings a bad fit for cloud innovation and particularly bad for data systems innovation. In addition to pinpointing some of the main shortfalls of current serverless architectures, we raise a set of challenges we believe must be met to unlock the radical potential that the cloud---with its exabytes of storage and millions of cores---should offer to innovative developers.},
+ author = {Joseph M. Hellerstein and Jose M. Faleiro and Joseph E. Gonzalez and Johann Schleier{-}Smith and Vikram Sreekanti and Alexey Tumanov and Chenggang Wu},
+ booktitle = {Conference on Innovative Data Systems Research ({CIDR} '19)},
+ keywords = {peerrev},
+ month = {1},
+ title = {Serverless Computing: One Step Forward, Two Steps Back},
+ url = {https://arxiv.org/abs/1812.03651},
+ year = {2019}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="cmi2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Rolando Garcia</li>
+	<li>Vikram Sreekanti</li>
+	<li>Neeraja Yadwadkar</li>
+	<li>Daniel Crankshaw</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Joseph M. Hellerstein</li>
+</ul>
+</div>
+<div class="title">Context: The Missing Piece in the Machine Learning Lifecycle</div><div class="venue">Proceedings of the KDD Workshop on Common Model Infrastructure (CMI)</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#cmi2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#cmi2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://www.vikrams.io/papers/flor-cmi18.pdf">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="cmi2018_abs" class="collapse abstract"><div class="card card-body">Machine learning models have become ubiquitous in modern applications. The ML Lifecycle describes a three-phase process used by data scientists and data engineers to develop, train, and serve models. Unfortunately, context around the data, code, people, and systems involved in these pipelines is not captured today. In this paper, we first discuss common pitfalls that missing context creates. Some examples where context is missing include tracking the relationships between code and data and capturing experimental processes over time. We then discuss techniques to address these challenges and briefly mention future work around designing and implementing systems in this space.</div></div><div id="cmi2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{cmi2018,
+ abstract = {Machine learning models have become ubiquitous in modern applications. The ML Lifecycle describes a three-phase process used by data scientists and data engineers to develop, train, and serve models. Unfortunately, context around the data, code, people, and systems involved in these pipelines is not captured today. In this paper, we first discuss common pitfalls that missing context creates. Some examples where context is missing include tracking the relationships between code and data and capturing experimental processes over time. We then discuss techniques to address these challenges and briefly mention future work around designing and implementing systems in this space.},
+ author = {Rolando Garcia and Vikram Sreekanti and Neeraja Yadwadkar and Daniel Crankshaw and Joseph E. Gonzalez and Joseph M. Hellerstein},
+ booktitle = {Proceedings of the KDD Workshop on Common Model Infrastructure (CMI)},
+ keywords = {peerrev},
+ month = {8},
+ title = {Context: The Missing Piece in the Machine Learning Lifecycle},
+ url = {http://www.vikrams.io/papers/flor-cmi18.pdf},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
 
-* Ion Stoica, Dawn Song, Raluca Ada Popa, David A. Patterson, Michael W. Mahoney, Randy H. Katz, Anthony D. Joseph, Michael Jordan, Joseph M. Hellerstein, Joseph E. Gonzalez, Ken Goldberg, Ali Ghodsi, David E. Culler, Pieter Abbeel. <b>"Electrical Engineering and Computer Sciences University of California at Berkeley"</b> Berkeley Technical Report 2017. [<a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-159.pdf">Paper</a>]
+<div id="uai2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Xin Wang</li>
+	<li>Yujia Luo</li>
+	<li>Dan Crankshaw</li>
+	<li>Alexey Tumanov</li>
+	<li>Fisher Yu</li>
+	<li>Joseph E. Gonzalez</li>
+</ul>
+</div>
+<div class="title">IDK Cascades: Fast Deep Learning by Learning not to Overthink</div><div class="venue">Conference on Uncertainty in Artificial Intelligence (UAI)</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#uai2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#uai2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1706.00885">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="uai2018_abs" class="collapse abstract"><div class="card card-body">Advances in deep learning have led to substantial increases in prediction accuracy but have been accompanied by increases in the cost of rendering predictions. We conjecture that fora majority of real-world inputs, the recent advances in deep learning have created models that effectively "overthink" on simple inputs. In this paper, we revisit the classic question of building model cascades that primarily leverage class asymmetry to reduce cost. We introduce the "I Don't Know"(IDK) prediction cascades framework, a general framework to systematically compose a set of pre-trained models to accelerate inference without a loss in prediction accuracy. We propose two search based methods for constructing cascades as well as a new cost-aware objective within this framework. The proposed IDK cascade framework can be easily adopted in the existing model serving systems without additional model re-training. We evaluate the proposed techniques on a range of benchmarks to demonstrate the effectiveness of the proposed framework.</div></div><div id="uai2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{uai2018,
+ abstract = {Advances in deep learning have led to substantial increases in prediction accuracy but have been accompanied by increases in the cost of rendering predictions. We conjecture that fora majority of real-world inputs, the recent advances in deep learning have created models that effectively "overthink" on simple inputs. In this paper, we revisit the classic question of building model cascades that primarily leverage class asymmetry to reduce cost. We introduce the "I Don't Know"(IDK) prediction cascades framework, a general framework to systematically compose a set of pre-trained models to accelerate inference without a loss in prediction accuracy. We propose two search based methods for constructing cascades as well as a new cost-aware objective within this framework. The proposed IDK cascade framework can be easily adopted in the existing model serving systems without additional model re-training. We evaluate the proposed techniques on a range of benchmarks to demonstrate the effectiveness of the proposed framework.},
+ author = {Xin Wang and Yujia Luo and Dan Crankshaw and Alexey Tumanov and Fisher Yu and Joseph E. Gonzalez},
+ booktitle = {Conference on Uncertainty in Artificial Intelligence (UAI)},
+ keywords = {peerrev},
+ month = {7},
+ title = { {IDK} Cascades: Fast Deep Learning by Learning not to Overthink},
+ url = {https://arxiv.org/abs/1706.00885},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
 
-* Neeraja J. Yadwadkar, Bharath Hariharan, Joseph E. Gonzalez, Burton Smith, and Randy H. Katz. <b>"Selecting the Best VM Across Multiple Public Clouds: A Data-driven Performance Modeling Approach."</b> SoCC '17. [<a href="https://dl.acm.org/citation.cfm?id=3127479.3131614">Paper</a>]
+<div id="icml2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Eric Liang</li>
+	<li>Richard Liaw</li>
+	<li>Robert Nishihara</li>
+	<li>Philipp Moritz</li>
+	<li>Roy Fox</li>
+	<li>Joseph Gonzalez</li>
+	<li>Ken Goldberg</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">Ray RLLib: A Composable and Scalable Reinforcement Learning Library</div><div class="venue">Proceedings of the 35th International Conference on Machine Learning</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#icml2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#icml2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1712.09381">paper</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://ray.readthedocs.io/en/latest/rllib.html">code</a></li>
+</ul>
+</div>
+<div class="cards"><div id="icml2018_abs" class="collapse abstract"><div class="card card-body">Reinforcement learning (RL) algorithms involve the deep nesting of highly irregular computation patterns, each of which typically exhibits opportunities for distributed computation. We argue for distributing RL components in a composable way by adapting algorithms for top-down hierarchical control, thereby encapsulating parallelism and resource requirements within short-running compute tasks. We demonstrate the benefits of this principle through RLlib: a library that provides scalable software primitives for RL. These primitives enable a broad range of algorithms to be implemented with high performance, scalability, and substantial code reuse.</div></div><div id="icml2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{icml2018,
+ abstract = {Reinforcement learning (RL) algorithms involve the deep nesting of highly irregular computation patterns, each of which typically exhibits opportunities for distributed computation. We argue for distributing RL components in a composable way by adapting algorithms for top-down hierarchical control, thereby encapsulating parallelism and resource requirements within short-running compute tasks. We demonstrate the benefits of this principle through RLlib: a library that provides scalable software primitives for RL. These primitives enable a broad range of algorithms to be implemented with high performance, scalability, and substantial code reuse.},
+ author = {Eric Liang and Richard Liaw and Robert Nishihara and Philipp Moritz and Roy Fox and Joseph Gonzalez and Ken Goldberg and Ion Stoica},
+ booktitle = {Proceedings of the 35th International Conference on Machine Learning},
+ code = {https://ray.readthedocs.io/en/latest/rllib.html},
+ keywords = {peerrev},
+ month = {7},
+ publisher = {ACM},
+ series = {ICML '18},
+ title = {Ray {RLLib}: {A} Composable and Scalable Reinforcement Learning Library},
+ url = {https://arxiv.org/abs/1712.09381},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
 
-* Francois W. Belletti, Evan R. Sparks, Michael J. Franklin, Alexandre M. Bayen, and Joseph E. Gonzalez. <b>"Random Projection Design for Scalable Implicit Smoothing of Randomly Observed Stochastic Processes."</b> AIStats ’17. [<a href="http://proceedings.mlr.press/v54/belletti17a.html">Paper</a>]
+<div id="acmqueue2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Dan Crankshaw</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Peter Bailis</li>
+</ul>
+</div>
+<div class="title">Research for Practice: Prediction-Serving Systems</div><div class="venue">Commun. ACM</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#acmqueue2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#acmqueue2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://doi.acm.org/10.1145/3190574">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="acmqueue2018_abs" class="collapse abstract"><div class="card card-body">What happens when we wish to actually deploy a machine learning model to production? This survey examines several recent systems for serving machine learning models as well as some classic papers describing early efforts in prediction serving.</div></div><div id="acmqueue2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{acmqueue2018,
+ abstract = {What happens when we wish to actually deploy a machine learning model to production? This survey examines several recent systems for serving machine learning models as well as some classic papers describing early efforts in prediction serving.},
+ acmid = {3190574},
+ address = {New York, NY, USA},
+ author = {Dan Crankshaw and Joseph E. Gonzalez and Peter Bailis},
+ bdsk-url-1 = {http://doi.acm.org/10.1145/3190574},
+ bdsk-url-2 = {https://doi.org/10.1145/3190574},
+ doi = {10.1145/3190574},
+ issn = {0001-0782},
+ issue_date = {August 2018},
+ journal = {Commun. ACM},
+ keywords = {techreport},
+ month = {7},
+ number = {8},
+ numpages = {5},
+ pages = {45--49},
+ publisher = {ACM},
+ title = {Research for Practice: Prediction-Serving Systems},
+ url = {http://doi.acm.org/10.1145/3190574},
+ volume = {61},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
 
-* Daniel Crankshaw, Xin Wang, Guilio Zhou, Michael J. Franklin, Joseph E. Gonzalez, and Ion Stoica. <b>"Clipper: A low-latency online prediction serving system."</b> NSDI '17. [<a href="https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf">Paper</a>]
+<div id="eccv2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Xin Wang</li>
+	<li>Fisher Yu</li>
+	<li>Zi-Yi Dou</li>
+	<li>Joseph E. Gonzalez</li>
+</ul>
+</div>
+<div class="title">SkipNet: Learning Dynamic Routing in Convolutional Networks</div><div class="venue">Proceedings of the European Conference on Computer Vision (ECCV)</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#eccv2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#eccv2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1711.09485">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="eccv2018_abs" class="collapse abstract"><div class="card card-body">While deeper convolutional networks are needed to achieve maximum accuracy in visual perception tasks, for many inputs shallower networks are sufficient. We exploit this observation by learning to skip convolutional layers on a per-input basis. We introduce SkipNet, a modified residual network, that uses a gating network to selectively skip convolutional blocks based on the activations of the previous layer. We formulate the dynamic skipping problem in the context of sequential decision making and propose a hybrid learning algorithm that combines supervised learning and reinforcement learning to address the challenges of non-differentiable skipping decisions. We show SkipNet reduces computation by 30-90% while preserving the accuracy of the original model on four benchmark datasets and outperforms the state-of-the-art dynamic networks and static compression methods. We also qualitatively evaluate the gating policy to reveal a relationship between image scale and saliency and the number of layers skipped.</div></div><div id="eccv2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{eccv2018,
+ abstract = {While deeper convolutional networks are needed to achieve maximum accuracy in visual perception tasks, for many inputs shallower networks are sufficient. We exploit this observation by learning to skip convolutional layers on a per-input basis. We introduce SkipNet, a modified residual network, that uses a gating network to selectively skip convolutional blocks based on the activations of the previous layer. We formulate the dynamic skipping problem in the context of sequential decision making and propose a hybrid learning algorithm that combines supervised learning and reinforcement learning to address the challenges of non-differentiable skipping decisions. We show SkipNet reduces computation by 30-90% while preserving the accuracy of the original model on four benchmark datasets and outperforms the state-of-the-art dynamic networks and static compression methods. We also qualitatively evaluate the gating policy to reveal a relationship between image scale and saliency and the number of layers skipped.},
+ author = {Xin Wang and Fisher Yu and Zi{-}Yi Dou and Joseph E. Gonzalez},
+ booktitle = {Proceedings of the European Conference on Computer Vision ({ECCV})},
+ keywords = {peerrev},
+ month = {7},
+ title = { {SkipNet}: Learning Dynamic Routing in Convolutional Networks},
+ url = {https://arxiv.org/abs/1711.09485},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="Wu_2018_CVPR" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Bichen Wu</li>
+	<li>Alvin Wan</li>
+	<li>Xiangyu Yue</li>
+	<li>Peter Jin</li>
+	<li>Sicheng Zhao</li>
+	<li>Noah Golmant</li>
+	<li>Amir Gholaminejad</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Kurt Keutzer</li>
+</ul>
+</div>
+<div class="title">Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions</div><div class="venue">The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wu_2018_CVPR_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wu_2018_CVPR_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1711.08141">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Wu_2018_CVPR_abs" class="collapse abstract"><div class="card card-body">Neural networks rely on convolutions to aggregate spatial information. However, spatial convolutions are expensive in terms of model size and computation, both of which grow quadratically with respect to kernel size. In this paper, we present a parameter-free, FLOP-free "shift" operation as an alternative to spatial convolutions. We fuse shifts and point-wise convolutions to construct end-to-end trainable shift-based modules, with a hyperparameter characterizing the tradeoff between accuracy and efficiency. To demonstrate the operation's efficacy, we replace ResNet's 3x3 convolutions with shift-based modules for improved CIFAR10 and CIFAR100 accuracy using 60% fewer parameters; we additionally demonstrate the operation's resilience to parameter reduction on ImageNet, outperforming ResNet family members. We finally show the shift operation's applicability across domains, achieving strong performance with fewer parameters on classification, face verification and style transfer.</div></div><div id="Wu_2018_CVPR_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{Wu_2018_CVPR,
+ abstract = {Neural networks rely on convolutions to aggregate spatial information. However, spatial convolutions are expensive in terms of model size and computation, both of which grow quadratically with respect to kernel size. In this paper, we present a parameter-free, FLOP-free "shift" operation as an alternative to spatial convolutions. We fuse shifts and point-wise convolutions to construct end-to-end trainable shift-based modules, with a hyperparameter characterizing the tradeoff between accuracy and efficiency. To demonstrate the operation's efficacy, we replace ResNet's 3x3 convolutions with shift-based modules for improved CIFAR10 and CIFAR100 accuracy using 60% fewer parameters; we additionally demonstrate the operation's resilience to parameter reduction on ImageNet, outperforming ResNet family members. We finally show the shift operation's applicability across domains, achieving strong performance with fewer parameters on classification, face verification and style transfer.},
+ author = {Bichen Wu and Alvin Wan and Xiangyu Yue and Peter Jin and Sicheng Zhao and Noah Golmant and Amir Gholaminejad and Joseph E. Gonzalez and Kurt Keutzer},
+ booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+ keywords = {peerrev},
+ month = {6},
+ title = {Shift: A Zero {FLOP}, Zero Parameter Alternative to Spatial Convolutions},
+ url = {https://arxiv.org/abs/1711.08141},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
 
-* Wenting Zheng, Ankur Dave, Jethro G. Beekman, Raluca Ada Popa, Joseph E. Gonzalez, and Ion Stoica. <b>"Opaque: An oblivious and encrypted distributed analytics platform."</b> NSDI '17. [<a href="hhttps://www.usenix.org/system/files/conference/nsdi17/nsdi17-zheng.pdf">Paper</a>]
+<div id="Samvit2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Samvit Jain</li>
+	<li>Joseph E. Gonzalez</li>
+</ul>
+</div>
+<div class="title">Fast Semantic Segmentation on Video Using Block Motion-Based Feature Interpolation</div><div class="venue">The Third International Workshop on Video Segmentation (IWVS)</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Samvit2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Samvit2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1803.07742">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Samvit2018_abs" class="collapse abstract"><div class="card card-body">Convolutional networks optimized for accuracy on challenging, dense prediction tasks are prohibitively slow to run on each frame in a video. The spatial similarity of nearby video frames, however, suggests opportunity to reuse computation. Existing work has explored basic feature reuse and feature warping based on optical flow, but has encountered limits to the speedup attainable with these techniques. In this paper, we present a new, two part approach to accelerating inference on video. First, we propose a fast feature propagation technique that utilizes the block motion vectors present in compressed video (e.g. H.264 codecs) to cheaply propagate features from frame to frame. Second, we develop a novel feature estimation scheme, termed feature interpolation, that fuses features propagated from enclosing keyframes to render accurate feature estimates, even at sparse keyframe frequencies. We evaluate our system on the Cityscapes and CamVid datasets, comparing to both a frame-by-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20.1 frames per second) on large images (960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.</div></div><div id="Samvit2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{Samvit2018,
+ abstract = {Convolutional networks optimized for accuracy on challenging, dense prediction tasks are prohibitively slow to run on each frame in a video. The spatial similarity of nearby video frames, however, suggests opportunity to reuse computation. Existing work has explored basic feature reuse and feature warping based on optical flow, but has encountered limits to the speedup attainable with these techniques. In this paper, we present a new, two part approach to accelerating inference on video. First, we propose a fast feature propagation technique that utilizes the block motion vectors present in compressed video (e.g. H.264 codecs) to cheaply propagate features from frame to frame. Second, we develop a novel feature estimation scheme, termed feature interpolation, that fuses features propagated from enclosing keyframes to render accurate feature estimates, even at sparse keyframe frequencies. We evaluate our system on the Cityscapes and CamVid datasets, comparing to both a frame-by-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20.1 frames per second) on large images (960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.},
+ author = {Samvit Jain and Joseph E. Gonzalez},
+ booktitle = {The Third International Workshop on Video Segmentation (IWVS)},
+ keywords = {peerrev},
+ month = {3},
+ title = {Fast Semantic Segmentation on Video Using Block Motion-Based Feature Interpolation},
+ url = {https://arxiv.org/abs/1803.07742},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="LearningSys2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Xiangxi Mo</li>
+	<li>Paras Jain</li>
+	<li>Ajay Jain</li>
+	<li>Alexey Tumanov</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">A Case for Dynamic GPU Inference Multitenancy and Scheduling</div><div class="venue">Proceedings of the Learning Systems Workshop at NIPS 2018</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#LearningSys2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#LearningSys2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://learningsys.org/nips18/assets/papers/102CameraReadySubmissionGPU_Virtualization%20(8).pdf">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="LearningSys2018_abs" class="collapse abstract"><div class="card card-body">Serving deep neural networks in latency critical interactive settings often requires GPU acceleration. However, the small batch sizes typical in online inference results in poor GPU utilization, a potential performance gap which GPU resource sharing can address. In this paper, we explore several techniques to leverage both temporal and spatial multiplexing to improve GPU utilization for deep learning inference workloads. We evaluate the performance trade-offs of each approach with respect to resource-efficiency, latency predictability, and isolation when compared with conventional batched inference. Our experimental analysis suggests at least a 5x potential for improved utilization through the exploration of more advanced spatial and temporal multiplexing strategies. Our preliminary prototype of a dynamic space-time scheduler demonstrates a 3.18x speedup over space-only multiplexing and a 7.76x speedup over time-only multiplexing, while also providing better isolation and latency predictability.</div></div><div id="LearningSys2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{LearningSys2018,
+ abstract = {Serving deep neural networks in latency critical interactive settings often requires GPU acceleration. However, the small batch sizes typical in online inference results in poor GPU utilization, a potential performance gap which GPU resource sharing can address. In this paper, we explore several techniques to leverage both temporal and spatial multiplexing to improve GPU utilization for deep learning inference workloads. We evaluate the performance trade-offs of each approach with respect to resource-efficiency, latency predictability, and isolation when compared with conventional batched inference. Our experimental analysis suggests at least a 5x potential for improved utilization through the exploration of more advanced spatial and temporal multiplexing strategies. Our preliminary prototype of a dynamic space-time scheduler demonstrates a 3.18x speedup over space-only multiplexing and a 7.76x speedup over time-only multiplexing, while also providing better isolation and latency predictability.},
+ author = {Xiangxi Mo and Paras Jain and Ajay Jain and Alexey Tumanov and Joseph E. Gonzalez and Ion Stoica},
+ booktitle = {Proceedings of the Learning Systems Workshop at NIPS 2018},
+ keywords = {peerrev},
+ month = {12},
+ title = {A Case for Dynamic GPU Inference Multitenancy and Scheduling},
+ url = {http://learningsys.org/nips18/assets/papers/102CameraReadySubmissionGPU_Virtualization%20(8).pdf},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
 
-* Joseph M. Hellerstein, Vikram Sreekanti, Joseph E. Gonzalez, Sudhansku Arora, Arka Bhattacharyya, Shirshanka Das, Akon Dey, Mark Donsky, Gabriel Fierro, Sreyashi Nag, Krishna Ramachandran, Chang She, Eric Sun, Carl Steinbach, Venkat Subramanian. <b>"Establishing Common Ground with Data Context."</b> CIDR, 2017. [<a href="http://cidrdb.org/cidr2017/papers/p111-hellerstein-cidr17.pdf">Paper</a>]
+<div id="icml_automl2018" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Richard Liaw</li>
+	<li>Eric Liang</li>
+	<li>Robert Nishihara</li>
+	<li>Philipp Moritz</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">Tune: A Research Platform for Distributed Model Selection and Training</div><div class="venue">Proceedings of the ICML Workshop on AutoML</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#icml_automl2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#icml_automl2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1807.05118">paper</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://ray.readthedocs.io/en/latest/tune.html">code</a></li>
+</ul>
+</div>
+<div class="cards"><div id="icml_automl2018_abs" class="collapse abstract"><div class="card card-body">Modern machine learning algorithms are increasingly computationally demanding, requiring specialized hardware and distributed computation to achieve high performance in a reasonable time frame. Many hyperparameter search algorithms have been proposed for improving the efficiency of model selection, however their adaptation to the distributed compute environment is often ad-hoc. We propose Tune, a unified framework for model selection and training that provides a narrow-waist interface between training scripts and search algorithms. We show that this interface meets the requirements for a broad range of hyperparameter search algorithms, allows straightforward scaling of search to large clusters, and simplifies algorithm implementation. We demonstrate the implementation of several state-of-the-art hyperparameter search algorithms in Tune.</div></div><div id="icml_automl2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{icml_automl2018,
+ abstract = {Modern machine learning algorithms are increasingly computationally demanding, requiring specialized hardware and distributed computation to achieve high performance in a reasonable time frame. Many hyperparameter search algorithms have been proposed for improving the efficiency of model selection, however their adaptation to the distributed compute environment is often ad-hoc. We propose Tune, a unified framework for model selection and training that provides a narrow-waist interface between training scripts and search algorithms. We show that this interface meets the requirements for a broad range of hyperparameter search algorithms, allows straightforward scaling of search to large clusters, and simplifies algorithm implementation. We demonstrate the implementation of several state-of-the-art hyperparameter search algorithms in Tune.},
+ author = {Richard Liaw and Eric Liang and Robert Nishihara and Philipp Moritz and Joseph E. Gonzalez and Ion Stoica},
+ booktitle = {Proceedings of the ICML Workshop on AutoML},
+ code = {https://ray.readthedocs.io/en/latest/tune.html},
+ keywords = {peerrev},
+ title = {Tune: A Research Platform for Distributed Model Selection and Training},
+ url = {https://arxiv.org/abs/1807.05118},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
 
-* Francois W. Belletti, Evan R. Sparks, Michael J. Franklin, Alexandre M. Bayen, Joseph E. Gonzalez.
-<b>"Scalable Linear Causal Inference for Irregularly Sampled Time Series with Long Range Dependencies"</b> (under review) arXiv, 2016. [<a href="https://arxiv.org/abs/1603.03336">Paper</a>]
+<div id="Stoica17" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Ion Stoica</li>
+	<li>Dawn Song</li>
+	<li>Raluca Ada Popa</li>
+	<li>David A. Patterson</li>
+	<li>Michael W. Mahoney</li>
+	<li>Randy H. Katz</li>
+	<li>Anthony D. Joseph</li>
+	<li>Michael Jordan</li>
+	<li>Joseph M. Hellerstein</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Ken Goldberg</li>
+	<li>Ali Ghodsi</li>
+	<li>David E. Culler</li>
+	<li>Pieter Abbeel</li>
+</ul>
+</div>
+<div class="title">A Berkeley View of Systems Challenges for AI</div><div class="venue">EECS Department, University of California, Berkeley Technical Report</div>
+<div class="year">2017</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Stoica17_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Stoica17_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-159.html">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Stoica17_abs" class="collapse abstract"><div class="card card-body">With the increasing commoditization of computer vision, speech recognition and machine translation systems and the widespread deployment of learning-based back-end technologies such as digital advertising and intelligent infrastructures, AI (Artificial Intelligence) has moved from research labs to production. These changes have been made possible by unprecedented levels of data and computation, by methodological advances in machine learning, by innovations in systems software and architectures, and by the broad accessibility of these technologies.
 
+The next generation of AI systems promises to accelerate these developments and increasingly impact our lives via frequent interactions and making (often mission-critical) decisions on our behalf, often in highly personalized contexts. Realizing this promise, however, raises daunting challenges. In particular, we need AI systems that make timely and safe decisions in unpredictable environments, that are robust against sophisticated adversaries, and that can process ever increasing amounts of data across organizations and individuals without compromising confidentiality. These challenges will be exacerbated by the end of the Moore’s Law, which will constrain the amount of data these technologies can store and process. In this paper, we propose several open research directions in systems, architectures, and security that can address these challenges and help unlock AI’s potential to improve lives and society.</div></div><div id="Stoica17_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@techreport{Stoica17,
+ abstract = {With the increasing commoditization of computer vision, speech recognition and machine translation systems and the widespread deployment of learning-based back-end technologies such as digital advertising and intelligent infrastructures, AI (Artificial Intelligence) has moved from research labs to production. These changes have been made possible by unprecedented levels of data and computation, by methodological advances in machine learning, by innovations in systems software and architectures, and by the broad accessibility of these technologies.
 
-* Ankur Dave, Alekh Jindal, Li Erran Li, Reynold Xin, Joseph Gonzalez, and Matei Zaharia. <b>"GraphFrames: An Integrated API for Mixing Graph and Relational Queries."</b> In SIGMOD Grades Workshop, 2016. [<a href="http://event.cwi.nl/grades/2016/02-Dave.pdf">Paper</a>]
+The next generation of AI systems promises to accelerate these developments and increasingly impact our lives via frequent interactions and making (often mission-critical) decisions on our behalf, often in highly personalized contexts. Realizing this promise, however, raises daunting challenges. In particular, we need AI systems that make timely and safe decisions in unpredictable environments, that are robust against sophisticated adversaries, and that can process ever increasing amounts of data across organizations and individuals without compromising confidentiality. These challenges will be exacerbated by the end of the Moore’s Law, which will constrain the amount of data these technologies can store and process. In this paper, we propose several open research directions in systems, architectures, and security that can address these challenges and help unlock AI’s potential to improve lives and society.},
+ author = {Ion Stoica and Dawn Song and Raluca Ada Popa and David A. Patterson  and Michael W. Mahoney  and Randy H. Katz  and Anthony D. Joseph and  Michael Jordan and Joseph M. Hellerstein  and Joseph E. Gonzalez and Ken Goldberg and Ali Ghodsi and David E. Culler and Pieter Abbeel},
+ bdsk-url-1 = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-159.html},
+ institution = {EECS Department, University of California, Berkeley},
+ keywords = {techreport},
+ month = {9},
+ number = {UCB/EECS-2017-159},
+ title = {A Berkeley View of Systems Challenges for {AI} },
+ url = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-159.html},
+ year = {2017}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="socc17" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Neeraja J. Yadwadkar</li>
+	<li>Bharath Hariharan</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Burton Smith</li>
+	<li>Randy H. Katz</li>
+</ul>
+</div>
+<div class="title">Selecting the Best VM Across Multiple Public Clouds: A Data-driven Performance Modeling Approach</div><div class="venue">Proceedings of the 2017 Symposium on Cloud Computing</div>
+<div class="year">2017</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#socc17_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#socc17_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://doi.acm.org/10.1145/3127479.3131614">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="socc17_abs" class="collapse abstract"><div class="card card-body">Users of cloud services are presented with a bewildering choice of VM types and the choice of VM can have significant implications on performance and cost. In this paper we address the fundamental problem of accurately and economically choosing the best VM for a given workload and user goals. To address the problem of optimal VM selection, we present PARIS, a data-driven system that uses a novel hybrid offline and online data collection and modeling framework to provide accurate performance estimates with minimal data collection. PARIS is able to predict workload performance for different user-specified metrics, and resulting costs for a wide range of VM types and workloads across multiple cloud providers. When compared to sophisticated baselines, including collaborative filtering and a linear interpolation model using measured workload performance on two VM types, PARIS produces significantly better estimates of performance. For instance, it reduces runtime prediction error by a factor of 4 for some workloads on both AWS and Azure. The increased accuracy translates into a 45% reduction in user cost while maintaining performance.</div></div><div id="socc17_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{socc17,
+ abstract = {Users of cloud services are presented with a bewildering choice of VM types and the choice of VM can have significant implications on performance and cost. In this paper we address the fundamental problem of accurately and economically choosing the best VM for a given workload and user goals. To address the problem of optimal VM selection, we present PARIS, a data-driven system that uses a novel hybrid offline and online data collection and modeling framework to provide accurate performance estimates with minimal data collection. PARIS is able to predict workload performance for different user-specified metrics, and resulting costs for a wide range of VM types and workloads across multiple cloud providers. When compared to sophisticated baselines, including collaborative filtering and a linear interpolation model using measured workload performance on two VM types, PARIS produces significantly better estimates of performance. For instance, it reduces runtime prediction error by a factor of 4 for some workloads on both AWS and Azure. The increased accuracy translates into a 45% reduction in user cost while maintaining performance.},
+ acmid = {3131614},
+ address = {New York, NY, USA},
+ author = {Neeraja J. Yadwadkar and Bharath Hariharan and Joseph E. Gonzalez and Burton Smith and Randy H. Katz},
+ bdsk-url-1 = {http://doi.acm.org/10.1145/3127479.3131614},
+ bdsk-url-2 = {https://doi.org/10.1145/3127479.3131614},
+ booktitle = {Proceedings of the 2017 Symposium on Cloud Computing},
+ doi = {10.1145/3127479.3131614},
+ isbn = {978-1-4503-5028-0},
+ keywords = {peerrev},
+ location = {Santa Clara, California},
+ month = {9},
+ numpages = {14},
+ pages = {452--465},
+ publisher = {ACM},
+ series = {SoCC '17},
+ title = {Selecting the Best {VM} Across Multiple Public Clouds: A Data-driven Performance Modeling Approach},
+ url = {http://doi.acm.org/10.1145/3127479.3131614},
+ year = {2017}
+}
+</code></pre></div></div>
+</div></div>
 
-* Neeraja J. Yadwadkar, Bharath Hariharan, Joseph E. Gonzalez, and Randy Katz. <b>"Multi-task Learning for Straggler Avoiding Predictive Job Scheduling."</b> In Journal of Machine Learning Research (JMLR ’16), 2016.[<a href="http://jmlr.org/papers/v17/15-149.html">Paper</a>]
+<div id="aistats17" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Francois W. Belletti</li>
+	<li>Evan R. Sparks</li>
+	<li>Michael J. Franklin</li>
+	<li>Alexandre M. Bayen</li>
+	<li>Joseph E. Gonzalez</li>
+</ul>
+</div>
+<div class="title">Random Projection Design for Scalable Implicit Smoothing of Randomly Observed Stochastic Processes</div><div class="venue">Artificial Intelligence and Statistics (AIStats '17)</div>
+<div class="year">2017</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#aistats17_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#aistats17_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://proceedings.mlr.press/v54/belletti17a/belletti17a.pdf">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="aistats17_abs" class="collapse abstract"><div class="card card-body">Sampling at random timestamps, long range dependencies, and scale hamper standard meth- ods for multivariate time series analysis. In this paper we present a novel estimator for cross-covariance of randomly observed time series which unravels the dynamics of an unobserved stochastic process. We analyze the statistical properties of our estimator without needing the assumption that observation timestamps are independent from the process of interest and show that our solution is not hindered by the issues affecting standard estimators for cross-covariance. We implement and evaluate our statistically sound and scalable approach in the distributed setting using Apache Spark and demonstrate its ability to unravel causal dynamics on both simulations and high-frequency financial trading data.</div></div><div id="aistats17_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{aistats17,
+ abstract = {Sampling at random timestamps, long range dependencies, and scale hamper standard meth- ods for multivariate time series analysis. In this paper we present a novel estimator for cross-covariance of randomly observed time series which unravels the dynamics of an unobserved stochastic process. We analyze the statistical properties of our estimator without needing the assumption that observation timestamps are independent from the process of interest and show that our solution is not hindered by the issues affecting standard estimators for cross-covariance. We implement and evaluate our statistically sound and scalable approach in the distributed setting using Apache Spark and demonstrate its ability to unravel causal dynamics on both simulations and high-frequency financial trading data.},
+ author = {Francois W. Belletti and Evan R. Sparks and Michael J. Franklin and Alexandre M. Bayen and Joseph E. Gonzalez},
+ booktitle = {Artificial Intelligence and Statistics ({AIStats} '17)},
+ keywords = {peerrev},
+ month = {7},
+ title = {Random Projection Design for Scalable Implicit Smoothing of Randomly Observed Stochastic Processes},
+ url = {http://proceedings.mlr.press/v54/belletti17a/belletti17a.pdf},
+ year = {2017}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="nsdi17a" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Daniel Crankshaw</li>
+	<li>Xin Wang</li>
+	<li>Guilio Zhou</li>
+	<li>Michael J. Franklin</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">Clipper: A Low-Latency Online Prediction Serving System</div><div class="venue">14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)</div>
+<div class="year">2017</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#nsdi17a_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#nsdi17a_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/crankshaw">paper</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://clipper.ai">code</a></li>
+</ul>
+</div>
+<div class="cards"><div id="nsdi17a_abs" class="collapse abstract"><div class="card card-body">Machine learning is being deployed in a growing number of applications which demand real-time, accurate, and robust predictions under heavy query load. However, most machine learning frameworks and systems only address model training and not deployment.
 
+In this paper, we introduce Clipper, a general-purpose low-latency prediction serving system. Interposing between end-user applications and a wide range of machine learning frameworks, Clipper introduces a modular architecture to simplify model deployment across frameworks and applications. Furthermore, by introducing caching, batching, and adaptive model selection techniques, Clipper reduces prediction latency and improves prediction throughput, accuracy, and robustness without modifying the underlying machine learning frameworks. We evaluate Clipper on four common machine learning benchmark datasets and demonstrate its ability to meet the latency, accuracy, and throughput demands of online serving applications. Finally, we compare Clipper to the Tensorflow Serving system and demonstrate that we are able to achieve comparable throughput and latency while enabling model composition and online learning to improve accuracy and render more robust predictions.</div></div><div id="nsdi17a_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{nsdi17a,
+ abstract = {Machine learning is being deployed in a growing number of applications which demand real-time, accurate, and robust predictions under heavy query load. However, most machine learning frameworks and systems only address model training and not deployment.
 
-* Neeraja J. Yadwadkar, Bharath Hariharan, Joseph Gonzalez and Randy Katz (2015). "<b>Faster Jobs in Distributed Data Processing using Multi-Task Learning</b>" Conference: SIAM International Conference on Data Mining (SDM15).
-[<a href="./assets/papers/faster_mtl.pdf">Paper</a>]
+In this paper, we introduce Clipper, a general-purpose low-latency prediction serving system. Interposing between end-user applications and a wide range of machine learning frameworks, Clipper introduces a modular architecture to simplify model deployment across frameworks and applications. Furthermore, by introducing caching, batching, and adaptive model selection techniques, Clipper reduces prediction latency and improves prediction throughput, accuracy, and robustness without modifying the underlying machine learning frameworks. We evaluate Clipper on four common machine learning benchmark datasets and demonstrate its ability to meet the latency, accuracy, and throughput demands of online serving applications. Finally, we compare Clipper to the Tensorflow Serving system and demonstrate that we are able to achieve comparable throughput and latency while enabling model composition and online learning to improve accuracy and render more robust predictions.},
+ address = {Boston, MA},
+ author = {Daniel Crankshaw and Xin Wang and Guilio Zhou and Michael J. Franklin and Joseph E. Gonzalez and Ion Stoica},
+ bdsk-url-1 = {https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/crankshaw},
+ booktitle = {14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)},
+ code = {https://clipper.ai},
+ isbn = {978-1-931971-37-9},
+ keywords = {peerrev},
+ pages = {613--627},
+ publisher = {USENIX Association},
+ title = {Clipper: A Low-Latency Online Prediction Serving System},
+ url = {https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/crankshaw},
+ year = {2017}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="cidr17" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Joseph M. Hellerstein</li>
+	<li>Vikram Sreekanti</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Sudhansku Arora</li>
+	<li>Arka Bhattacharyya</li>
+	<li>Shirshanka Das</li>
+	<li>Akon Dey</li>
+	<li>Mark Donsky</li>
+	<li>Gabriel Fierro</li>
+	<li>Sreyashi Nag</li>
+	<li>Krishna Ramachandran</li>
+	<li>Chang She</li>
+	<li>Eric Sun</li>
+	<li>Carl Steinbach</li>
+	<li>Venkat Subramanian</li>
+</ul>
+</div>
+<div class="title">Establishing Common Ground with Data Context</div><div class="venue">Conference on Innovative Data Systems Research (CIDR '17)</div>
+<div class="year">2017</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#cidr17_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="cidr17_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="cidr17_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{cidr17,
+ author = {Joseph M. Hellerstein and Vikram Sreekanti and Joseph E. Gonzalez and Sudhansku Arora and Arka Bhattacharyya and Shirshanka Das and Akon Dey and Mark Donsky and Gabriel Fierro and Sreyashi Nag and Krishna Ramachandran and Chang She and Eric Sun and Carl Steinbach and Venkat Subramanian},
+ booktitle = {Conference on Innovative Data Systems Research ({CIDR} '17)},
+ keywords = {peerrev},
+ title = {Establishing Common Ground with Data Context},
+ year = {2017}
+}
+</code></pre></div></div>
+</div></div>
 
-* Dan Crankshaw, Peter Bailis, Joseph Gonzalez, Haoyuan Li, Zhao Zhang, Michael Franklin, Ali Ghodsi, and Michael Jordan (2015). "<b>The missing piece in complex analytics: Low latency, scalable model management and serving with Velox.</b>" Conference: Conference on Innovative Data Systems Research (CIDR).
-[<a href="http://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper19u.pdf">Paper</a>]
+<div id="nsdi17b" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Wenting Zheng</li>
+	<li>Ankur Dave</li>
+	<li>Jethro G. Beekman</li>
+	<li>Raluca Ada Popa</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">Opaque: An Oblivious and Encrypted Distributed Analytics Platform</div><div class="venue">14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)</div>
+<div class="year">2017</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#nsdi17b_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zheng">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="nsdi17b_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="nsdi17b_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{nsdi17b,
+ address = {Boston, MA},
+ author = {Wenting Zheng and Ankur Dave and Jethro G. Beekman and Raluca Ada Popa and Joseph E. Gonzalez and Ion Stoica},
+ bdsk-url-1 = {https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zheng},
+ booktitle = {14th USENIX Symposium on Networked Systems Design and Implementation (NSDI 17)},
+ isbn = {978-1-931971-37-9},
+ keywords = {peerrev},
+ pages = {283--298},
+ publisher = {USENIX Association},
+ title = {Opaque: An Oblivious and Encrypted Distributed Analytics Platform},
+ url = {https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zheng},
+ year = {2017}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="acmqueu2016" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Matei Zaharia</li>
+	<li>Reynold S. Xin</li>
+	<li>Patrick Wendell</li>
+	<li>Tathagata Das</li>
+	<li>Michael Armbrust</li>
+	<li>Ankur Dave</li>
+	<li>Xiangrui Meng</li>
+	<li>Josh Rosen</li>
+	<li>Shivaram Venkataraman</li>
+	<li>Michael J. Franklin,</li>
+	<li>Ali Ghodsi</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Scott Shenker</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">Apache Spark: A Unified Engine for Big Data Processing</div><div class="venue">Commun. ACM</div>
+<div class="year">2016</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#acmqueu2016_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://doi.acm.org/10.1145/2934664">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="acmqueu2016_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="acmqueu2016_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{acmqueu2016,
+ acmid = {2934664},
+ address = {New York, NY, USA},
+ author = {Matei Zaharia and Reynold S. Xin and Patrick Wendell and Tathagata Das and Michael Armbrust  and Ankur Dave and Xiangrui Meng  and Josh Rosen and Shivaram Venkataraman and Michael J. Franklin,  and Ali Ghodsi and Joseph E. Gonzalez and Scott Shenker and Ion Stoica},
+ bdsk-url-1 = {http://doi.acm.org/10.1145/2934664},
+ bdsk-url-2 = {https://doi.org/10.1145/2934664},
+ doi = {10.1145/2934664},
+ issn = {0001-0782},
+ issue_date = {November 2016},
+ journal = {Commun. ACM},
+ keywords = {techreport},
+ month = {9},
+ number = {11},
+ numpages = {10},
+ pages = {56--65},
+ publisher = {ACM},
+ title = {Apache Spark: A Unified Engine for Big Data Processing},
+ url = {http://doi.acm.org/10.1145/2934664},
+ volume = {59},
+ year = {2016}
+}
+</code></pre></div></div>
+</div></div>
 
-* Xinghao Pan, Stefanie Jegelka, Joseph E. Gonzalez, Joseph K. Bradley, and Michael I. Jordan (2014). "<b>Parallel double greedy submodular maximization.</b>" Advances in Neural Information Processing Systems (NIPS).
-[<a href="https://amplab.cs.berkeley.edu/wp-content/uploads/2014/10 parallel_submodular.pdf">Paper</a>]
-[<a href="https://github.com/pxinghao/ParallelSubmodularMaximization">code</a>]
+<div id="Rong2016" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Rong Gu</li>
+	<li>Qianhao Dong</li>
+	<li>Haoyuan Li</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Zhao Zhang</li>
+	<li>Shuai Wang</li>
+	<li>Yihua Huang</li>
+	<li>Scott Shenker</li>
+	<li>Ion Stoica</li>
+	<li>Patrick P. C. Lee</li>
+</ul>
+</div>
+<div class="title">DFS-Perf: A Scalable and Unified Benchmarking Framework for Distributed File Systems</div><div class="venue">EECS Department, University of California, Berkeley Technical Report</div>
+<div class="year">2016</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Rong2016_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-133.html">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Rong2016_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="Rong2016_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@techreport{Rong2016,
+ author = {Rong Gu and Qianhao Dong and Haoyuan Li and Joseph E. Gonzalez and Zhao Zhang and Shuai Wang and Yihua Huang and Scott Shenker and Ion Stoica and Patrick P. C. Lee},
+ bdsk-url-1 = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-133.html},
+ institution = {EECS Department, University of California, Berkeley},
+ keywords = {techreport},
+ month = {7},
+ number = {UCB/EECS-2016-133},
+ title = {DFS-Perf: A Scalable and Unified Benchmarking Framework for Distributed File Systems},
+ url = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-133.html},
+ year = {2016}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="grades16" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Ankur Dave</li>
+	<li>Alekh Jindal</li>
+	<li>Li Erran Li</li>
+	<li>Reynold Xin</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Matei Zaharia</li>
+</ul>
+</div>
+<div class="title">GraphFrames: An Integrated API for Mixing Graph and Relational Queries.</div><div class="venue">SIGMOD Grades Workshop</div>
+<div class="year">2016</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#grades16_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="grades16_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="grades16_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{grades16,
+ author = {Ankur Dave and Alekh Jindal and Li Erran Li and Reynold Xin and Joseph E. Gonzalez and Matei Zaharia},
+ booktitle = { {SIGMOD} Grades Workshop},
+ keywords = {peerrev},
+ title = {GraphFrames: An Integrated API for Mixing Graph and Relational Queries.},
+ year = {2016}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="jmlr2016" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Neeraja J. Yadwadkar</li>
+	<li>Bharath Hariharan</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Randy Katz</li>
+</ul>
+</div>
+<div class="title">Multi-Task Learning for Straggler Avoiding Predictive Job Scheduling</div><div class="venue">Journal of Machine Learning Research (JMLR '16)</div>
+<div class="year">2016</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#jmlr2016_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="jmlr2016_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="jmlr2016_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{jmlr2016,
+ author = {Neeraja J. Yadwadkar and Bharath Hariharan and Joseph E. Gonzalez and Randy Katz},
+ booktitle = {Journal of Machine Learning Research ({JMLR} '16)},
+ keywords = {peerrev},
+ title = {Multi-Task Learning for Straggler Avoiding Predictive Job Scheduling},
+ year = {2016}
+}
+</code></pre></div></div>
+</div></div>
 
-* Joseph E. Gonzalez, Reynold S. Xin, Ankur Dave, Daniel Crankshaw, Michael J. Franklin, Ion Stoica (2014).
-"<b>GraphX: Graph Processing in a Distributed Dataflow Framework.</b>"
-<i>Proceedings of Operating Systems Design and Implementation (OSDI)</i>. [<a href="https://amplab.cs.berkeley.edu/wp-content/uploads/2014/09/graphx.pdf">Paper</a>]
+<div id="bcb2015" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Veronika Strnadova-Neeley</li>
+	<li>Aydin Buluc</li>
+	<li>Jarrod Chapman</li>
+	<li>John Gilbert</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Leonid Oliker</li>
+</ul>
+</div>
+<div class="title">Efficient Data Reduction for Large-Scale Genetic Mapping</div><div class="venue">ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (BCB '15)</div>
+<div class="year">2015</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#bcb2015_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="bcb2015_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="bcb2015_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{bcb2015,
+ author = {Veronika Strnadova-Neeley and Aydin Buluc and Jarrod Chapman and John Gilbert and Joseph E. Gonzalez and Leonid Oliker},
+ booktitle = { {ACM} Conference on Bioinformatics, Computational Biology, and Health Informatics ({BCB} '15)},
+ keywords = {peerrev},
+ title = {Efficient Data Reduction for Large-Scale Genetic Mapping},
+ year = {2015}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="sdm15" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Neeraja J. Yadwadkar</li>
+	<li>Bharath Hariharan</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Randy Katz</li>
+</ul>
+</div>
+<div class="title">Faster Jobs in Distributed Data Processing using Multi-Task Learning</div><div class="venue">SIAM International Conference on Data Mining (SDM '15)</div>
+<div class="year">2015</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#sdm15_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="sdm15_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="sdm15_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{sdm15,
+ author = {Neeraja J. Yadwadkar and Bharath Hariharan and Joseph E. Gonzalez and Randy Katz},
+ booktitle = { {SIAM} International Conference on Data Mining ({SDM} '15)},
+ keywords = {peerrev},
+ title = {Faster Jobs in Distributed Data Processing using Multi-Task Learning},
+ year = {2015}
+}
+</code></pre></div></div>
+</div></div>
 
-* Xinghao Pan, Joseph E. Gonzalez, Stefanie Jegelka, Tamara Broderick, and Michael I. Jordan (2013).
-"<b>Optimistic concurrency control for distributed unsupervised learning.</b>."
-<i>Advances in Neural Information Processing Systems (NIPS) 26, 2013.</i>.
-[<a href="http://arxiv.org/abs/1307.8049">Paper</a>]
+<div id="LearningSys2015" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Daniel Crankshaw</li>
+	<li>Xin Wang</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Michael J. Franklin</li>
+</ul>
+</div>
+<div class="title">Scalable Training and Serving of Personalized Models</div><div class="venue">Proceedings of the Learning Systems Workshop at NIPS 2015</div>
+<div class="year">2015</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#LearningSys2015_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="LearningSys2015_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="LearningSys2015_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{LearningSys2015,
+ author = {Daniel Crankshaw and Xin Wang and Joseph E. Gonzalez and Michael J. Franklin},
+ booktitle = {Proceedings of the Learning Systems Workshop at NIPS 2015},
+ keywords = {peerrev},
+ title = {Scalable Training and Serving of Personalized Models},
+ year = {2015}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="cidr15" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Daniel Crankshaw</li>
+	<li>Peter Bailis</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Haoyuan Li</li>
+	<li>Zhao Zhang</li>
+	<li>Michael J. Franklin</li>
+	<li>Ali Ghodsi</li>
+	<li>Michael I. Jordan</li>
+</ul>
+</div>
+<div class="title">The Missing Piece in Complex Analytics: Low Latency, Scalable Model Management and Serving with Velox</div><div class="venue">Conference on Innovative Data Systems Research (CIDR '15)</div>
+<div class="year">2015</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#cidr15_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="cidr15_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="cidr15_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{cidr15,
+ author = {Daniel Crankshaw and Peter Bailis and Joseph E. Gonzalez and Haoyuan Li and Zhao Zhang and Michael J. Franklin and Ali Ghodsi and Michael I. Jordan},
+ booktitle = {Conference on Innovative Data Systems Research ({CIDR} '15)},
+ keywords = {peerrev},
+ title = {The Missing Piece in Complex Analytics: Low Latency, Scalable Model Management and Serving with Velox},
+ year = {2015}
+}
+</code></pre></div></div>
+</div></div>
 
-* Evan Sparks, Ameet Talwalkar, Virginia Smith, Xinghao Pan, Joseph Gonzalez, Tim Kraska,
-Michael I. Jordan, and Michael J. Franklin (2013).
-"<b>MLI: An API for distributed machine learning.</b>."
-<i>IEEE International Conference on Data Mining (ICDM).</i>.
-[<a href="http://arxiv-web3.library.cornell.edu/abs/1310.5426">Paper</a>]
+<div id="siam14" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Veronika Strnadova</li>
+	<li>Aydin Buluc</li>
+	<li>Leonid Oliker</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Stefanie Jegelka</li>
+	<li>Jarrod Chapman</li>
+	<li>John Gilbert</li>
+</ul>
+</div>
+<div class="title">Fast Clustering Methods for Genetic Mapping in Plants</div><div class="venue">16th SIAM Conference on Parallel Processing for Scientific Computing</div>
+<div class="year">2014</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#siam14_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="siam14_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="siam14_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{siam14,
+ author = {Veronika Strnadova and Aydin Buluc and Leonid Oliker and Joseph E. Gonzalez and Stefanie Jegelka and Jarrod Chapman and John Gilbert},
+ booktitle = {16th SIAM Conference on Parallel Processing for Scientific Computing},
+ keywords = {peerrev},
+ title = {Fast Clustering Methods for Genetic Mapping in Plants},
+ year = {2014}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="WWW2014" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Joseph E. Gonzalez</li>
+</ul>
+</div>
+<div class="title">From Graphs to Tables the Design of Scalable Systems for Graph Analytics</div><div class="venue">Proceedings of the 23rd International Conference on World Wide Web</div>
+<div class="year">2014</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#WWW2014_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://doi.acm.org/10.1145/2567948.2580059">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="WWW2014_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="WWW2014_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{WWW2014,
+ acmid = {2580059},
+ address = {New York, NY, USA},
+ author = {Joseph E. Gonzalez },
+ bdsk-url-1 = {http://doi.acm.org/10.1145/2567948.2580059},
+ bdsk-url-2 = {https://doi.org/10.1145/2567948.2580059},
+ booktitle = {Proceedings of the 23rd International Conference on World Wide Web},
+ doi = {10.1145/2567948.2580059},
+ isbn = {978-1-4503-2745-9},
+ keywords = {techreport},
+ location = {Seoul, Korea},
+ numpages = {2},
+ pages = {1149--1150},
+ publisher = {ACM},
+ series = {WWW '14 Companion},
+ title = {From Graphs to Tables the Design of Scalable Systems for Graph Analytics},
+ url = {http://doi.acm.org/10.1145/2567948.2580059},
+ year = {2014}
+}
+</code></pre></div></div>
+</div></div>
 
-*  Reynold Xin, Joseph Gonzalez, Michael Franklin, Ion Stoica (2013).
-"<b>GraphX: A Resilient Distributed Graph System on Spark.</b>."
-<i>SIGMOD 2013 GRADES Workshop.</i>.
-[<a href="https://amplab.cs.berkeley.edu/wp-content/uploads/2013/05/grades-graphx_with_fonts.pdf">Paper</a>]
+<div id="osdi14" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Joseph E. Gonzalez</li>
+	<li>Reynold S. Xin</li>
+	<li>Ankur Dave</li>
+	<li>Daniel Crankshaw</li>
+	<li>Michael J. Franklin</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">GraphX: Graph Processing in a Distributed Dataflow Framework</div><div class="venue">11th USENIX Symposium on Operating Systems Design and Implementation (OSDI 14)</div>
+<div class="year">2014</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#osdi14_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="osdi14_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="osdi14_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{osdi14,
+ author = {Joseph E. Gonzalez and Reynold S. Xin and Ankur Dave and Daniel Crankshaw and Michael J. Franklin and Ion Stoica},
+ booktitle = {11th USENIX Symposium on Operating Systems Design and Implementation (OSDI 14)},
+ keywords = {peerrev},
+ pages = {599--613},
+ title = {GraphX: Graph Processing in a Distributed Dataflow Framework},
+ year = {2014}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="nips14" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Xinghao Pan</li>
+	<li>Stefanie Jegelka</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Joseph K. Bradley</li>
+	<li>Michael I. Jordan</li>
+</ul>
+</div>
+<div class="title">Parallel Double Greedy Submodular Maximization</div><div class="venue">Neural Information Processing Systems (NIPS '14)</div>
+<div class="year">2014</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#nips14_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="nips14_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="nips14_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{nips14,
+ author = {Xinghao Pan and Stefanie Jegelka and Joseph E. Gonzalez and Joseph K. Bradley and Michael I. Jordan},
+ booktitle = {Neural Information Processing Systems ({NIPS} '14)},
+ keywords = {peerrev},
+ title = {Parallel Double Greedy Submodular Maximization},
+ year = {2014}
+}
+</code></pre></div></div>
+</div></div>
 
-* Joseph Gonzalez, Yucheng Low, Haijie Gu, Danny Bickson,
-Carlos Guestrin (2012).
-"<b>PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs</b>."
-<i>Proceedings of Operating Systems Design and Implementation (OSDI)</i>.
-[<a href="http://www.graphlab.org">GraphLab2 (PowerGraph)</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/scripts/papers.cgi?Gonzalez+al:osdi2012">abs/bib</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/paperdir/osdi2012-gonzalez-low-gu-bickson-guestrin.pdf">pdf</a>]
-<!-- [<a href="papers/osdi-powergraph-final.pdf">pdf</a>] -->
+<div id="gblasex14" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>David Bader</li>
+	<li>Ayd\in Bulu\cc</li>
+	<li>John Gilbert</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Jeremy Kepner</li>
+	<li>Timothy Mattson</li>
+</ul>
+</div>
+<div class="title">The Graph BLAS effort and its implications for Exascale</div><div class="venue">SIAM Workshop on Exascale Applied Mathematics Challenges and Opportunities (EX14)</div>
+<div class="year">2014</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#gblasex14_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" href="">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="gblasex14_abs" class="collapse abstract"><div class="card card-body"></div></div><div id="gblasex14_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{gblasex14,
+ author = {David Bader and Ayd{\i}n Bulu\c{c} and John Gilbert and Joseph E. Gonzalez and Jeremy Kepner and Timothy Mattson},
+ booktitle = {SIAM Workshop on Exascale Applied Mathematics Challenges and Opportunities (EX14)},
+ keywords = {peerrev},
+ title = {The Graph BLAS effort and its implications for Exascale},
+ year = {2014}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="IEEE2013" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>T. Mattson</li>
+	<li>D. Bader</li>
+	<li>J. Berry</li>
+	<li>A. Buluc</li>
+	<li>J. Dongarra</li>
+	<li>C. Faloutsos</li>
+	<li>J. Feo</li>
+	<li>J. Gilbert</li>
+	<li>J. Gonzalez</li>
+	<li>B. Hendrickson</li>
+	<li>J. Kepner</li>
+	<li>C. Leiserson</li>
+	<li>A. Lumsdaine</li>
+	<li>D. Padua</li>
+	<li>S. Poole</li>
+	<li>S. Reinhardt</li>
+	<li>M. Stonebraker</li>
+	<li>S. Wallach</li>
+	<li>A. Yoo</li>
+</ul>
+</div>
+<div class="title">Standards for graph algorithm primitives</div><div class="venue">2013 IEEE High Performance Extreme Computing Conference (HPEC)</div>
+<div class="year">2013</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#IEEE2013_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#IEEE2013_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://doi.org/10.1109/HPEC.2013.6670338">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="IEEE2013_abs" class="collapse abstract"><div class="card card-body">It is our view that the state of the art in constructing a large collection of graph algorithms in terms of linear algebraic operations is mature enough to support the emergence of a standard set of primitive building blocks. This paper is a position paper defining the problem and announcing our intention to launch an open effort to define this standard.</div></div><div id="IEEE2013_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{IEEE2013,
+ abstract = {It is our view that the state of the art in constructing a large collection of graph algorithms in terms of linear algebraic operations is mature enough to support the emergence of a standard set of primitive building blocks. This paper is a position paper defining the problem and announcing our intention to launch an open effort to define this standard.},
+ author = {T. Mattson and D. Bader and J. Berry and A. Buluc and J. Dongarra and C. Faloutsos and J. Feo and J. Gilbert and J. Gonzalez and B. Hendrickson and J. Kepner and C. Leiserson and A. Lumsdaine and D. Padua and S. Poole and S. Reinhardt and M. Stonebraker and S. Wallach and A. Yoo},
+ bdsk-url-1 = {https://doi.org/10.1109/HPEC.2013.6670338},
+ booktitle = {2013 IEEE High Performance Extreme Computing Conference (HPEC)},
+ doi = {10.1109/HPEC.2013.6670338},
+ keywords = {peerrev},
+ month = {9},
+ pages = {1-2},
+ title = {Standards for graph algorithm primitives},
+ url = {https://doi.org/10.1109/HPEC.2013.6670338},
+ year = {2013}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="icdm13" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Evan Sparks,</li>
+	<li>Ameet Talwalkar</li>
+	<li>Virginia Smith</li>
+	<li>Xinghao Pan</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Tim Kraska</li>
+	<li>Michael I. Jordan</li>
+	<li>Michael J. Franklin</li>
+</ul>
+</div>
+<div class="title">MLI: An API for Distributed Machine Learning</div><div class="venue">International Conference on Data Mining (ICDM)</div>
+<div class="year">2013</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#icdm13_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#icdm13_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://ieeexplore.ieee.org/abstract/document/6729619">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="icdm13_abs" class="collapse abstract"><div class="card card-body">MLI is an Application Programming Interface designed to address the challenges of building Machine Learning algorithms in a distributed setting based on data-centric computing. Its primary goal is to simplify the development of high-performance, scalable, distributed algorithms. Our initial results show that, relative to existing systems, this interface can be used to build distributed implementations of a wide variety of common Machine Learning algorithms with minimal complexity and highly competitive performance and scalability.</div></div><div id="icdm13_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{icdm13,
+ abstract = {MLI is an Application Programming Interface designed to address the challenges of building Machine Learning algorithms in a distributed setting based on data-centric computing. Its primary goal is to simplify the development of high-performance, scalable, distributed algorithms. Our initial results show that, relative to existing systems, this interface can be used to build distributed implementations of a wide variety of common Machine Learning algorithms with minimal complexity and highly competitive performance and scalability.},
+ author = {Evan Sparks,  and Ameet Talwalkar  and Virginia Smith and Xinghao Pan  and Joseph E. Gonzalez and Tim Kraska and Michael I. Jordan and Michael J. Franklin},
+ booktitle = {International Conference on Data Mining (ICDM)},
+ keywords = {peerrev},
+ month = {12},
+ organization = {IEEE},
+ title = { {MLI}: An API for Distributed Machine Learning},
+ url = {https://ieeexplore.ieee.org/abstract/document/6729619},
+ year = {2013}
+}
+</code></pre></div></div>
+</div></div>
 
-* Yucheng Low, Joseph Gonzalez, Aapo Kyrola, Danny Bickson, Carlos Guestrin and Joseph M. Hellerstein (2012).
-"<b>Distributed GraphLab: A Framework for Machine Learning and Data Mining in the Cloud</b>."
-<i>Proceedings of Very Large Data Bases (PVLDB)</i>.
-[<a href="http://www.graphlab.ml.cmu.edu">code release</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/scripts/papers.cgi?Low+al:vldb12">abs/bib</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/paperdir/vldb2012-low-gonzalez-kyrola-bickson-guestrin-hellerstein.pdf">pdf</a>]
+<div id="sigmod13" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Reynold Xin</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Michael Franklin</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">GraphX: A Resilient Distributed Graph System on Spark</div><div class="venue">SIGMOD Grades Workshop</div>
+<div class="year">2013</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#sigmod13_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#sigmod13_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://dl.acm.org/citation.cfm?id=2484427">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="sigmod13_abs" class="collapse abstract"><div class="card card-body">From social networks to targeted advertising, big graphs capture the structure in data and are central to recent advances in machine learning and data mining. Unfortunately, directly applying existing data-parallel tools to graph computation tasks can be cumbersome and inefficient. The need for intuitive, scalable tools for graph computation has lead to the development of new graph-parallel systems (e.g., Pregel, PowerGraph) which are designed to efficiently execute graph algorithms. Unfortunately, these new graph-parallel systems do not address the challenges of graph construction and transformation which are often just as problematic as the subsequent computation. Furthermore, existing graph-parallel systems provide limited fault-tolerance and support for interactive data mining.
 
+We introduce GraphX, which combines the advantages of both data-parallel and graph-parallel systems by efficiently expressing graph computation within the Spark data-parallel framework. We leverage new ideas in distributed graph representation to efficiently distribute graphs as tabular data-structures. Similarly, we leverage advances in data-flow systems to exploit in-memory computation and fault-tolerance. We provide powerful new operations to simplify graph construction and transformation. Using these primitives we implement the PowerGraph and Pregel abstractions in less than 20 lines of code. Finally, by exploiting the Scala foundation of Spark, we enable users to interactively load, transform, and compute on massive graphs.</div></div><div id="sigmod13_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{sigmod13,
+ abstract = {From social networks to targeted advertising, big graphs capture the structure in data and are central to recent advances in machine learning and data mining. Unfortunately, directly applying existing data-parallel tools to graph computation tasks can be cumbersome and inefficient. The need for intuitive, scalable tools for graph computation has lead to the development of new graph-parallel systems (e.g., Pregel, PowerGraph) which are designed to efficiently execute graph algorithms. Unfortunately, these new graph-parallel systems do not address the challenges of graph construction and transformation which are often just as problematic as the subsequent computation. Furthermore, existing graph-parallel systems provide limited fault-tolerance and support for interactive data mining.
 
+We introduce GraphX, which combines the advantages of both data-parallel and graph-parallel systems by efficiently expressing graph computation within the Spark data-parallel framework. We leverage new ideas in distributed graph representation to efficiently distribute graphs as tabular data-structures. Similarly, we leverage advances in data-flow systems to exploit in-memory computation and fault-tolerance. We provide powerful new operations to simplify graph construction and transformation. Using these primitives we implement the PowerGraph and Pregel abstractions in less than 20 lines of code. Finally, by exploiting the Scala foundation of Spark, we enable users to interactively load, transform, and compute on massive graphs.},
+ author = {Reynold Xin and Joseph E. Gonzalez and Michael Franklin and Ion Stoica},
+ booktitle = { {SIGMOD} Grades Workshop},
+ keywords = {peerrev},
+ title = {GraphX: A Resilient Distributed Graph System on Spark},
+ url = {https://dl.acm.org/citation.cfm?id=2484427},
+ year = {2013}
+}
+</code></pre></div></div>
+</div></div>
 
-* Amr Ahmed, Mohamed Aly, Joseph Gonzalez, Shravan
-Narayanamurthy, Alex Smola (2012).
-"<b>Scalable Inference in Latent Variable Models</b>."
-<i>Conference on Web Search and Data Mining (WSDM)</i>.
-[<a href="./assets/papers/ahmed_scalable_inference_in_latent_variable_models.bib">bibtex</a>]
-[<a href="./assets/papers/ahmed_scalable_inference_in_latent_variable_models.pdf">pdf</a>]
+<div id="nips13" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Xinghao Pan</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Stefanie Jegelka</li>
+	<li>Tamara Broderick</li>
+	<li>Michael I. Jordan</li>
+</ul>
+</div>
+<div class="title">Optimistic Concurrency Control for Distributed Unsupervised Learning</div><div class="venue">NIPS '13</div>
+<div class="year">2013</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#nips13_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#nips13_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1307.8049">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="nips13_abs" class="collapse abstract"><div class="card card-body">Research on distributed machine learning algorithms has focused primarily on one of two extremes - algorithms that obey strict concurrency constraints or algorithms that obey few or no such constraints. We consider an intermediate alternative in which algorithms optimistically assume that conflicts are unlikely and if conflicts do arise a conflict-resolution protocol is invoked. We view this "optimistic concurrency control" paradigm as particularly appropriate for large-scale machine learning algorithms, particularly in the unsupervised setting. We demonstrate our approach in three problem areas: clustering, feature learning and online facility location. We evaluate our methods via large-scale experiments in a cluster computing environment.</div></div><div id="nips13_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{nips13,
+ abstract = {Research on distributed machine learning algorithms has focused primarily on one of two extremes - algorithms that obey strict concurrency constraints or algorithms that obey few or no such constraints. We consider an intermediate alternative in which algorithms optimistically assume that conflicts are unlikely and if conflicts do arise a conflict-resolution protocol is invoked. We view this "optimistic concurrency control" paradigm as particularly appropriate for large-scale machine learning algorithms, particularly in the unsupervised setting. We demonstrate our approach in three problem areas: clustering, feature learning and online facility location. We evaluate our methods via large-scale experiments in a cluster computing environment.},
+ author = {Xinghao Pan and Joseph E. Gonzalez and Stefanie Jegelka and Tamara Broderick and Michael I. Jordan},
+ booktitle = { {NIPS} '13},
+ keywords = {peerrev},
+ title = {Optimistic Concurrency Control for Distributed Unsupervised Learning},
+ url = {https://arxiv.org/abs/1307.8049},
+ year = {2013}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="vldb2012" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Yucheng Low AND Joseph E. Gonzalez AND Aapo Kyrola AND Danny Bickson AND Carlos Guestrin AND Joseph M. Hellerstein</li>
+</ul>
+</div>
+<div class="title">Distributed GraphLab: A Framework for Machine Learning and Data Mining in the Cloud.</div><div class="venue">Proceedings of Very Large Data Bases (PVLDB)</div>
+<div class="year">2012</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#vldb2012_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#vldb2012_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1204.6078">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="vldb2012_abs" class="collapse abstract"><div class="card card-body">While high-level data parallel frameworks, like MapReduce, simplify the design and implementation of large-scale data processing systems, they do not naturally or efficiently support many important data mining and machine learning algorithms and can lead to inefficient learning systems. To help fill this critical void, we introduced the GraphLab abstraction which naturally expresses asynchronous, dynamic, graph-parallel computation while ensuring data consistency and achieving a high degree of parallel performance in the shared-memory setting. In this paper, we extend the GraphLab framework to the substantially more challenging distributed setting while preserving strong data consistency guarantees. We develop graph based extensions to pipelined locking and data versioning to reduce network congestion and mitigate the effect of network latency. We also introduce fault tolerance to the GraphLab abstraction using the classic Chandy-Lamport snapshot algorithm and demonstrate how it can be easily implemented by exploiting the GraphLab abstraction itself. Finally, we evaluate our distributed implementation of the GraphLab abstraction on a large Amazon EC2 deployment and show 1-2 orders of magnitude performance gains over Hadoop-based implementations.</div></div><div id="vldb2012_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{vldb2012,
+ abstract = {While high-level data parallel frameworks, like MapReduce, simplify the design and implementation of large-scale data processing systems, they do not naturally or efficiently support many important data mining and machine learning algorithms and can lead to inefficient learning systems. To help fill this critical void, we introduced the GraphLab abstraction which naturally expresses asynchronous, dynamic, graph-parallel computation while ensuring data consistency and achieving a high degree of parallel performance in the shared-memory setting. In this paper, we extend the GraphLab framework to the substantially more challenging distributed setting while preserving strong data consistency guarantees. We develop graph based extensions to pipelined locking and data versioning to reduce network congestion and mitigate the effect of network latency. We also introduce fault tolerance to the GraphLab abstraction using the classic Chandy-Lamport snapshot algorithm and demonstrate how it can be easily implemented by exploiting the GraphLab abstraction itself. Finally, we evaluate our distributed implementation of the GraphLab abstraction on a large Amazon EC2 deployment and show 1-2 orders of magnitude performance gains over Hadoop-based implementations.},
+ author = {Yucheng Low AND Joseph E. Gonzalez AND Aapo Kyrola AND Danny Bickson AND Carlos Guestrin AND Joseph M. Hellerstein},
+ booktitle = {Proceedings of Very Large Data Bases (PVLDB)},
+ keywords = {peerrev},
+ month = {8},
+ title = {Distributed GraphLab: A Framework for Machine Learning and Data Mining in the Cloud.},
+ url = {https://arxiv.org/abs/1204.6078},
+ year = {2012}
+}
+</code></pre></div></div>
+</div></div>
 
-* Joseph Gonzalez, Yucheng Low, Arthur Gretton, Carlos
-Guestrin (2011). "<b>Parallel Gibbs Sampling: From Colored
-Fields to Thin Junction Trees</b>."
-<i>In Artificial Intelligence and Statistics (AISTATS)</i>.
-[<a href="http://www.select.cs.cmu.edu/code">code release</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/scripts/papers.cgi?Gonzalez+al:aistatspgibbs">abs/bib</a>]
-[<a
-  href="http://www.select.cs.cmu.edu/publications/paperdir/aistats2011-gonzalez-low-gretton-guestrin.pdf">pdf</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/paperdir/aistats2011-gonzalez-low-gretton-guestrin.pptx">pptx</a>]
+<div id="osdi12" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Joseph E. Gonzalez</li>
+	<li>Yucheng Low</li>
+	<li>Haijie Gu</li>
+	<li>Danny Bickson</li>
+	<li>Carlos Guestrin</li>
+</ul>
+</div>
+<div class="title">PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs</div><div class="venue">OSDI '12</div>
+<div class="year">2012</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#osdi12_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#osdi12_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://www.usenix.org/system/files/conference/osdi12/osdi12-final-167.pdf">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="osdi12_abs" class="collapse abstract"><div class="card card-body">Large-scale graph-structured computation is central to tasks ranging from targeted advertising to natural language processing and has led to the development of several graph-parallel abstractions including Pregel and GraphLab. However, the natural graphs commonly found in the real-world have highly skewed power-law degree distributions, which challenge the assumptions made by these abstractions, limiting performance and scalability.
 
+In this paper, we characterize the challenges of computation on natural graphs in the context of existing graphparallel abstractions. We then introduce the PowerGraph abstraction which exploits the internal structure of graph programs to address these challenges. Leveraging the PowerGraph abstraction we introduce a new approach to distributed graph placement and representation that exploits the structure of power-law graphs. We provide a detailed analysis and experimental evaluation comparing PowerGraph to two popular graph-parallel systems. Finally, we describe three different implementation strategies for PowerGraph and discuss their relative merits with empirical evaluations on large-scale real-world problems demonstrating order of magnitude gains.
+</div></div><div id="osdi12_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{osdi12,
+ abstract = {Large-scale graph-structured computation is central to tasks ranging from targeted advertising to natural language processing and has led to the development of several graph-parallel abstractions including Pregel and GraphLab. However, the natural graphs commonly found in the real-world have highly skewed power-law degree distributions, which challenge the assumptions made by these abstractions, limiting performance and scalability.
 
-* Yucheng Low, Joseph Gonzalez, Aapo Kyrola, Danny Bickson, Carlos
-Guestrin, Joseph M. Hellerstein
-(2010). "<b>GraphLab: A New Parallel Framework for Machine Learning</b>."
-<i>Conference on Uncertainty in Artificial Intelligence (UAI)</i>.
-[<a href="http://www.graphlab.ml.cmu.edu">code release</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/scripts/papers.cgi?Low+al:uai10graphlab">abs/bib</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/paperdir/uai2010-low-gonzalez-kyrola-bickson-guestrin-hellerstein.pdf">pdf</a>]
+In this paper, we characterize the challenges of computation on natural graphs in the context of existing graphparallel abstractions. We then introduce the PowerGraph abstraction which exploits the internal structure of graph programs to address these challenges. Leveraging the PowerGraph abstraction we introduce a new approach to distributed graph placement and representation that exploits the structure of power-law graphs. We provide a detailed analysis and experimental evaluation comparing PowerGraph to two popular graph-parallel systems. Finally, we describe three different implementation strategies for PowerGraph and discuss their relative merits with empirical evaluations on large-scale real-world problems demonstrating order of magnitude gains.
+},
+ author = {Joseph E. Gonzalez and Yucheng Low and Haijie Gu and Danny Bickson and Carlos Guestrin},
+ booktitle = { {OSDI} '12},
+ keywords = {peerrev},
+ title = {PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs},
+ url = {https://www.usenix.org/system/files/conference/osdi12/osdi12-final-167.pdf},
+ year = {2012}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="wsdm2012" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Amr Ahmed</li>
+	<li>Mohamed Aly</li>
+	<li>Joseph Gonzalez</li>
+	<li>Shravan Narayanamurthy</li>
+	<li>Alex Smola</li>
+</ul>
+</div>
+<div class="title">Scalable Inference in Latent Variable Models</div><div class="venue">Conference on Web Search and Data Mining (WSDM)</div>
+<div class="year">2012</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#wsdm2012_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#wsdm2012_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://www.cs.cmu.edu/~jegonzal/papers/ahmed_scalable_inference_in_latent_variable_models.pdf">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="wsdm2012_abs" class="collapse abstract"><div class="card card-body">Latent variable techniques are pivotal in tasks ranging from predicting user click patterns and targeting ads to organizing the news and managing user generated content. Latent variable techniques like topic modeling, clustering, and subspace estimation provide substantial insight into the latent structure of complex data with little or no external guidance making them ideal for reasoning about large-scale, rapidly evolving datasets. Unfortunately, due to the data dependencies and global state introduced by latent variables and the iterative nature of latent variable inference, latent-variable techniques are often prohibitively expensive to apply to large-scale, streaming datasets.
 
-* Joseph Gonzalez, Yucheng Low, Carlos Guestrin (2010). "<b>Parallel Inference on Large Factor Graphs</b>."
-Book chapter in <i>Scalable MachineLearning</i>.
+In this paper we present a scalable parallel framework for efficient inference in latent variable models over streaming web-scale data. Our framework addresses three key challenges: 1) synchronizing the global state which includes global latent variables (e.g., cluster centers and dictionaries); 2) efficiently storing and retrieving the large local state which includes the data-points and their corresponding latent variables (e.g., cluster membership); and 3) sequentially incorporating streaming data (e.g., the news). We address these challenges by introducing: 1) a novel delta-based aggregation system with a bandwidth-efficient communication protocol; 2) schedule-aware out-of-core storage; and 3) approximate forward sampling to rapidly incorporate new data. We demonstrate state-of-the-art performance of our framework by easily tackling datasets two orders of magnitude larger than those addressed by the current state-of-the-art. Furthermore, we provide an optimized and easily customizable open-source implementation of the framework</div></div><div id="wsdm2012_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{wsdm2012,
+ abstract = {Latent variable techniques are pivotal in tasks ranging from predicting user click patterns and targeting ads to organizing the news and managing user generated content. Latent variable techniques like topic modeling, clustering, and subspace estimation provide substantial insight into the latent structure of complex data with little or no external guidance making them ideal for reasoning about large-scale, rapidly evolving datasets. Unfortunately, due to the data dependencies and global state introduced by latent variables and the iterative nature of latent variable inference, latent-variable techniques are often prohibitively expensive to apply to large-scale, streaming datasets.
 
+In this paper we present a scalable parallel framework for efficient inference in latent variable models over streaming web-scale data. Our framework addresses three key challenges: 1) synchronizing the global state which includes global latent variables (e.g., cluster centers and dictionaries); 2) efficiently storing and retrieving the large local state which includes the data-points and their corresponding latent variables (e.g., cluster membership); and 3) sequentially incorporating streaming data (e.g., the news). We address these challenges by introducing: 1) a novel delta-based aggregation system with a bandwidth-efficient communication protocol; 2) schedule-aware out-of-core storage; and 3) approximate forward sampling to rapidly incorporate new data. We demonstrate state-of-the-art performance of our framework by easily tackling datasets two orders of magnitude larger than those addressed by the current state-of-the-art. Furthermore, we provide an optimized and easily customizable open-source implementation of the framework},
+ author = {Amr Ahmed and Mohamed Aly and Joseph Gonzalez and Shravan Narayanamurthy and Alex Smola},
+ booktitle = {Conference on Web Search and Data Mining (WSDM)},
+ keywords = {peerrev},
+ title = {Scalable Inference in Latent Variable Models},
+ url = {http://www.cs.cmu.edu/~jegonzal/papers/ahmed_scalable_inference_in_latent_variable_models.pdf},
+ year = {2012}
+}
+</code></pre></div></div>
+</div></div>
 
-* Joseph Gonzalez, Yucheng Low, Carlos Guestrin, David O`Hallaron
-(2009). "<b>Distributed Parallel Inference on Large Factor Graphs</b>."
-<i>Conference on Uncertainty in Artificial Intelligence (UAI)</i>.
-[<a href="http://www.select.cs.cmu.edu/publications/scripts/papers.cgi?Gonzalez+al:uai09paraml">abs/bib</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/paperdir/uai2009-gonzalez-low-guestrin-ohallaron.pdf">pdf</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/paperdir/uai2009-gonzalez-low-guestrin-ohallaron.pptx">pptx</a>]
+<div id="aistats2011" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Joseph E. Gonzalez</li>
+	<li>Yucheng Low</li>
+	<li>Arthur Gretton</li>
+	<li>Carlos Guestrin</li>
+</ul>
+</div>
+<div class="title">Parallel Gibbs Sampling: From Colored Fields to Thin Junction Trees</div><div class="venue">Artificial Intelligence and Statistics (AISTATS)</div>
+<div class="year">2011</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#aistats2011_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#aistats2011_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://proceedings.mlr.press/v15/gonzalez11a.html">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="aistats2011_abs" class="collapse abstract"><div class="card card-body">We explore the task of constructing a parallel Gibbs sampler, to both improve mixing and the exploration of high likelihood states. Recent work in parallel Gibbs sampling has focused on update schedules which do not guarantee convergence to the intended stationary distribution. In this work, we propose two methods to construct parallel Gibbs samplers guaranteed to draw from the targeted distribution. The first method, called the Chromatic sampler, uses graph coloring to construct a direct parallelization of the classic sequential scan Gibbs sampler. In the case of 2-colorable models we relate the Chromatic sampler to the Synchronous Gibbs sampler (which draws all variables simultaneously in parallel), and reveal new ergodic properties of Synchronous Gibbs chains. Our second method, the Splash sampler, is a complementary strategy which can be used when the variables are tightly coupled. This constructs and samples multiple blocks in parallel, using a novel locking protocol and an iterative junction tree generation algorithm. We further improve the Splash sampler through adaptive tree construction. We demonstrate the benefits of our two sampling algorithms on large synthetic and real-world models using a 32 processor multi-core system.</div></div><div id="aistats2011_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{aistats2011,
+ abstract = {We explore the task of constructing a parallel Gibbs sampler, to both improve mixing and the exploration of high likelihood states. Recent work in parallel Gibbs sampling has focused on update schedules which do not guarantee convergence to the intended stationary distribution. In this work, we propose two methods to construct parallel Gibbs samplers guaranteed to draw from the targeted distribution. The first method, called the Chromatic sampler, uses graph coloring to construct a direct parallelization of the classic sequential scan Gibbs sampler. In the case of 2-colorable models we relate the Chromatic sampler to the Synchronous Gibbs sampler (which draws all variables simultaneously in parallel), and reveal new ergodic properties of Synchronous Gibbs chains. Our second method, the Splash sampler, is a complementary strategy which can be used when the variables are tightly coupled. This constructs and samples multiple blocks in parallel, using a novel locking protocol and an iterative junction tree generation algorithm. We further improve the Splash sampler through adaptive tree construction. We demonstrate the benefits of our two sampling algorithms on large synthetic and real-world models using a 32 processor multi-core system.},
+ author = {Joseph E. Gonzalez and Yucheng Low and Arthur Gretton and Carlos Guestrin},
+ booktitle = {Artificial Intelligence and Statistics (AISTATS)},
+ keywords = {peerrev},
+ month = {5},
+ title = {Parallel Gibbs Sampling: From Colored Fields to Thin Junction Trees},
+ url = {http://proceedings.mlr.press/v15/gonzalez11a.html},
+ year = {2011}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="uai2010" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Yucheng Low</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Aapo Kyrola</li>
+	<li>Daniel Bickson</li>
+	<li>Carlos Guestrin</li>
+	<li>Joseph M. Hellerstein</li>
+</ul>
+</div>
+<div class="title">GraphLab: A New Parallel Framework for Machine Learning</div><div class="venue">Conference on Uncertainty in Artificial Intelligence (UAI)</div>
+<div class="year">2010</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#uai2010_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#uai2010_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1006.4990">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="uai2010_abs" class="collapse abstract"><div class="card card-body">Designing and implementing efficient, provably correct parallel machine learning (ML) algorithms is challenging. Existing high-level parallel abstractions like MapReduce are insufficiently expressive while low-level tools like MPI and Pthreads leave ML experts repeatedly solving the same design challenges. By targeting common patterns in ML, we developed GraphLab, which improves upon abstractions like MapReduce by compactly expressing asynchronous iterative algorithms with sparse computational dependencies while ensuring data consistency and achieving a high degree of parallel performance. We demonstrate the expressiveness of the GraphLab framework by designing and implementing parallel versions of belief propagation, Gibbs sampling, Co-EM, Lasso and Compressed Sensing. We show that using GraphLab we can achieve excellent parallel performance on large scale real-world problems.</div></div><div id="uai2010_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{uai2010,
+ abstract = {Designing and implementing efficient, provably correct parallel machine learning (ML) algorithms is challenging. Existing high-level parallel abstractions like MapReduce are insufficiently expressive while low-level tools like MPI and Pthreads leave ML experts repeatedly solving the same design challenges. By targeting common patterns in ML, we developed GraphLab, which improves upon abstractions like MapReduce by compactly expressing asynchronous iterative algorithms with sparse computational dependencies while ensuring data consistency and achieving a high degree of parallel performance. We demonstrate the expressiveness of the GraphLab framework by designing and implementing parallel versions of belief propagation, Gibbs sampling, Co-EM, Lasso and Compressed Sensing. We show that using GraphLab we can achieve excellent parallel performance on large scale real-world problems.},
+ author = {Yucheng Low and Joseph E. Gonzalez and Aapo Kyrola and Daniel Bickson and Carlos Guestrin and Joseph M. Hellerstein},
+ booktitle = {Conference on Uncertainty in Artificial Intelligence (UAI)},
+ keywords = {peerrev},
+ title = {GraphLab: A New Parallel Framework for Machine Learning},
+ url = {https://arxiv.org/abs/1006.4990},
+ year = {2010}
+}
+</code></pre></div></div>
+</div></div>
 
+<div id="uai2009" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Joseph E. Gonzalez</li>
+	<li>Yucheng Low</li>
+	<li>Carlos Guestrin</li>
+	<li>David O'Hallaron</li>
+</ul>
+</div>
+<div class="title">Distributed Parallel Inference on Large Factor Graphs</div><div class="venue">Conference on Uncertainty in Artificial Intelligence (UAI)</div>
+<div class="year">2009</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#uai2009_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#uai2009_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/pdf/1205.2645.pdf">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="uai2009_abs" class="collapse abstract"><div class="card card-body">As computer clusters become more common and the size of the problems encountered in the field of AI grows, there is an increasing demand for efficient parallel inference algorithms. We consider the problem of parallel inference on large factor graphs in the distributed memory setting of computer clusters. We develop a new efficient parallel inference algorithm, DBRSplash, which incorporates over-segmented graph partitioning, belief residual scheduling, and uniform work Splash operations. We empirically evaluate the DBRSplash algorithm on a 120 processor cluster and demonstrate linear to super-linear performance gains on large factor graph models.</div></div><div id="uai2009_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{uai2009,
+ abstract = {As computer clusters become more common and the size of the problems encountered in the field of AI grows, there is an increasing demand for efficient parallel inference algorithms. We consider the problem of parallel inference on large factor graphs in the distributed memory setting of computer clusters. We develop a new efficient parallel inference algorithm, DBRSplash, which incorporates over-segmented graph partitioning, belief residual scheduling, and uniform work Splash operations. We empirically evaluate the DBRSplash algorithm on a 120 processor cluster and demonstrate linear to super-linear performance gains on large factor graph models.},
+ author = {Joseph E. Gonzalez and Yucheng Low and Carlos Guestrin and David O'Hallaron},
+ booktitle = {Conference on Uncertainty in Artificial Intelligence (UAI)},
+ keywords = {peerrev},
+ month = {7},
+ title = {Distributed Parallel Inference on Large Factor Graphs},
+ url = {https://arxiv.org/pdf/1205.2645.pdf},
+ year = {2009}
+}
+</code></pre></div></div>
+</div></div>
 
-* Joseph Gonzalez, Yucheng Low, and Carlos Guestrin
-(2009). "<b>Residual Splash for Optimally Parallelizing Belief
-Propagation</b>." <i>In Artificial Intelligence and Statistics (AISTATS)</i>.
-[<a href="http://www.select.cs.cmu.edu/publications/scripts/papers.cgi?Gonzalez+al:aistats09paraml">abs/bib</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/paperdir/aistats2009-gonzalez-low-guestrin.pdf">pdf</a>]
-[<a href="http://www.select.cs.cmu.edu/publications/paperdir/aistats2009-gonzalez-low-guestrin.pptx">pptx</a>]
+<div id="aistats2009" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Joseph E. Gonzalez</li>
+	<li>Yucheng Low</li>
+	<li>Carlos Guestrin</li>
+</ul>
+</div>
+<div class="title">Residual Splash for Optimally Parallelizing Belief Propagation</div><div class="venue">Artificial Intelligence and Statistics (AISTATS)</div>
+<div class="year">2009</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#aistats2009_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#aistats2009_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://proceedings.mlr.press/v5/gonzalez09a.html">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="aistats2009_abs" class="collapse abstract"><div class="card card-body">As computer architectures move towards parallelism we must build a new theoretical understanding of parallelism in machine learning. In this paper we focus on parallelizing message passing inference algorithms in graphical models. We develop a theoretical understanding of the limitations of parallelism in belief propagation and bound the optimal achievable running parallel performance on a certain class of graphical models. We demonstrate that the fully synchronous parallelization of belief propagation is highly inefficient. We provide a new parallel belief propagation which achieves optimal performance on a certain class of graphical models. Using two challenging real-world problems, we empirically evaluate the performance of our algorithm. On the real-world problems, we find that our new algorithm achieves near linear performance improvements and out performs alternative parallel belief propagation algorithms.</div></div><div id="aistats2009_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{aistats2009,
+ abstract = {As computer architectures move towards parallelism we must build a new theoretical understanding of parallelism in machine learning. In this paper we focus on parallelizing message passing inference algorithms in graphical models. We develop a theoretical understanding of the limitations of parallelism in belief propagation and bound the optimal achievable running parallel performance on a certain class of graphical models. We demonstrate that the fully synchronous parallelization of belief propagation is highly inefficient. We provide a new parallel belief propagation which achieves optimal performance on a certain class of graphical models. Using two challenging real-world problems, we empirically evaluate the performance of our algorithm. On the real-world problems, we find that our new algorithm achieves near linear performance improvements and out performs alternative parallel belief propagation algorithms.},
+ author = {Joseph E. Gonzalez and Yucheng Low and Carlos Guestrin},
+ booktitle = {Artificial Intelligence and Statistics (AISTATS)},
+ keywords = {peerrev},
+ month = {4},
+ title = {Residual Splash for Optimally Parallelizing Belief Propagation},
+ url = {http://proceedings.mlr.press/v5/gonzalez09a.html},
+ year = {2009}
+}
+</code></pre></div></div>
+</div></div>
 

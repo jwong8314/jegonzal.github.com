@@ -33,6 +33,92 @@ margin:-120px 0 0; /* negative fixed header height */
 
 
 
+
+
+.publication {
+
+  margin: 10px; 
+  margin-bottom: 20px; 
+
+}
+
+
+.publication .authors {
+  display: inline;
+}
+
+.publication .author {
+  display: inline;
+  list-style: none;
+  padding: 0px;
+}
+
+.publication .author li {
+  display: inline;
+}
+
+.publication .author li::after {
+  content: ", ";
+}
+
+.publication .author li:last-child::after {
+    content: ".  ";
+}
+
+.publication .title {
+  display: inline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.publication .title::before {
+  content: " \"";
+}
+
+.publication .title::after {
+  content: ".\" ";
+}
+
+.publication .venue {
+  display: inline;
+}
+
+.publication .venue::after {
+  content: ".";
+}
+
+
+.publication .year {
+  display: inline;
+}
+
+.publication .year::after {
+  content: ".";
+}
+
+
+.publication .links {
+  margin: 10px;
+
+}
+
+.publication .links ul {
+  display: inline;
+  list-style: none;
+}
+
+
+.publication .links li {
+  display: inline;
+}
+
+
+
+
+
+
+
+
 .required_reading::before { 
   /* content: "Required Reading"; */
 }
