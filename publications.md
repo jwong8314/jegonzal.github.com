@@ -163,6 +163,46 @@ order: 2
 </code></pre></div></div>
 </div></div>
 
+<div id="Jain18" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Samvit Jain and
+Xin Wang and
+Joseph Gonzalez</li>
+</ul>
+</div>
+<div class="title">Accel: A Corrective Fusion Network for Efficient Semantic Segmentation
+on Video</div><div class="venue">CoRR</div>
+<div class="year">2018</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1807.06667">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Jain18_abs" class="collapse abstract"><div class="card card-body">We present Accel, a novel semantic video segmentation system that achieves high accuracy at low inference cost by combining the predictions of two network branches: (1) a reference branch that extracts high-detail features on a reference keyframe, and warps these features forward using frame-to-frame optical flow estimates, and (2) an update branch that computes features of adjustable quality on the current frame, performing a temporal update at each video frame. The modularity of the update branch, where feature subnetworks of varying layer depth can be inserted (e.g. ResNet-18 to ResNet-101), enables operation over a new, state-of-the-art accuracy-throughput trade-off spectrum. Over this curve, Accel models achieve both higher accuracy and faster inference times than the closest comparable single-frame segmentation networks. In general, Accel significantly outperforms previous work on efficient semantic video segmentation, correcting warping-related error that compounds on datasets with complex dynamics. Accel is end-to-end trainable and highly modular: the reference network, the optical flow network, and the update network can each be selected independently, depending on application requirements, and then jointly fine-tuned. The result is a robust, general system for fast, high-accuracy semantic segmentation on video.</div></div><div id="Jain18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Jain18,
+ abstract = {We present Accel, a novel semantic video segmentation system that achieves high accuracy at low inference cost by combining the predictions of two network branches: (1) a reference branch that extracts high-detail features on a reference keyframe, and warps these features forward using frame-to-frame optical flow estimates, and (2) an update branch that computes features of adjustable quality on the current frame, performing a temporal update at each video frame. The modularity of the update branch, where feature subnetworks of varying layer depth can be inserted (e.g. ResNet-18 to ResNet-101), enables operation over a new, state-of-the-art accuracy-throughput trade-off spectrum. Over this curve, Accel models achieve both higher accuracy and faster inference times than the closest comparable single-frame segmentation networks. In general, Accel significantly outperforms previous work on efficient semantic video segmentation, correcting warping-related error that compounds on datasets with complex dynamics. Accel is end-to-end trainable and highly modular: the reference network, the optical flow network, and the update network can each be selected independently, depending on application requirements, and then jointly fine-tuned. The result is a robust, general system for fast, high-accuracy semantic segmentation on video.},
+ archiveprefix = {arXiv},
+ author = {Samvit Jain and
+Xin Wang and
+Joseph Gonzalez},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1807-06667},
+ eprint = {1807.06667},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ month = {11},
+ timestamp = {Mon, 13 Aug 2018 16:46:41 +0200},
+ title = {Accel: {A} Corrective Fusion Network for Efficient Semantic Segmentation
+on Video},
+ url = {http://arxiv.org/abs/1807.06667},
+ volume = {abs/1807.06667},
+ year = {2018}
+}
+</code></pre></div></div>
+</div></div>
+
 <div id="Crankshaw18" class="publication">
 <div class="summary"><div class="authors">
 <ul class="author">
@@ -243,42 +283,6 @@ In this paper we introduce InferLine, a system which efficiently provisions and 
  title = {On the Computational Inefficiency of Large Batch Sizes for Stochastic Gradient Descent},
  url = {http://arxiv.org/abs/1811.12941},
  volume = {abs/1811.12941},
- year = {2018}
-}
-</code></pre></div></div>
-</div></div>
-
-<div id="Jain18" class="publication">
-<div class="summary"><div class="authors">
-<ul class="author">
-	<li>Samvit Jain</li>
-	<li>Joseph E. Gonzalez</li>
-</ul>
-</div>
-<div class="title">Inter-BMV: Interpolation with Block Motion Vectors for Fast Semantic Segmentation on Video</div><div class="venue">CoRR</div>
-<div class="year">2018</div></div><div class="links">
-<ul>
-	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
-	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
-	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1810.04047">paper</a></li>
-</ul>
-</div>
-<div class="cards"><div id="Jain18_abs" class="collapse abstract"><div class="card card-body">Models optimized for accuracy on single images are often prohibitively slow to run on each frame in a video. Recent work exploits the use of optical flow to warp image features forward from select keyframes, as a means to conserve computation on video. This approach, however, achieves only limited speedup, even when optimized, due to the accuracy degradation introduced by repeated forward warping, and the inference cost of optical flow estimation. To address these problems, we propose a new scheme that propagates features using the block motion vectors (BMV) present in compressed video (e.g. H.264 codecs), instead of optical flow, and bi-directionally warps and fuses features from enclosing keyframes to capture scene context on each video frame. Our technique, interpolation-BMV, enables us to accurately estimate the features of intermediate frames, while keeping inference costs low. We evaluate our system on the CamVid and Cityscapes datasets, comparing to both a strong single-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20+ frames per second) on large images (e.g. 960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.</div></div><div id="Jain18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@article{Jain18,
- abstract = {Models optimized for accuracy on single images are often prohibitively slow to run on each frame in a video. Recent work exploits the use of optical flow to warp image features forward from select keyframes, as a means to conserve computation on video. This approach, however, achieves only limited speedup, even when optimized, due to the accuracy degradation introduced by repeated forward warping, and the inference cost of optical flow estimation. To address these problems, we propose a new scheme that propagates features using the block motion vectors (BMV) present in compressed video (e.g. H.264 codecs), instead of optical flow, and bi-directionally warps and fuses features from enclosing keyframes to capture scene context on each video frame. Our technique, interpolation-BMV, enables us to accurately estimate the features of intermediate frames, while keeping inference costs low. We evaluate our system on the CamVid and Cityscapes datasets, comparing to both a strong single-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20+ frames per second) on large images (e.g. 960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.},
- archiveprefix = {arXiv},
- author = {Samvit Jain and Joseph E. Gonzalez},
- bdsk-url-1 = {http://arxiv.org/abs/1810.04047},
- bibsource = {dblp computer science bibliography, https://dblp.org},
- biburl = {https://dblp.org/rec/bib/journals/corr/abs-1810-04047},
- eprint = {1810.04047},
- journal = {CoRR},
- keywords = {arxivpre},
- month = {10},
- timestamp = {Tue, 30 Oct 2018 20:39:56 +0100},
- title = {Inter-BMV: Interpolation with Block Motion Vectors for Fast Semantic Segmentation on Video},
- url = {http://arxiv.org/abs/1810.04047},
- volume = {abs/1810.04047},
  year = {2018}
 }
 </code></pre></div></div>
@@ -693,7 +697,7 @@ In this paper we introduce InferLine, a system which efficiently provisions and 
 </code></pre></div></div>
 </div></div>
 
-<div id="Samvit2018" class="publication">
+<div id="Jain18IWVS" class="publication">
 <div class="summary"><div class="authors">
 <ul class="author">
 	<li>Samvit Jain</li>
@@ -703,13 +707,13 @@ In this paper we introduce InferLine, a system which efficiently provisions and 
 <div class="title">Fast Semantic Segmentation on Video Using Block Motion-Based Feature Interpolation</div><div class="venue">The Third International Workshop on Video Segmentation (IWVS)</div>
 <div class="year">2018</div></div><div class="links">
 <ul>
-	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Samvit2018_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
-	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Samvit2018_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18IWVS_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18IWVS_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
 	<li><a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1803.07742">paper</a></li>
 </ul>
 </div>
-<div class="cards"><div id="Samvit2018_abs" class="collapse abstract"><div class="card card-body">Convolutional networks optimized for accuracy on challenging, dense prediction tasks are prohibitively slow to run on each frame in a video. The spatial similarity of nearby video frames, however, suggests opportunity to reuse computation. Existing work has explored basic feature reuse and feature warping based on optical flow, but has encountered limits to the speedup attainable with these techniques. In this paper, we present a new, two part approach to accelerating inference on video. First, we propose a fast feature propagation technique that utilizes the block motion vectors present in compressed video (e.g. H.264 codecs) to cheaply propagate features from frame to frame. Second, we develop a novel feature estimation scheme, termed feature interpolation, that fuses features propagated from enclosing keyframes to render accurate feature estimates, even at sparse keyframe frequencies. We evaluate our system on the Cityscapes and CamVid datasets, comparing to both a frame-by-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20.1 frames per second) on large images (960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.</div></div><div id="Samvit2018_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@inproceedings{Samvit2018,
+<div class="cards"><div id="Jain18IWVS_abs" class="collapse abstract"><div class="card card-body">Convolutional networks optimized for accuracy on challenging, dense prediction tasks are prohibitively slow to run on each frame in a video. The spatial similarity of nearby video frames, however, suggests opportunity to reuse computation. Existing work has explored basic feature reuse and feature warping based on optical flow, but has encountered limits to the speedup attainable with these techniques. In this paper, we present a new, two part approach to accelerating inference on video. First, we propose a fast feature propagation technique that utilizes the block motion vectors present in compressed video (e.g. H.264 codecs) to cheaply propagate features from frame to frame. Second, we develop a novel feature estimation scheme, termed feature interpolation, that fuses features propagated from enclosing keyframes to render accurate feature estimates, even at sparse keyframe frequencies. We evaluate our system on the Cityscapes and CamVid datasets, comparing to both a frame-by-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20.1 frames per second) on large images (960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.</div></div><div id="Jain18IWVS_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@inproceedings{Jain18IWVS,
  abstract = {Convolutional networks optimized for accuracy on challenging, dense prediction tasks are prohibitively slow to run on each frame in a video. The spatial similarity of nearby video frames, however, suggests opportunity to reuse computation. Existing work has explored basic feature reuse and feature warping based on optical flow, but has encountered limits to the speedup attainable with these techniques. In this paper, we present a new, two part approach to accelerating inference on video. First, we propose a fast feature propagation technique that utilizes the block motion vectors present in compressed video (e.g. H.264 codecs) to cheaply propagate features from frame to frame. Second, we develop a novel feature estimation scheme, termed feature interpolation, that fuses features propagated from enclosing keyframes to render accurate feature estimates, even at sparse keyframe frequencies. We evaluate our system on the Cityscapes and CamVid datasets, comparing to both a frame-by-frame baseline and related work. We find that we are able to substantially accelerate segmentation on video, achieving near real-time frame rates (20.1 frames per second) on large images (960 x 720 pixels), while maintaining competitive accuracy. This represents an improvement of almost 6x over the single-frame baseline and 2.5x over the fastest prior work.},
  author = {Samvit Jain and Joseph E. Gonzalez},
  bdsk-url-1 = {https://arxiv.org/abs/1803.07742},
