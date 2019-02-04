@@ -24,7 +24,7 @@ order: 2
 
   <li> <b>Office:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley CA 94720</li>
 
-  <li> <b>Office Hours:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a> Thursdays from 3:00PM to 5:00PM </li>
+  <li> <b>Office Hours:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a> Tuesdays from 4:00PM to 5:00PM </li>
 
 
   <li> <b>Email:</b>
