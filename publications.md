@@ -410,6 +410,48 @@ In this paper we introduce InferLine, a system which efficiently provisions and 
 # Publications
 
 
+<div id="Jonas2019" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Eric Jonas</li>
+	<li>Johann Schleier-Smith</li>
+	<li>Vikram Sreekanti</li>
+	<li>Chia-Che Tsai</li>
+	<li>Anurag Khandelwal</li>
+	<li>Qifan Pu</li>
+	<li>Vaishaal Shankar</li>
+	<li>Joao Menezes Carreira</li>
+	<li>Karl Krauth</li>
+	<li>Neeraja Yadwadkar</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Raluca Ada Popa</li>
+	<li>Ion Stoica</li>
+	<li>David A. Patterson</li>
+</ul>
+</div>
+<div class="title">Cloud Programming Simplified: A Berkeley View on Serverless Computing</div><div class="venue">EECS Department, University of California, Berkeley Technical Report</div>
+<div class="year">2019</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jonas2019_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jonas2019_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.html">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Jonas2019_abs" class="collapse abstract"><div class="card card-body">Serverless cloud computing handles virtually all the system administration operations needed to make it easier for programmers to use the cloud. It provides an interface that greatly simplifies cloud programming, and represents an evolution that parallels the transition from assembly language to high-level programming languages. This paper gives a quick history of cloud computing, including an accounting of the predictions of the 2009 Berkeley View of Cloud Computing paper, explains the motivation for serverless computing, describes applications that stretch the current limits of serverless, and then lists obstacles and research opportunities required for serverless computing to fulfill its full potential. Just as the 2009 paper identified challenges for the cloud and predicted they would be addressed and that cloud use would accelerate, we predict these issues are solvable and that serverless computing will grow to dominate the future of cloud computing.</div></div><div id="Jonas2019_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@techreport{Jonas2019,
+ abstract = {Serverless cloud computing handles virtually all the system administration operations needed to make it easier for programmers to use the cloud. It provides an interface that greatly simplifies cloud programming, and represents an evolution that parallels the transition from assembly language to high-level programming languages. This paper gives a quick history of cloud computing, including an accounting of the predictions of the 2009 Berkeley View of Cloud Computing paper, explains the motivation for serverless computing, describes applications that stretch the current limits of serverless, and then lists obstacles and research opportunities required for serverless computing to fulfill its full potential. Just as the 2009 paper identified challenges for the cloud and predicted they would be addressed and that cloud use would accelerate, we predict these issues are solvable and that serverless computing will grow to dominate the future of cloud computing.},
+ author = {Eric Jonas and Johann Schleier-Smith and Vikram Sreekanti and Chia-Che Tsai  and Anurag Khandelwal and Qifan Pu and Vaishaal Shankar and Joao Menezes Carreira and Karl Krauth and Neeraja Yadwadkar and Joseph E. Gonzalez and Raluca Ada Popa  and Ion Stoica and David A. Patterson },
+ institution = {EECS Department, University of California, Berkeley},
+ keywords = {techreport},
+ month = {2},
+ number = {UCB/EECS-2019-3},
+ title = {Cloud Programming Simplified: A Berkeley View on Serverless Computing},
+ url = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.html},
+ year = {2019}
+}
+</code></pre></div></div>
+</div></div>
+
 <div id="Hotmobil2019" class="publication">
 <div class="summary"><div class="authors">
 <ul class="author">
@@ -473,6 +515,37 @@ In this paper we introduce InferLine, a system which efficiently provisions and 
  month = {1},
  title = {Serverless Computing: One Step Forward, Two Steps Back},
  url = {https://arxiv.org/abs/1812.03651},
+ year = {2019}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="Wenting19" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Wenting Zheng</li>
+	<li>Raluca Ada Popa</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Ion Stoica</li>
+</ul>
+</div>
+<div class="title">Helen: Maliciously Secure Coopetitive Learning for Linear Models.</div><div class="venue">IEEE Symposium on Security and Privacy</div>
+<div class="year">2019</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wenting19_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wenting19_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="https://people.eecs.berkeley.edu/~wzheng/helen_ieeesp.pdf">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Wenting19_abs" class="collapse abstract"><div class="card card-body">Many organizations wish to collaboratively train machine learning models on their combined datasets for a common benefit (e.g., better medical research, or fraud detection). However, they often cannot share their plaintext datasets due to privacy concerns and/or business competition. In this paper, we design and build Helen, a system that allows multiple parties to train a linear model without revealing their data, a setting we call coopetitive learning. Compared to prior secure training systems, Helen protects against a much stronger adversary who is malicious and can compromise m−1 out of m parties. Our evaluation shows that Helen can achieve up to five orders of magnitude of performance improvement when compared to training using an existing state-of-the-art secure multi-party computation framework.</div></div><div id="Wenting19_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@proceedings{Wenting19,
+ abstract = {Many organizations wish to collaboratively train machine learning models on their combined datasets for a common benefit (e.g., better medical research, or fraud detection). However, they often cannot share their plaintext datasets due to privacy concerns and/or business competition. In this paper, we design and build Helen, a system that allows multiple parties to train a linear model without revealing their data, a setting we call coopetitive learning. Compared to prior secure training systems, Helen protects against a much stronger adversary who is malicious and can compromise m−1 out of m parties. Our evaluation shows that Helen can achieve up to five orders of magnitude of performance improvement when compared to training using an existing state-of-the-art secure multi-party computation framework.},
+ author = {Wenting Zheng and Raluca Ada Popa and Joseph E. Gonzalez and Ion Stoica},
+ booktitle = { {IEEE} Symposium on Security and Privacy},
+ keywords = {peerrev},
+ publisher = { {IEEE} Computer Society},
+ title = {Helen: Maliciously Secure Coopetitive Learning for Linear Models.},
+ url = {https://people.eecs.berkeley.edu/~wzheng/helen_ieeesp.pdf},
  year = {2019}
 }
 </code></pre></div></div>

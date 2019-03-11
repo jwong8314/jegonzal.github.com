@@ -9,15 +9,16 @@ order: 2
 
 <script src="assets/scripts.js"></script>
 
-<div>
-<div style="float:right;padding:12px">
+
+<div style="overflow: hidden;">
+
+<div style="float:left;padding:12px">
 <img src="{{ site.baseurl }}/assets/jegonzal.jpg">
 </div>
 
+<div>
 <h1> Joseph E. Gonzalez </h1>
-
 <ul style="list-style-type:none">
-
 <li> Assistant Professor, UC Berkeley </li>
 
   <li> <a href="http://eecs.berkeley.edu">Department of Electrical Engineering and Computer Science</a> </li>
@@ -33,11 +34,13 @@ order: 2
 
   <li> <b>Twitter:</b> <a href="https://twitter.com/mejoeyg">@mejoeyg</a>,  someday I might start tweeting.</li>
   </ul>
+</div>
 
 </div>
 
 
 I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley and a founding member of the new UC Berkeley [RISE Lab](http://rise.cs.berkeley.edu).  My [research interests](research) are at the intersection of machine learning and data systems and my students are working on a wide range of projects including:
+
 
 * real-time model serving 
 * dynamic deep neural networks for transfer learning

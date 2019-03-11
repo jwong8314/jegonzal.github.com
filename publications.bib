@@ -6,7 +6,29 @@
 
 %% Saved with string encoding Unicode (UTF-8) 
 
+@proceedings{Wenting19,
+	Author = {Wenting Zheng and Raluca Ada Popa and Joseph E. Gonzalez and Ion Stoica},
+	Title = {Helen: Maliciously Secure Coopetitive Learning for Linear Models.},
+	Url = {https://people.eecs.berkeley.edu/~wzheng/helen_ieeesp.pdf},
+	Keywords={peerrev},
+	Abstract={Many organizations wish to collaboratively train machine learning models on their combined datasets for a common benefit (e.g., better medical research, or fraud detection). However, they often cannot share their plaintext datasets due to privacy concerns and/or business competition. In this paper, we design and build Helen, a system that allows multiple parties to train a linear model without revealing their data, a setting we call coopetitive learning. Compared to prior secure training systems, Helen protects against a much stronger adversary who is malicious and can compromise m−1 out of m parties. Our evaluation shows that Helen can achieve up to five orders of magnitude of performance improvement when compared to training using an existing state-of-the-art secure multi-party computation framework.},
+	publisher = {{IEEE} Computer Society},
+	booktitle = {{IEEE} Symposium on Security and Privacy},
+  	year      = {2019},
+}
 
+
+@techreport{Jonas2019,
+    Author = {Eric Jonas and Johann Schleier-Smith and Vikram Sreekanti and Chia-Che Tsai  and Anurag Khandelwal and Qifan Pu and Vaishaal Shankar and Joao Menezes Carreira and Karl Krauth and Neeraja Yadwadkar and Joseph E. Gonzalez and Raluca Ada Popa  and Ion Stoica and David A. Patterson },
+    Title = {Cloud Programming Simplified: A Berkeley View on Serverless Computing},
+    Institution = {EECS Department, University of California, Berkeley},
+    Year = {2019},
+    Month = {2},
+    URL = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.html},
+    Number = {UCB/EECS-2019-3},
+    Keywords = {techreport},
+    Abstract = {Serverless cloud computing handles virtually all the system administration operations needed to make it easier for programmers to use the cloud. It provides an interface that greatly simplifies cloud programming, and represents an evolution that parallels the transition from assembly language to high-level programming languages. This paper gives a quick history of cloud computing, including an accounting of the predictions of the 2009 Berkeley View of Cloud Computing paper, explains the motivation for serverless computing, describes applications that stretch the current limits of serverless, and then lists obstacles and research opportunities required for serverless computing to fulfill its full potential. Just as the 2009 paper identified challenges for the cloud and predicted they would be addressed and that cloud use would accelerate, we predict these issues are solvable and that serverless computing will grow to dominate the future of cloud computing.}
+}
 
 @article{Golmant18,
 	Abstract = {Increasing the mini-batch size for stochastic gradient descent offers significant opportunities to reduce wall-clock training time, but there are a variety of theoretical and systems challenges that impede the widespread success of this technique. We investigate these issues, with an emphasis on time to convergence and total computational cost, through an extensive empirical analysis of network training across several architectures and problem domains, including image classification, image segmentation, and language modeling. Although it is common practice to increase the batch size in order to fully exploit available computational resources, we find a substantially more nuanced picture. Our main finding is that across a wide range of network architectures and problem domains, increasing the batch size beyond a certain point yields no decrease in wall-clock time to convergence for \emph{either} train or test loss. This batch size is usually substantially below the capacity of current systems. We show that popular training strategies for large batch size optimization begin to fail before we can populate all available compute resources, and we show that the point at which these methods break down depends more on attributes like model architecture and data complexity than it does directly on the size of the dataset.},
