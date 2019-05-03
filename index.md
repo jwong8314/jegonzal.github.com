@@ -48,7 +48,7 @@ I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS d
 * new cryptographic primitives for federated learning
 * frameworks for deep reinforcement learning and parameter tuning
 * explainable reinforcement learning
-* software platforms for autonomous 
+* software platforms for autonomous vehicles
 
 <b>Co-founder:</b> I am also co-founder of <a href="http://Turi.com">Turi Inc.</a> (formerly GraphLab), which was based on my work on the <a href="https://github.com/dato-code/PowerGraph">GraphLab and PowerGraph Systems</a>.  Turi was recently <a href="http://www.geekwire.com/2016/exclusive-apple-acquires-turi-major-exit-seattle-based-machine-learning-ai-startup/">acquired</a> by Apple Inc.
 
