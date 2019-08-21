@@ -9,16 +9,16 @@ order: 3
 
 
 
-# [AI-Sys Graduate Seminar (294-159) Spring 2019](https://ucbrise.github.io/cs294-ai-sys-sp19/). 
+# [AI-Sys Graduate Seminar (294-162) FA 2019](https://ucbrise.github.io/cs294-ai-sys-fa19/). 
 
-[Course Website](https://ucbrise.github.io/cs294-ai-sys-sp19/)
+[Course Website](https://ucbrise.github.io/cs294-ai-sys-fa19/)
 
 
 ### Description
 
 The recent success of AI has been in large part due in part to advances in hardware and software systems. These systems have enabled training increasingly complex models on ever larger datasets. In the process, these systems have also simplified model development, enabling the rapid growth in the machine learning community. These new hardware and software systems include a new generation of GPUs and hardware accelerators (e.g., TPU and Nervana), open source frameworks such as Theano, TensorFlow, PyTorch, MXNet, Apache Spark, Clipper, Horovod, and Ray, and a myriad of systems deployed internally at companies just to name a few. At the same time, we are witnessing a flurry of ML/RL applications to improve hardware and system designs, job scheduling, program synthesis, and circuit layouts.
 
-In this course, we will describe the latest trends in systems designs to better support the next generation of AI applications, and applications of AI to optimize the architecture and the performance of systems. The format of this course will be a mix of lectures, seminar-style discussions, and student presentations. Students will be responsible for paper readings, and completing a hands-on project. Readings will be selected from recent conference proceedings and journals. For projects, we will strongly encourage teams that contains both AI and systems students.
+In this course, we will describe the latest trends in systems designs to better support the next generation of AI applications, and applications of AI to optimize the architecture and the performance of systems. The format of this course will be a mix of lectures, in class paper review discussions, and student presentations. Students will be responsible for paper readings, and completing a hands-on project. For projects, we will strongly encourage teams that contains both AI and systems students.
 
 
 ---
@@ -26,6 +26,10 @@ In this course, we will describe the latest trends in systems designs to better 
 ## Previous Graduate Seminars
 
 When time is available I teach graduate seminars in machine learning and systems.  
+
+# [AI-Sys Graduate Seminar (294-159) Spring 2019](https://ucbrise.github.io/cs294-ai-sys-sp19/). 
+
+	This was the first of my AI-Sys graduate seminars co-taught with Ion Stoica.  Here we focused on interesting recent papers in AI and Systems that are relevant to the AI-Systems community. 
 
 
 1.  [CS294-20: RISE Lab Class](https://ucbrise.github.io/cs294-rise-fa16) a graduate seminar covering the research topics in the new UC Berkeley RISE Lab.  This class was co-taught with Joe Hellerstein, Raluca Ada Popa, and Ion Stoica.
