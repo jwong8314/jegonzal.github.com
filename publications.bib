@@ -1,34 +1,126 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Joseph E. Gonzalez at 2019-01-21 12:49:35 -0800 
+%% Created for Joseph E. Gonzalez at 2019-10-03 21:43:46 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
+
+
+@article{Balakrishna19,
+	Archiveprefix = {arxivpre},
+	Author = {Ashwin Balakrishna and Brijen Thananjeyan and Jonathan Lee and Arsh Zahed and Felix Li and Joseph E. Gonzalez and Ken Goldberg},
+	Bibsource = {dblp computer science bibliography, https://dblp.org},
+	Biburl = {https://dblp.org/rec/bib/journals/corr/abs-1907-03423},
+	Eprint = {1907.03423},
+	Journal = {CoRR},
+	Keywords = {preprint},
+	Timestamp = {Wed, 17 Jul 2019 10:27:36 +0200},
+	Title = {On-Policy Robot Imitation Learning from a Converging Supervisor},
+	Url = {http://arxiv.org/abs/1907.03423},
+	Volume = {abs/1907.03423},
+	Year = {2019},
+	Bdsk-Url-1 = {http://arxiv.org/abs/1907.03423}}
+
+@inproceedings{SaxenaSigcommNetAI,
+	Abstract = {Cellular networks dynamically adjust the transmission parameters for a wireless link in response to its time-varying channel state. This is known as link adaptation, where the typical goal is to maximize the link throughput. State-of-the-art outer loop link adaptation (OLLA) selects the optimal transmission parameters based on an approximate, offline, model of the wireless link. Further, OLLA refines the offline model by dynamically compensating any deviations from the observed link performance. However, in practice, OLLA suffers from slow convergence and a sub-optimal link throughput. In this paper, we propose a link adaptation approach that overcomes the shortcomings of OLLA through a novel learning scheme. Our approach relies on contextual multi-armed bandits (MAB), where the context vector is composed of the instantaneous wireless channel state along with side information about the link. For a given context, our approach learns the success probability for each of the available transmission parameters, which is then exploited to select the throughput-maximizing parameters. Through numerical experiments, we show that our approach converges faster than OLLA and achieves a higher steady-state link throughput. For frequent and infrequent channel reports respectively, our scheme outperforms OLLA by 15% and 25% in terms of the steady-state link throughput.},
+	Author = {Vidit Saxena and Joakim Jald{\'{e}}n and Joseph E. Gonzalez and Mats Bengtsson and Hugo M. Tullberg and Ion Stoica},
+	Bibsource = {dblp computer science bibliography, https://dblp.org},
+	Biburl = {https://dblp.org/rec/bib/conf/sigcomm/SaxenaJGBTS19},
+	Booktitle = {Proceedings of the 2019 Workshop on Network Meets {AI} {\&} ML, NetAI at SIGCOMM 2019, Beijing, China, August 23, 2019.},
+	Crossref = {DBLP:conf/sigcomm/2019netai},
+	Doi = {10.1145/3341216.3342212},
+	Keywords = {peerrev},
+	Pages = {44--49},
+	Timestamp = {Thu, 15 Aug 2019 09:19:24 +0200},
+	Title = {Contextual Multi-Armed Bandits for Link Adaptation in Cellular Networks},
+	Url = {https://doi.org/10.1145/3341216.3342212},
+	Year = {2019},
+	Bdsk-Url-1 = {https://doi.org/10.1145/3341216.3342212}}
+
+@proceedings{Zhang19,
+	Author = {Tianjun Zhang and Zhewei Yao and Amir Gholami and Kurt Keutzer and Joseph E. Gonzalez and George Biros and Michael W. Mahoney},
+  Abstract = {It has been observed that residual networks can be viewed as the explicit Euler discretization of an Ordinary Differential Equation (ODE). This observation motivated the introduction of so-called Neural ODEs, which allow more general discretization schemes with adaptive time stepping. Here, we propose ANODEV2, which is an extension of this approach that also allows evolution of the neural network parameters, in a coupled ODE-based formulation. The Neural ODE method introduced earlier is in fact a special case of this new more general framework. We present the formulation of ANODEV2, derive optimality conditions, and implement a coupled reaction-diffusion-advection version of this framework in PyTorch. We present empirical results using several different configurations of ANODEV2, testing them on multiple models on CIFAR-10. We report results showing that this coupled ODE-based framework is indeed trainable, and that it achieves higher accuracy, as compared to the baseline models as well as the recently-proposed Neural ODE approach.},
+	Booktitle = {Neural Information Processing Systems ({NeurIPS} '19)},
+	Keywords = {peerrev},
+  url = {https://arxiv.org/abs/1906.04596},
+	Title = {{ANODEV2:} A Coupled Neural ODE Evolution Framework},
+	Year = {2019}}
+
+@inproceedings{WangCVPR19,
+	Abstract = {Learning good feature embeddings for images often requires substantial training data. As a consequence, in settings where training data is limited (e.g., few-shot and zero-shot learning), we are typically forced to use a generic feature embedding across various tasks. Ideally, we want to construct feature embeddings that are tuned for the given task. In this work, we propose Task-Aware Feature Embedding Networks (TAFE-Nets) to learn how to adapt the image representation to a new task in a meta learning fashion. Our network is composed of a meta learner and a prediction network. Based on a task input, the meta learner generates parameters for the feature layers in the prediction network so that the feature embedding can be accurately adjusted for that task. We show that TAFE-Net is highly effective in generalizing to new tasks or concepts and evaluate the TAFE-Net on a range of benchmarks in zero-shot and few-shot learning. Our model matches or exceeds the state-of-the-art on all tasks. In particular, our approach improves the prediction accuracy of unseen attribute-object pairs by 4 to 15 points on the challenging visual attribute-object composition task.},
+	Author = {Xin Wang and Fisher Yu and Ruth Wang and Trevor Darrell and Joseph E. Gonzalez},
+	Booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+	Keywords = {peerrev},
+	Month = {June},
+	Title = {{TAFE-Net}: Task-Aware Feature Embeddings for Low Shot Learning},
+	Url = {https://arxiv.org/abs/1904.05967},
+	Year = {2019},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1904.05967}}
+
+@inproceedings{WangUAI19,
+	Abstract = {Larger networks generally have greater representational power at the cost of increased computational complexity. Sparsifying such networks has been an active area of research but has been generally limited to static regularization or dynamic approaches using reinforcement learning. We explore a mixture of experts (MoE) approach to deep dynamic routing, which activates certain experts in the network on a per-example basis. Our novel DeepMoE architecture increases the representational power of standard convolutional networks by adaptively sparsifying and recalibrating channel-wise features in each convolutional layer. We employ a multi-headed sparse gating network to determine the selection and scaling of channels for each input, leveraging exponential combinations of experts within a single convolutional network. Our proposed architecture is evaluated on four benchmark datasets and tasks, and we show that Deep-MoEs are able to achieve higher accuracy with lower computation than standard convolutional networks.},
+	Author = {Xin Wang and Fisher Yu and Lisa Dunlap and Yi{-}An Ma and Ruth Wang and Azalia Mirhoseini and Trevor Darrell and Joseph E. Gonzalez},
+	Bibsource = {dblp computer science bibliography, https://dblp.org},
+	Biburl = {https://dblp.org/rec/bib/conf/uai/WangYDMWMDG19},
+	Booktitle = {Proceedings of the Thirty-Fifth Conference on Uncertainty in Artificial Intelligence, {UAI} 2019, Tel Aviv, Israel, July 22-25, 2019},
+	Keywords = {peerrev},
+	Pages = {192},
+	Timestamp = {Fri, 19 Jul 2019 13:05:12 +0200},
+	Title = {Deep Mixture of Experts via Shallow Embedding},
+	Url = {http://auai.org/uai2019/proceedings/papers/192.pdf},
+	Year = {2019},
+	Bdsk-Url-1 = {http://auai.org/uai2019/proceedings/papers/192.pdf}}
+
+@inproceedings{Tanwani19,
+	Abstract = {The growing demand of industrial, automotive and service robots presents a challenge to the centralized Cloud Robotics model in terms of privacy, security, latency, bandwidth, and reliability. In this paper, we present a `Fog Robotics' approach to deep robot learning that distributes compute, storage and networking resources between the Cloud and the Edge in a federated manner. Deep models are trained on non-private (public) synthetic images in the Cloud; the models are adapted to the private real images of the environment at the Edge within a trusted network and subsequently, deployed as a service for low-latency and secure inference/prediction for other robots in the network. We apply this approach to surface decluttering, where a mobile robot picks and sorts objects from a cluttered floor by learning a deep object recognition and a grasp planning model. Experiments suggest that Fog Robotics can improve performance by sim-to-real domain adaptation in comparison to exclusively using Cloud or Edge resources, while reducing the inference cycle time by 4\times to successfully declutter 86% of objects over 213 attempts.},
+	Author = {Ajay Kumar Tanwani and Nitesh Mor and John Kubiatowicz and Joseph E. Gonzalez and Ken Goldberg},
+	Bibsource = {dblp computer science bibliography, https://dblp.org},
+	Biburl = {https://dblp.org/rec/bib/conf/icra/TanwaniMKGG19},
+	Booktitle = {International Conference on Robotics and Automation, {ICRA} 2019, Montreal, QC, Canada, May 20-24, 2019},
+	Doi = {10.1109/ICRA.2019.8793690},
+	Keywords = {peerrev},
+	Pages = {4559--4566},
+	Timestamp = {Tue, 13 Aug 2019 20:25:20 +0200},
+	Title = {A Fog Robotics Approach to Deep Robot Learning: Application to Object Recognition and Grasp Planning in Surface Decluttering},
+	Url = {https://doi.org/10.1109/ICRA.2019.8793690},
+	Year = {2019},
+	Bdsk-Url-1 = {https://doi.org/10.1109/ICRA.2019.8793690}}
+
+@inproceedings{Jain19,
+	Abstract = {We present Accel, a novel semantic video segmentation system that achieves high accuracy at low inference cost by combining the predictions of two network branches: (1) a reference branch that extracts high-detail features on a reference keyframe, and warps these features forward using frame-to-frame optical flow estimates, and (2) an update branch that computes features of adjustable quality on the current frame, performing a temporal update at each video frame. The modularity of the update branch, where feature subnetworks of varying layer depth can be inserted (e.g. ResNet-18 to ResNet-101), enables operation over a new, state-of-the-art accuracy-throughput trade-off spectrum. Over this curve, Accel models achieve both higher accuracy and faster inference times than the closest comparable single-frame segmentation networks. In general, Accel significantly outperforms previous work on efficient semantic video segmentation, correcting warping-related error that compounds on datasets with complex dynamics. Accel is end-to-end trainable and highly modular: the reference network, the optical flow network, and the update network can each be selected independently, depending on application requirements, and then jointly fine-tuned. The result is a robust, general system for fast, high-accuracy semantic segmentation on video.},
+	Author = {Samvit Jain and Xin Wang and Joseph Gonzalez},
+	Booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+	Keywords = {peerrev},
+	Month = {June},
+	Title = {Accel: {A} Corrective Fusion Network for Efficient Semantic Segmentation on Video},
+	Url = {http://arxiv.org/abs/1807.06667},
+	Year = {2019},
+	Bdsk-Url-1 = {http://arxiv.org/abs/1807.06667}}
+
 @proceedings{Wenting19,
+	Abstract = {Many organizations wish to collaboratively train machine learning models on their combined datasets for a common benefit (e.g., better medical research, or fraud detection). However, they often cannot share their plaintext datasets due to privacy concerns and/or business competition. In this paper, we design and build Helen, a system that allows multiple parties to train a linear model without revealing their data, a setting we call coopetitive learning. Compared to prior secure training systems, Helen protects against a much stronger adversary who is malicious and can compromise m−1 out of m parties. Our evaluation shows that Helen can achieve up to five orders of magnitude of performance improvement when compared to training using an existing state-of-the-art secure multi-party computation framework.},
 	Author = {Wenting Zheng and Raluca Ada Popa and Joseph E. Gonzalez and Ion Stoica},
+	Booktitle = {{IEEE} Symposium on Security and Privacy},
+	Keywords = {peerrev},
+	Publisher = {{IEEE} Computer Society},
 	Title = {Helen: Maliciously Secure Coopetitive Learning for Linear Models.},
 	Url = {https://people.eecs.berkeley.edu/~wzheng/helen_ieeesp.pdf},
-	Keywords={peerrev},
-	Abstract={Many organizations wish to collaboratively train machine learning models on their combined datasets for a common benefit (e.g., better medical research, or fraud detection). However, they often cannot share their plaintext datasets due to privacy concerns and/or business competition. In this paper, we design and build Helen, a system that allows multiple parties to train a linear model without revealing their data, a setting we call coopetitive learning. Compared to prior secure training systems, Helen protects against a much stronger adversary who is malicious and can compromise m−1 out of m parties. Our evaluation shows that Helen can achieve up to five orders of magnitude of performance improvement when compared to training using an existing state-of-the-art secure multi-party computation framework.},
-	publisher = {{IEEE} Computer Society},
-	booktitle = {{IEEE} Symposium on Security and Privacy},
-  	year      = {2019},
-}
-
+	Year = {2019},
+	Bdsk-Url-1 = {https://people.eecs.berkeley.edu/~wzheng/helen_ieeesp.pdf}}
 
 @techreport{Jonas2019,
-    Author = {Eric Jonas and Johann Schleier-Smith and Vikram Sreekanti and Chia-Che Tsai  and Anurag Khandelwal and Qifan Pu and Vaishaal Shankar and Joao Menezes Carreira and Karl Krauth and Neeraja Yadwadkar and Joseph E. Gonzalez and Raluca Ada Popa  and Ion Stoica and David A. Patterson },
-    Title = {Cloud Programming Simplified: A Berkeley View on Serverless Computing},
-    Institution = {EECS Department, University of California, Berkeley},
-    Year = {2019},
-    Month = {2},
-    URL = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.html},
-    Number = {UCB/EECS-2019-3},
-    Keywords = {techreport},
-    Abstract = {Serverless cloud computing handles virtually all the system administration operations needed to make it easier for programmers to use the cloud. It provides an interface that greatly simplifies cloud programming, and represents an evolution that parallels the transition from assembly language to high-level programming languages. This paper gives a quick history of cloud computing, including an accounting of the predictions of the 2009 Berkeley View of Cloud Computing paper, explains the motivation for serverless computing, describes applications that stretch the current limits of serverless, and then lists obstacles and research opportunities required for serverless computing to fulfill its full potential. Just as the 2009 paper identified challenges for the cloud and predicted they would be addressed and that cloud use would accelerate, we predict these issues are solvable and that serverless computing will grow to dominate the future of cloud computing.}
-}
+	Abstract = {Serverless cloud computing handles virtually all the system administration operations needed to make it easier for programmers to use the cloud. It provides an interface that greatly simplifies cloud programming, and represents an evolution that parallels the transition from assembly language to high-level programming languages. This paper gives a quick history of cloud computing, including an accounting of the predictions of the 2009 Berkeley View of Cloud Computing paper, explains the motivation for serverless computing, describes applications that stretch the current limits of serverless, and then lists obstacles and research opportunities required for serverless computing to fulfill its full potential. Just as the 2009 paper identified challenges for the cloud and predicted they would be addressed and that cloud use would accelerate, we predict these issues are solvable and that serverless computing will grow to dominate the future of cloud computing.},
+	Author = {Eric Jonas and Johann Schleier-Smith and Vikram Sreekanti and Chia-Che Tsai and Anurag Khandelwal and Qifan Pu and Vaishaal Shankar and Joao Menezes Carreira and Karl Krauth and Neeraja Yadwadkar and Joseph E. Gonzalez and Raluca Ada Popa and Ion Stoica and David A. Patterson},
+	Institution = {EECS Department, University of California, Berkeley},
+	Keywords = {techreport},
+	Month = {2},
+	Number = {UCB/EECS-2019-3},
+	Title = {Cloud Programming Simplified: A Berkeley View on Serverless Computing},
+	Url = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.html},
+	Year = {2019},
+	Bdsk-Url-1 = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.html}}
 
 @article{Golmant18,
 	Abstract = {Increasing the mini-batch size for stochastic gradient descent offers significant opportunities to reduce wall-clock training time, but there are a variety of theoretical and systems challenges that impede the widespread success of this technique. We investigate these issues, with an emphasis on time to convergence and total computational cost, through an extensive empirical analysis of network training across several architectures and problem domains, including image classification, image segmentation, and language modeling. Although it is common practice to increase the batch size in order to fully exploit available computational resources, we find a substantially more nuanced picture. Our main finding is that across a wide range of network architectures and problem domains, increasing the batch size beyond a certain point yields no decrease in wall-clock time to convergence for \emph{either} train or test loss. This batch size is usually substantially below the capacity of current systems. We show that popular training strategies for large batch size optimization begin to fail before we can populate all available compute resources, and we show that the point at which these methods break down depends more on attributes like model architecture and data complexity than it does directly on the size of the dataset.},
@@ -67,23 +159,6 @@
 	Url = {http://learningsys.org/nips18/assets/papers/102CameraReadySubmissionGPU_Virtualization%20(8).pdf},
 	Year = {2018},
 	Bdsk-Url-1 = {http://learningsys.org/nips18/assets/papers/102CameraReadySubmissionGPU_Virtualization%20(8).pdf}}
-
-@article{Wang18,
-	Abstract = {Learning good feature embeddings for images often requires substantial training data. As a consequence, in settings where training data is limited (e.g., few-shot and zero-shot learning), we are typically forced to use a general feature embedding across prediction tasks. Ideally, we would like to construct feature embeddings that are tuned for the given task and even input image. In this work, we propose Task-Aware Feature Embedding Networks (TAFE-Nets) to learn how to adapt the image representation to a new task in a meta-learning fashion. Our network is composed of a meta learner and a prediction network, where the meta learner generates parameters for the feature layers in the prediction network based on a task input so that the feature embedding can be accurately adjusted for that task. We show that our TAFE-Net is highly effective in generalizing to new tasks or concepts and offers efficient prediction with low computational cost. We demonstrate the general applicability of TAFE-Net in several tasks including zero-shot/ few-shot learning and dynamic efficient prediction. Our networks exceed or match the state-of-the-art on most tasks. In particular, our approach improves the prediction accuracy of unseen attribute-object pairs by 4 to 15 points on the challenging visual attributes composition task.},
-	Archiveprefix = {arXiv},
-	Author = {Xin Wang and Fisher Yu and Ruth Wang and Trevor Darrell and Joseph E. Gonzalez},
-	Bibsource = {dblp computer science bibliography, https://dblp.org},
-	Biburl = {https://dblp.org/rec/bib/journals/corr/abs-1806-01531},
-	Eprint = {1806.01531},
-	Journal = {CoRR},
-	Keywords = {arxivpre},
-	Month = {8},
-	Timestamp = {Mon, 13 Aug 2018 16:47:38 +0200},
-	Title = {TAFE-Net: Task-Aware Feature Embeddings for Efficient Learning and Inference},
-	Url = {http://arxiv.org/abs/1806.01531},
-	Volume = {abs/1806.01531},
-	Year = {2018},
-	Bdsk-Url-1 = {http://arxiv.org/abs/1806.01531}}
 
 @inproceedings{Hotmobil2019,
 	Abstract = {Driven by advances in computer vision and the falling costs of camera hardware, organizations are deploying video cameras en masse for the spatial monitoring of their physical premises. Scaling video analytics to massive camera deployments, however, presents a new and mounting challenge, as compute cost grows proportionally to the number of camera feeds. This paper is driven by a simple question: can we scale video analytics in such a way that cost grows sublinearly, or even remains constant, as we deploy more cameras, while inference accuracy remains stable, or even improves. We believe the answer is yes. Our key observation is that video feeds from wide-area camera deployments demonstrate significant content correlations (e.g. to other geographically proximate feeds), both in space and over time. These spatio-temporal correlations can be harnessed to dramatically reduce the size of the inference search space, decreasing both workload and false positive rates in multi-camera video analytics. By discussing use-cases and technical challenges, we propose a roadmap for scaling video analytics to large camera networks, and outline a plan for its realization.},
@@ -129,29 +204,6 @@
 	Volume = {abs/1812.00497},
 	Year = {2018},
 	Bdsk-Url-1 = {http://arxiv.org/abs/1812.00497}}
-
-
-@article{Jain18,
-  author    = {Samvit Jain and
-               Xin Wang and
-               Joseph Gonzalez},
-  title     = {Accel: {A} Corrective Fusion Network for Efficient Semantic Segmentation
-               on Video},
-  journal   = {CoRR},
-  abstract  = {We present Accel, a novel semantic video segmentation system that achieves high accuracy at low inference cost by combining the predictions of two network branches: (1) a reference branch that extracts high-detail features on a reference keyframe, and warps these features forward using frame-to-frame optical flow estimates, and (2) an update branch that computes features of adjustable quality on the current frame, performing a temporal update at each video frame. The modularity of the update branch, where feature subnetworks of varying layer depth can be inserted (e.g. ResNet-18 to ResNet-101), enables operation over a new, state-of-the-art accuracy-throughput trade-off spectrum. Over this curve, Accel models achieve both higher accuracy and faster inference times than the closest comparable single-frame segmentation networks. In general, Accel significantly outperforms previous work on efficient semantic video segmentation, correcting warping-related error that compounds on datasets with complex dynamics. Accel is end-to-end trainable and highly modular: the reference network, the optical flow network, and the update network can each be selected independently, depending on application requirements, and then jointly fine-tuned. The result is a robust, general system for fast, high-accuracy semantic segmentation on video.},
-  month     = {11},
-  Keywords = {arxivpre},
-  volume    = {abs/1807.06667},
-  year      = {2018},
-  url       = {http://arxiv.org/abs/1807.06667},
-  archivePrefix = {arXiv},
-  eprint    = {1807.06667},
-  timestamp = {Mon, 13 Aug 2018 16:46:41 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1807-06667},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-
 
 @article{Zhao2018,
 	Abstract = {Large-scale labeled training datasets have enabled deep neural networks to excel on a wide range of benchmark vision tasks. However, in many applications it is prohibitively expensive or time-consuming to obtain large quantities of labeled data. To cope with limited labeled training data, many have attempted to directly apply models trained on a large-scale labeled source domain to another sparsely labeled target domain. Unfortunately, direct transfer across domains often performs poorly due to domain shift and dataset bias. Domain adaptation is the machine learning paradigm that aims to learn a model from a source domain that can perform well on a different (but related) target domain. In this paper, we summarize and compare the latest unsupervised domain adaptation methods in computer vision applications. We classify the non-deep approaches into sample re-weighting and intermediate subspace transformation categories, while the deep strategy includes discrepancy-based methods, adversarial generative models, adversarial discriminative models and reconstruction-based methods. We also discuss some potential directions.},
