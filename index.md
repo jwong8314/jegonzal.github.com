@@ -97,7 +97,7 @@ I am fortunate to advise the following amazing students.
 
 
 #### Undergraduate Students
-
+* [Cathy Li](https://www.linkedin.com/in/cathy-li-81068b141/)
 * [Lisa Dunlap](https://www.linkedin.com/in/lisabdunlap)
 * [Rehan Durrani](https://github.com/RehanSD)
 * [Simon Mo](https://www.linkedin.com/in/simon-mo-40151a87)
