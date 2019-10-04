@@ -143,10 +143,9 @@ I am currently on the technical advisory board for [Deepscale.ai](http://deepsca
 
 ## Funding
 
-My research as part of the UC Berkeley RISE Lab is funded by a group of 10 core industrial partners.
+My research as part of the UC Berkeley RISE Lab is funded by the NSF Expedition grant and a consortium of industrial sponsors:
 
 <img src="assets/images/sponsors.png" width="800">
-
 
 
 
