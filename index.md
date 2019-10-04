@@ -87,7 +87,7 @@ I am fortunate to advise the following amazing students.
 * [Sona Jeswani](https://data.berkeley.edu/graduate-profile-sona-jeswani)
 * [Alvin Kao]()
 * [Scott Lee](https://scottjlee.github.io)
-* [Ashwinee Panda]
+* [Ashwinee Panda](https://www.linkedin.com/in/ashwineepanda)
 * [Hari Subbaraj](https://www.linkedin.com/in/hsubbaraj)
 * [Victor Sun]()
 * [Nikita Vemuri](https://www.linkedin.com/in/nikitavemuri)
