@@ -13,15 +13,36 @@
 	Author = {Ashwin Balakrishna and Brijen Thananjeyan and Jonathan Lee and Arsh Zahed and Felix Li and Joseph E. Gonzalez and Ken Goldberg},
 	Bibsource = {dblp computer science bibliography, https://dblp.org},
 	Biburl = {https://dblp.org/rec/bib/journals/corr/abs-1907-03423},
+  Abstract = {Existing on-policy imitation learning algorithms, such as DAgger, assume access to a fixed supervisor. However, there are many settings where the supervisor may evolve during policy learning, such as a human performing a novel task or an improving algorithmic controller. We formalize imitation learning from a "converging supervisor" and provide sublinear static and dynamic regret guarantees against the best policy in hindsight with labels from the converged supervisor, even when labels during learning are only from intermediate supervisors. We then show that this framework is closely connected to a class of reinforcement learning (RL) algorithms known as dual policy iteration (DPI), which alternate between training a reactive learner with imitation learning and a model-based supervisor with data from the learner. Experiments suggest that when this framework is applied with the state-of-the-art deep model-based RL algorithm PETS as an improving supervisor, it outperforms deep RL baselines on continuous control tasks and provides up to an 80-fold speedup in policy evaluation.},
 	Eprint = {1907.03423},
 	Journal = {CoRR},
-	Keywords = {preprint},
+	Keywords = {arxivpre},
 	Timestamp = {Wed, 17 Jul 2019 10:27:36 +0200},
 	Title = {On-Policy Robot Imitation Learning from a Converging Supervisor},
 	Url = {http://arxiv.org/abs/1907.03423},
 	Volume = {abs/1907.03423},
 	Year = {2019},
 	Bdsk-Url-1 = {http://arxiv.org/abs/1907.03423}}
+
+@article{WangICCV19,
+  author    = {Zuxuan Wu and
+               Xin Wang and
+               Joseph E. Gonzalez and
+               Tom Goldstein and
+               Larry S. Davis},
+  Abstract = {Deep neural networks exhibit exceptional accuracy when they are trained and tested on the same data distributions. However, neural classifiers are often extremely brittle when confronted with domain shift---changes in the input distribution that occur over time. We present ACE, a framework for semantic segmentation that dynamically adapts to changing environments over the time. By aligning the distribution of labeled training data from the original source domain with the distribution of incoming data in a shifted domain, ACE synthesizes labeled training data for environments as it sees them. This stylized data is then used to update a segmentation model so that it performs well in new environments. To avoid forgetting knowledge from past environments, we introduce a memory that stores feature statistics from previously seen domains. These statistics can be used to replay images in any of the previously observed domains, thus preventing catastrophic forgetting. In addition to standard batch training using stochastic gradient decent (SGD), we also experiment with fast adaptation methods based on adaptive meta-learning. Extensive experiments are conducted on two datasets from SYNTHIA, the results demonstrate the effectiveness of the proposed approach when adapting to a number of tasks.},
+  title     = {{ACE:} Adapting to Changing Environments for Semantic Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/1904.06268},
+  year      = {2019},
+  Keywords = {arxivpre},
+  url       = {http://arxiv.org/abs/1904.06268},
+  archivePrefix = {arXiv},
+  eprint    = {1904.06268},
+  timestamp = {Thu, 25 Apr 2019 13:55:01 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1904-06268},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 
 @inproceedings{SaxenaSigcommNetAI,
 	Abstract = {Cellular networks dynamically adjust the transmission parameters for a wireless link in response to its time-varying channel state. This is known as link adaptation, where the typical goal is to maximize the link throughput. State-of-the-art outer loop link adaptation (OLLA) selects the optimal transmission parameters based on an approximate, offline, model of the wireless link. Further, OLLA refines the offline model by dynamically compensating any deviations from the observed link performance. However, in practice, OLLA suffers from slow convergence and a sub-optimal link throughput. In this paper, we propose a link adaptation approach that overcomes the shortcomings of OLLA through a novel learning scheme. Our approach relies on contextual multi-armed bandits (MAB), where the context vector is composed of the instantaneous wireless channel state along with side information about the link. For a given context, our approach learns the success probability for each of the available transmission parameters, which is then exploited to select the throughput-maximizing parameters. Through numerical experiments, we show that our approach converges faster than OLLA and achieves a higher steady-state link throughput. For frequent and infrequent channel reports respectively, our scheme outperforms OLLA by 15% and 25% in terms of the steady-state link throughput.},

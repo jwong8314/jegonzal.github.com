@@ -8,6 +8,87 @@ order: 2
 
 # ArXiv Preprints
 
+<div id="WangICCV19" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Zuxuan Wu and
+Xin Wang and
+Joseph E. Gonzalez and
+Tom Goldstein and
+Larry S. Davis</li>
+</ul>
+</div>
+<div class="title">ACE: Adapting to Changing Environments for Semantic Segmentation</div><div class="venue">CoRR</div>
+<div class="year">2019</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#WangICCV19_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#WangICCV19_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1904.06268">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="WangICCV19_abs" class="collapse abstract"><div class="card card-body">Deep neural networks exhibit exceptional accuracy when they are trained and tested on the same data distributions. However, neural classifiers are often extremely brittle when confronted with domain shift---changes in the input distribution that occur over time. We present ACE, a framework for semantic segmentation that dynamically adapts to changing environments over the time. By aligning the distribution of labeled training data from the original source domain with the distribution of incoming data in a shifted domain, ACE synthesizes labeled training data for environments as it sees them. This stylized data is then used to update a segmentation model so that it performs well in new environments. To avoid forgetting knowledge from past environments, we introduce a memory that stores feature statistics from previously seen domains. These statistics can be used to replay images in any of the previously observed domains, thus preventing catastrophic forgetting. In addition to standard batch training using stochastic gradient decent (SGD), we also experiment with fast adaptation methods based on adaptive meta-learning. Extensive experiments are conducted on two datasets from SYNTHIA, the results demonstrate the effectiveness of the proposed approach when adapting to a number of tasks.</div></div><div id="WangICCV19_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{WangICCV19,
+ abstract = {Deep neural networks exhibit exceptional accuracy when they are trained and tested on the same data distributions. However, neural classifiers are often extremely brittle when confronted with domain shift---changes in the input distribution that occur over time. We present ACE, a framework for semantic segmentation that dynamically adapts to changing environments over the time. By aligning the distribution of labeled training data from the original source domain with the distribution of incoming data in a shifted domain, ACE synthesizes labeled training data for environments as it sees them. This stylized data is then used to update a segmentation model so that it performs well in new environments. To avoid forgetting knowledge from past environments, we introduce a memory that stores feature statistics from previously seen domains. These statistics can be used to replay images in any of the previously observed domains, thus preventing catastrophic forgetting. In addition to standard batch training using stochastic gradient decent (SGD), we also experiment with fast adaptation methods based on adaptive meta-learning. Extensive experiments are conducted on two datasets from SYNTHIA, the results demonstrate the effectiveness of the proposed approach when adapting to a number of tasks.},
+ archiveprefix = {arXiv},
+ author = {Zuxuan Wu and
+Xin Wang and
+Joseph E. Gonzalez and
+Tom Goldstein and
+Larry S. Davis},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1904-06268},
+ eprint = {1904.06268},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ timestamp = {Thu, 25 Apr 2019 13:55:01 +0200},
+ title = { {ACE:} Adapting to Changing Environments for Semantic Segmentation},
+ url = {http://arxiv.org/abs/1904.06268},
+ volume = {abs/1904.06268},
+ year = {2019}
+}
+</code></pre></div></div>
+</div></div>
+
+<div id="Balakrishna19" class="publication">
+<div class="summary"><div class="authors">
+<ul class="author">
+	<li>Ashwin Balakrishna</li>
+	<li>Brijen Thananjeyan</li>
+	<li>Jonathan Lee</li>
+	<li>Arsh Zahed</li>
+	<li>Felix Li</li>
+	<li>Joseph E. Gonzalez</li>
+	<li>Ken Goldberg</li>
+</ul>
+</div>
+<div class="title">On-Policy Robot Imitation Learning from a Converging Supervisor</div><div class="venue">CoRR</div>
+<div class="year">2019</div></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Balakrishna19_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Balakrishna19_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" href="http://arxiv.org/abs/1907.03423">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="Balakrishna19_abs" class="collapse abstract"><div class="card card-body">Existing on-policy imitation learning algorithms, such as DAgger, assume access to a fixed supervisor. However, there are many settings where the supervisor may evolve during policy learning, such as a human performing a novel task or an improving algorithmic controller. We formalize imitation learning from a "converging supervisor" and provide sublinear static and dynamic regret guarantees against the best policy in hindsight with labels from the converged supervisor, even when labels during learning are only from intermediate supervisors. We then show that this framework is closely connected to a class of reinforcement learning (RL) algorithms known as dual policy iteration (DPI), which alternate between training a reactive learner with imitation learning and a model-based supervisor with data from the learner. Experiments suggest that when this framework is applied with the state-of-the-art deep model-based RL algorithm PETS as an improving supervisor, it outperforms deep RL baselines on continuous control tasks and provides up to an 80-fold speedup in policy evaluation.</div></div><div id="Balakrishna19_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{Balakrishna19,
+ abstract = {Existing on-policy imitation learning algorithms, such as DAgger, assume access to a fixed supervisor. However, there are many settings where the supervisor may evolve during policy learning, such as a human performing a novel task or an improving algorithmic controller. We formalize imitation learning from a "converging supervisor" and provide sublinear static and dynamic regret guarantees against the best policy in hindsight with labels from the converged supervisor, even when labels during learning are only from intermediate supervisors. We then show that this framework is closely connected to a class of reinforcement learning (RL) algorithms known as dual policy iteration (DPI), which alternate between training a reactive learner with imitation learning and a model-based supervisor with data from the learner. Experiments suggest that when this framework is applied with the state-of-the-art deep model-based RL algorithm PETS as an improving supervisor, it outperforms deep RL baselines on continuous control tasks and provides up to an 80-fold speedup in policy evaluation.},
+ archiveprefix = {arxivpre},
+ author = {Ashwin Balakrishna and Brijen Thananjeyan and Jonathan Lee and Arsh Zahed and Felix Li and Joseph E. Gonzalez and Ken Goldberg},
+ bdsk-url-1 = {http://arxiv.org/abs/1907.03423},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/bib/journals/corr/abs-1907-03423},
+ eprint = {1907.03423},
+ journal = {CoRR},
+ keywords = {arxivpre},
+ timestamp = {Wed, 17 Jul 2019 10:27:36 +0200},
+ title = {On-Policy Robot Imitation Learning from a Converging Supervisor},
+ url = {http://arxiv.org/abs/1907.03423},
+ volume = {abs/1907.03423},
+ year = {2019}
+}
+</code></pre></div></div>
+</div></div>
+
 <div id="Zhao2018" class="publication">
 <div class="summary"><div class="authors">
 <ul class="author">

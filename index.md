@@ -56,50 +56,72 @@ I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS d
 <b>Background:</b> Before joining UC Berkeley as a professor,  I was a post-doc in the  <a href="https://amplab.cs.berkeley.edu">AMPLab</a> working on several projects including <a href="http://spark.apache.org/graphx/">GraphX</a> (now part of <a href="http://spark.apache.org">Apache Spark</a>), early versions of <a href="http://mlbase.org">MLbase</a>, <a href="https://amplab.cs.berkeley.edu/projects/velox/">Velox</a>, and <a href="https://amplab.cs.berkeley.edu/projects/ccml/">concurrency control for ML</a>.
 
  
-## Current Graduate Students
+## Current Graduate Students and Post-docs
 
 I am fortunate to advise the following amazing students.
 
 #### Graduate Students
 
-* [Daniel Crankshaw](https://amplab.cs.berkeley.edu/author/crankshaw/)
 * [Paras Jain](http://parasjain.com)
 * [Richard Liaw](https://www.linkedin.com/in/richardliaw)
-* [Daniel Rothchild]()
+* [Kevin Lin](https://people.eecs.berkeley.edu/~kevinlin/)
+* [Charles Packer](https://people.eecs.berkeley.edu/~cpacker/)
+* [Shishir Patil](https://shishirpatil.github.io)
+* [Suzanne Petryk](https://www.linkedin.com/in/suzanne-petryk/)
+* [Daniel Rothchild](https://www.linkedin.com/in/daniel-rothchild-45510b38/)
+* [Peter Schafhalter](https://github.com/pschafhalter)
 * [Eyal Sela](https://rise.cs.berkeley.edu/blog/author/ges/)
+* [Brijen Thananjeyan](https://bthananjeyan.github.io)
 * [Alvin Wan](http://alvinwan.com)
 * [Xin Wang](https://people.eecs.berkeley.edu/~xinw/)
 * [Tianjun Zhang]()
 
 
 
+
 #### Masters Students
 
-* [Samvit Jain](http://www.samvitjain.com)
-* [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
+* [Aman Dhar](https://www.linkedin.com/in/amandhar/)
+* [Edward Fang](https://www.linkedin.com/in/edward-h-fang)
+* [Daniel Ho]()
+* [Sona Jeswani](https://data.berkeley.edu/graduate-profile-sona-jeswani)
+* [Alvin Kao]()
+* [Scott Lee](https://scottjlee.github.io)
+* [Ashwinee Panda]
+* [Hari Subbaraj](https://www.linkedin.com/in/hsubbaraj)
+* [Victor Sun]()
+* [Nikita Vemuri](https://www.linkedin.com/in/nikitavemuri)
+* [Flora Xue](https://floraxue.github.io/index.html)
+* [Andy Yan]()
+
 
 
 #### Undergraduate Students
 
+* [Lisa Dunlap](https://www.linkedin.com/in/lisabdunlap)
 * [Rehan Durrani](https://github.com/RehanSD)
-* [Edward Fang](https://www.linkedin.com/in/edward-h-fang)
-* [Noah Golmant](http://noahgolmant.com)
-* [Weston Hughes]()
-* [Alvin Kao]()
 * [Simon Mo](https://www.linkedin.com/in/simon-mo-40151a87)
-* [Peter Schafhalter](https://github.com/pschafhalter)
-* [Hari Subbaraj](https://www.linkedin.com/in/hsubbaraj)
-* [Victor Sun]()
-* [Nikita Vemuri](https://www.linkedin.com/in/nikitavemuri)
+
+#### Post-docs
+
+* [Kirthevasan Kandasamy](https://people.eecs.berkeley.edu/~kandasamy/)
+* [Matthew Wright](https://www.linkedin.com/in/mattawright)
+* [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/)
 
 
-#### Former Students
+#### Former Students and Postdocs
 
 * [Francios Belletti](https://github.com/bellettif)
 * [Vlad Feinberg](https://vlad17.github.io/about)
 * [Alexander Ku](https://www.linkedin.com/in/alexyku/)
 * [Neeraja Yadwadkar](https://people.eecs.berkeley.edu/~neerajay/)
 * [Corey Zumar](https://www.linkedin.com/in/corey-zumar-0a770982)
+* [Samvit Jain](http://www.samvitjain.com)
+* [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
+* [Daniel Crankshaw](https://amplab.cs.berkeley.edu/author/crankshaw/)
+* [Noah Golmant](http://noahgolmant.com)
+* [Weston Hughes](https://www.linkedin.com/in/weston-hughes-61b153110)
+* [Alexey Tumanov](https://www.cc.gatech.edu/people/alexey-tumanov)
 
 
 
