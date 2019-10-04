@@ -66,7 +66,6 @@ I am fortunate to advise the following amazing students.
 * [Richard Liaw](https://www.linkedin.com/in/richardliaw)
 * [Kevin Lin](https://people.eecs.berkeley.edu/~kevinlin/)
 * [Charles Packer](https://people.eecs.berkeley.edu/~cpacker/)
-* [Shishir Patil](https://shishirpatil.github.io)
 * [Suzanne Petryk](https://www.linkedin.com/in/suzanne-petryk/)
 * [Daniel Rothchild](https://www.linkedin.com/in/daniel-rothchild-45510b38/)
 * [Peter Schafhalter](https://github.com/pschafhalter)
@@ -109,7 +108,7 @@ I am fortunate to advise the following amazing students.
 * [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/)
 
 
-#### Former Students and Postdocs
+#### Former Students and Post-docs
 
 * [Francios Belletti](https://github.com/bellettif)
 * [Vlad Feinberg](https://vlad17.github.io/about)
