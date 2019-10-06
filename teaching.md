@@ -29,12 +29,12 @@ When time is available I teach graduate seminars in machine learning and systems
 
 #### [AI-Sys Graduate Seminar (294-159) Spring 2019](https://ucbrise.github.io/cs294-ai-sys-sp19/). 
 
-    > This was the first of the AI-Sys graduate seminars co-taught with Ion Stoica.  Here we focused on interesting recent papers in AI and Systems. 
+This was the first of the AI-Sys graduate seminars co-taught with Ion Stoica.  Here we focused on interesting recent papers in AI and Systems. 
 
 
 ####  [CS294-20: RISE Lab Class](https://ucbrise.github.io/cs294-rise-fa16) 
 
-   > This seminar aims to serve as a catalyst for research in the RISE lab, a new lab following the AMPLab. We will read and discuss papers on the state-of-the-art of learning systems (large-scale model training, deep learning, real-time robust inference), big data systems (scale-out vs scale-up, scalable data analytics), and systems security (computation on encrypted data, secure hardware enclaves, language-based mechanisms). 
+This seminar aims to serve as a catalyst for research in the RISE lab, a new lab following the AMPLab. We will read and discuss papers on the state-of-the-art of learning systems (large-scale model training, deep learning, real-time robust inference), big data systems (scale-out vs scale-up, scalable data analytics), and systems security (computation on encrypted data, secure hardware enclaves, language-based mechanisms). 
 
 
 ---
