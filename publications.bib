@@ -7,6 +7,17 @@
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+@article{jain2019checkmate,
+    title={Checkmate: Breaking the Memory Wall with Optimal Tensor Rematerialization},
+    author={Paras Jain and Ajay Jain and Aniruddha Nrusimha and Amir Gholami and Pieter Abbeel and Kurt Keutzer and Ion Stoica and Joseph E. Gonzalez},
+    year={2019},
+    Abstract={Modern neural networks are increasingly bottlenecked by the limited capacity of on-device GPU memory. Prior work explores dropping activations as a strategy to scale to larger neural networks under memory constraints. However, these heuristics assume uniform per-layer costs and are limited to simple architectures with linear graphs, limiting their usability. In this paper, we formalize the problem of trading-off DNN training time and memory requirements as the tensor rematerialization optimization problem, a generalization of prior checkpointing strategies. We introduce Checkmate, a system that solves for optimal schedules in reasonable times (under an hour) using off-the-shelf MILP solvers, then uses these schedules to accelerate millions of training iterations. Our method scales to complex, realistic architectures and is hardware-aware through the use of accelerator-specific, profile-based cost models. In addition to reducing training cost, Checkmate enables real-world networks to be trained with up to 5.1× larger input sizes.},
+    eprint={1910.02653},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    Keywords = {arxivpre},
+    Url = {https://arxiv.org/abs/1910.02653}
+}
 
 @article{Balakrishna19,
 	Archiveprefix = {arxivpre},
