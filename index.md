@@ -14,6 +14,7 @@ order: 2
 
 <div style="float:left;padding:12px">
 <img src="{{ site.baseurl }}/assets/jegonzal.jpg">
+<center>(<a href="{{ site.baseurl }}/assets/jegonzal_highres.jpg">high resolution</a>)</center>
 </div>
 
 <div>
