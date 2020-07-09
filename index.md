@@ -26,7 +26,7 @@ order: 2
 
   <li> <b>Office:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley CA 94720</li>
 
-  <li> <b>Office Hours:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a> Wednesdays from 4:00PM to 5:00PM </li>
+  <li> <b>Office Hours (Year Round):</b>  <a href="https://berkeley.zoom.us/j/97475874044">Zoom Meeting</a> Thursdays from 2:00PM to 3:00PM </li>
 
 
   <li> <b>Email:</b>
@@ -55,6 +55,11 @@ I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS d
 
 
 <b>Background:</b> Before joining UC Berkeley as a professor,  I was a post-doc in the  <a href="https://amplab.cs.berkeley.edu">AMPLab</a> working on several projects including <a href="http://spark.apache.org/graphx/">GraphX</a> (now part of <a href="http://spark.apache.org">Apache Spark</a>), early versions of <a href="http://mlbase.org">MLbase</a>, <a href="https://amplab.cs.berkeley.edu/projects/velox/">Velox</a>, and <a href="https://amplab.cs.berkeley.edu/projects/ccml/">concurrency control for ML</a>.
+
+## COVID-19 News 
+
+I recently released a special edition of the [Data Engineering Bulletin](http://sites.computer.org/debull/A20june/issue1.htm).  We also have a [blog post](https://medium.com/@covista/governments-vs-big-tech-resolving-differences-in-contact-tracing-b3d39193bfe4) about advances and issues in digital contact tracing.
+
 
  
 ## Current Graduate Students and Post-docs
@@ -137,11 +142,11 @@ If you are looking for a post-doc position please contact me directly.
 
 ## Research Opportunities for Undergraduate Students
 
-We are also looking for motivated undergraduate students who would like to get involved in doing cutting edge research.  If you are an undergraduate at Berkeley and are interested in getting involved in research please fill out this [Google Form](https://goo.gl/forms/OuubGEVi0U3l3Z2B2).
+We are also looking for motivated undergraduate students who would like to get involved in doing cutting edge research.  If you are an undergraduate at Berkeley and are interested in getting involved in research please fill out [DARE Application](https://dare.berkeley.edu/).
 
 ### Entrepreneurship 
 
-I am currently on the technical advisory board for [Deepscale.ai](http://deepscale.ai) which is developing new computer vision software and systems for autonomous vehicles.  Deepscale.ai is currently hiring!
+I am currently a technical advisor for [AnyScale.ai](http://anyscale.ai) which is developing a platform for distributed computing in Python.  [AnyScale.ai](http://anyscale.ai) is currently hiring!
 
 ## Funding
 
