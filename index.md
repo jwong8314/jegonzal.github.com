@@ -71,7 +71,9 @@ I am fortunate to advise the following amazing students.
 * [Paras Jain](http://parasjain.com)
 * [Richard Liaw](https://www.linkedin.com/in/richardliaw)
 * [Kevin Lin](https://people.eecs.berkeley.edu/~kevinlin/)
+* [Simon Mo](https://www.linkedin.com/in/simon-mo-40151a87)
 * [Charles Packer](https://people.eecs.berkeley.edu/~cpacker/)
+* [Shishir Patil](https://shishirpatil.github.io/)
 * [Suzanne Petryk](https://www.linkedin.com/in/suzanne-petryk/)
 * [Daniel Rothchild](https://www.linkedin.com/in/daniel-rothchild-45510b38/)
 * [Peter Schafhalter](https://github.com/pschafhalter)
@@ -80,37 +82,26 @@ I am fortunate to advise the following amazing students.
 * [Alvin Wan](http://alvinwan.com)
 * [Xin Wang](https://people.eecs.berkeley.edu/~xinw/)
 * [Tianjun Zhang]()
+* [Lianmin Zheng](http://lmzheng.net/)
 
 
 
 
-#### Masters Students
+<!-- #### Masters Students
 
-* [Aman Dhar](https://www.linkedin.com/in/amandhar/)
-* [Edward Fang](https://www.linkedin.com/in/edward-h-fang)
-* [Daniel Ho]()
-* [Sona Jeswani](https://data.berkeley.edu/graduate-profile-sona-jeswani)
-* [Alvin Kao]()
-* [Scott Lee](https://scottjlee.github.io)
-* [Ashwinee Panda](https://www.linkedin.com/in/ashwineepanda)
-* [Hari Subbaraj](https://www.linkedin.com/in/hsubbaraj)
-* [Victor Sun]()
-* [Nikita Vemuri](https://www.linkedin.com/in/nikitavemuri)
-* [Flora Xue](https://floraxue.github.io/index.html)
-* [Andy Yan]()
-
+ -->
 
 
 #### Undergraduates
-* [Daiyaan Arfeen](https://www.linkedin.com/in/daiyaanarfeen)
+
 * [Lisa Dunlap](https://www.linkedin.com/in/lisabdunlap)
 * [Rehan Durrani](https://github.com/RehanSD)
 * [Cathy Li](https://www.linkedin.com/in/cathy-li-81068b141/)
-* [Simon Mo](https://www.linkedin.com/in/simon-mo-40151a87)
 * [Mong Ng](http://www.mong.life/about-me/)
 
 #### Post-docs
 
+* [Jianfei Chen](http://people.eecs.berkeley.edu/~jianfei/)
 * [Kirthevasan Kandasamy](https://people.eecs.berkeley.edu/~kandasamy/)
 * [Matthew Wright](https://www.linkedin.com/in/mattawright)
 * [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/)
@@ -118,17 +109,35 @@ I am fortunate to advise the following amazing students.
 
 #### Former Students and Post-docs
 
+
+* [Daiyaan Arfeen](https://www.linkedin.com/in/daiyaanarfeen)
 * [Francios Belletti](https://github.com/bellettif)
-* [Vlad Feinberg](https://vlad17.github.io/about)
-* [Alexander Ku](https://www.linkedin.com/in/alexyku/)
-* [Neeraja Yadwadkar](https://people.eecs.berkeley.edu/~neerajay/)
-* [Corey Zumar](https://www.linkedin.com/in/corey-zumar-0a770982)
-* [Samvit Jain](http://www.samvitjain.com)
-* [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
 * [Daniel Crankshaw](https://amplab.cs.berkeley.edu/author/crankshaw/)
+* [Aman Dhar](https://www.linkedin.com/in/amandhar/)
+* [Edward Fang](https://www.linkedin.com/in/edward-h-fang)
+* [Vlad Feinberg](https://vlad17.github.io/about)
 * [Noah Golmant](http://noahgolmant.com)
+* [Daniel Ho]()
 * [Weston Hughes](https://www.linkedin.com/in/weston-hughes-61b153110)
+* [Samvit Jain](http://www.samvitjain.com)
+* [Sona Jeswani](https://data.berkeley.edu/graduate-profile-sona-jeswani)
+* [Alvin Kao]()
+* [Alexander Ku](https://www.linkedin.com/in/alexyku/)
+* [Scott Lee](https://scottjlee.github.io)
+* [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
+* [Ashwinee Panda](https://www.linkedin.com/in/ashwineepanda)
+* [Hari Subbaraj](https://www.linkedin.com/in/hsubbaraj)
+* [Victor Sun]()
 * [Alexey Tumanov](https://www.cc.gatech.edu/people/alexey-tumanov)
+* [Nikita Vemuri](https://www.linkedin.com/in/nikitavemuri)
+* [Flora Xue](https://floraxue.github.io/index.html)
+* [Neeraja Yadwadkar](https://people.eecs.berkeley.edu/~neerajay/)
+* [Andy Yan]()
+* [Corey Zumar](https://www.linkedin.com/in/corey-zumar-0a770982)
+
+
+
+
 
 
 
