@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: "Lectures"
 description: "Lectures"
 group: navigation
 order: 5
 ---
-{% include JB/setup %}
+
 
 Over the years I have given a lot of talks and the following are slides from many of these talks.  Feel free to reuse the slides with the appropriate attribution.
 

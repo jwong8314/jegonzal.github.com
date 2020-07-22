@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: "Research"
 description: "Research"
 group: navigation
 order: 1
 ---
-{% include JB/setup %}
+
 
 
 
