@@ -112,7 +112,7 @@ I am fortunate to advise the following amazing students.
 
 * [Daiyaan Arfeen](https://www.linkedin.com/in/daiyaanarfeen)
 * [Francios Belletti](https://github.com/bellettif)
-* [Daniel Crankshaw](https://amplab.cs.berkeley.edu/author/crankshaw/)
+* [Daniel Crankshaw](https://dancrankshaw.com/)
 * [Aman Dhar](https://www.linkedin.com/in/amandhar/)
 * [Edward Fang](https://www.linkedin.com/in/edward-h-fang)
 * [Vlad Feinberg](https://vlad17.github.io/about)
