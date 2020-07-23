@@ -142,16 +142,16 @@ I am fortunate to advise the following amazing students.
 
 
 
-## Prospective Postdocs and Graduate Students
+<!-- ## Prospective Postdocs and Graduate Students
 
 I am currently looking for postdocs and graduate students to join the new <a href="https://rise.cs.berkeley.edu">UC Berkeley RISE Lab</a>.  As a founding member of the RISE Lab, I am working on several projects in large-scale systems for real-time machine learning, deep neural network design for accelerated computer vision, dynamic networks for multi-task learning, sparse representations for autonomous vehicles, software architectures for robotic systems, and explainable reinforcement learning.
 My machine learning research spans both classical statistical machine learning methods as well as new work in deep learning.  If you are interested please consider applying to the UC Berkeley CS <a href="https://eecs.berkeley.edu/academics/graduate/research-programs/admissions">graduate program</a> in <a href="https://www2.eecs.berkeley.edu/Research/Areas/DBMS/">DBMS</a> or <a href ="https://www2.eecs.berkeley.edu/Research/Areas/AI/">AI</a>.  
 If you are looking for a post-doc position please contact me directly.
-
+ -->
 
 ## Research Opportunities for Undergraduate Students
 
-We are also looking for motivated undergraduate students who would like to get involved in doing cutting edge research.  If you are an undergraduate at Berkeley and are interested in getting involved in research please fill out [DARE Application](https://dare.berkeley.edu/).
+We are also looking for motivated undergraduate students who would like to get involved in doing cutting edge research.  If you are an undergraduate at Berkeley and are interested in getting involved in research please fill out the [DARE Application](https://dare.berkeley.edu/).
 
 ### Entrepreneurship 
 
