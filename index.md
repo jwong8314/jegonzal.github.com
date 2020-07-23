@@ -14,7 +14,8 @@ order: 2
 
 <div style="float:left;padding:12px">
 <img src="{{ site.baseurl }}/assets/jegonzal.jpg">
-<center>(<a href="{{ site.baseurl }}/assets/jegonzal_highres.jpg">high resolution</a>)</center>
+<small><center>(<a target="_blank" href="{{ site.baseurl }}/assets/jegonzal_highres.jpg">high-res</a>, <a target="_blank" href="bio.html">biosketch</a>, 
+    <a target="_blank" href="{{ site.baseurl }}/assets/joseph_gonzalez_cv.pdf">cv</a>)</center></small>
 </div>
 
 <div>
@@ -22,11 +23,11 @@ order: 2
 <ul style="list-style-type:none">
 <li> Assistant Professor, UC Berkeley </li>
 
-  <li> <a href="http://eecs.berkeley.edu">Department of Electrical Engineering and Computer Science</a> </li>
+  <li> <a target="_blank" href="http://eecs.berkeley.edu">Department of Electrical Engineering and Computer Science</a> </li>
 
   <li> <b>Office:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley CA 94720</li>
 
-  <li> <b>Office Hours (Year Round):</b>  <a href="https://berkeley.zoom.us/j/97475874044">Zoom Meeting</a> Thursdays from 2:00PM to 3:00PM </li>
+  <li> <b>Office Hours (Year Round):</b>  <a target="_blank" href="https://berkeley.zoom.us/j/97475874044">Zoom Meeting</a> Thursdays from 2:00PM to 3:00PM </li>
 
 
   <li> <b>Email:</b>
@@ -55,6 +56,8 @@ I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS d
 
 
 <b>Background:</b> Before joining UC Berkeley as a professor,  I was a post-doc in the  <a href="https://amplab.cs.berkeley.edu">AMPLab</a> working on several projects including <a href="http://spark.apache.org/graphx/">GraphX</a> (now part of <a href="http://spark.apache.org">Apache Spark</a>), early versions of <a href="http://mlbase.org">MLbase</a>, <a href="https://amplab.cs.berkeley.edu/projects/velox/">Velox</a>, and <a href="https://amplab.cs.berkeley.edu/projects/ccml/">concurrency control for ML</a>.
+
+
 
 ## COVID-19 News 
 
@@ -159,7 +162,7 @@ I am currently a technical advisor for [AnyScale.ai](http://anyscale.ai) which i
 
 ## Funding
 
-My research as part of the UC Berkeley RISE Lab is funded by the NSF Expedition grant and a consortium of industrial sponsors:
+My research as part of the UC Berkeley RISE Lab is funded by the NSF Expedition grant, NSF CAREER Award, and the consortium of industrial sponsors:
 
 <img src="assets/images/sponsors.png" width="800">
 
