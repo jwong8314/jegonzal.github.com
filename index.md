@@ -74,7 +74,7 @@ I am fortunate to advise the following amazing students.
 * [Paras Jain](http://parasjain.com)
 * [Richard Liaw](https://www.linkedin.com/in/richardliaw)
 * [Kevin Lin](https://people.eecs.berkeley.edu/~kevinlin/)
-* [Simon Mo](https://www.linkedin.com/in/simon-mo-40151a87)
+* [Simon Mo](https://github.com/simon-mo)
 * [Charles Packer](https://people.eecs.berkeley.edu/~cpacker/)
 * [Shishir Patil](https://shishirpatil.github.io/)
 * [Suzanne Petryk](https://www.linkedin.com/in/suzanne-petryk/)
