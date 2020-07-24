@@ -79,7 +79,7 @@ I am fortunate to advise the following amazing students.
 * [Shishir Patil](https://shishirpatil.github.io/)
 * [Suzanne Petryk](https://www.linkedin.com/in/suzanne-petryk/)
 * [Daniel Rothchild](https://www.linkedin.com/in/daniel-rothchild-45510b38/)
-* [Peter Schafhalter](https://github.com/pschafhalter)
+* [Peter Schafhalter](https://pschafhalter.com/)
 * [Eyal Sela](https://rise.cs.berkeley.edu/blog/author/ges/)
 * [Brijen Thananjeyan](https://bthananjeyan.github.io)
 * [Alvin Wan](http://alvinwan.com)
