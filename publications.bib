@@ -60,18 +60,18 @@
 	Abstract = {Automatic speech synthesis is a challenging task that is becoming increasingly important as edge devices begin to interact with users through speech. Typical text-to-speech pipelines include a vocoder, which translates intermediate audio representations into an audio waveform. Most existing vocoders are difficult to parallelize since each generated sample is conditioned on previous samples. WaveGlow is a flow-based feed-forward alternative to these auto-regressive models (Prenger et al., 2019). However, while WaveGlow can be easily parallelized, the model is too expensive for real-time speech synthesis on the edge. This paper presents SqueezeWave, a family of lightweight vocoders based on WaveGlow that can generate audio of similar quality to WaveGlow with 61x - 214x fewer MACs. Code, trained models, and generated audio are publicly available at this https URL.},
 	Bdsk-Url-1 = {https://arxiv.org/abs/2001.05685}}
 
-@article{Cloudburst20,
-	Archiveprefix = {arXiv},
+
+
+@inproceedings{Cloudburst20,
 	Author = {Vikram Sreekanti and Chenggang Wu and Xiayue Charles Lin and Johann Schleier{-}Smith and Jose M. Faleiro and Joseph E. Gonzalez and Joseph M. Hellerstein and Alexey Tumanov},
-	Eprint = {2001.04592},
-	Journal = {CoRR},
-	Keywords = {arxivpre},
+	Booktitle = {Proceedings of Very Large Data Bases (PVLDB)},
+	Keywords = {peerrev},
 	Title = {Cloudburst: Stateful Functions-as-a-Service},
-	Url = {https://arxiv.org/abs/2001.04592},
-	Volume = {abs/2001.04592},
+	Url = {http://www.vldb.org/pvldb/vol13/p2438-sreekanti.pdf},
+	Volume = {13},
 	Year = {2020},
 	Abstract = {Function-as-a-Service (FaaS) platforms and ``serverless'' cloud computing are becoming increasingly popular. Current FaaS offerings are targeted at stateless functions that do minimal I/O and communication. We argue that the benefits of serverless computing can be extended to a broader range of applications and algorithms. We present the design and implementation of Cloudburst, a stateful FaaS platform that provides familiar Python programming with low-latency mutable state and communication, while maintaining the autoscaling benefits of serverless computing. Cloudburst accomplishes this by leveraging Anna, an autoscaling key-value store, for state sharing and overlay routing combined with mutable caches co-located with function executors for data locality. Performant cache consistency emerges as a key challenge in this architecture. To this end, Cloudburst provides a combination of lattice-encapsulated state and new definitions and protocols for distributed session consistency. Empirical results on benchmarks and diverse applications show that Cloudburst makes stateful functions practical, reducing the state-management overheads of current FaaS platforms by orders of magnitude while also improving the state of the art in serverless consistency.},
-	Bdsk-Url-1 = {https://arxiv.org/abs/2001.04592}}
+	Bdsk-Url-1 = {http://www.vldb.org/pvldb/vol13/p2438-sreekanti.pdf}}
 
 @article{DBLP:journals/debu/CullerDFGPSSWZ20,
 	Author = {David E. Culler and Prabal Dutta and Gabe Fierro and Joseph E. Gonzalez and Nathan Pemberton and Johann Schleier{-}Smith and Kalyanaraman Shankari and Alvin Wan and Thomas Zachariah},
@@ -229,8 +229,8 @@ To optimally trade-off evaluating multiple configurations and training the most 
 @inproceedings{OCQEuroSys20,
 	Address = {New York, NY, USA},
 	Articleno = {39},
-	Author = {Dave, Ankur and Leung, Chester and Popa, Raluca Ada and Gonzalez, Joseph E. and Stoica, Ion},
-	Booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems},
+	Author = {Ankur Dave and Chester Leung and Raluca Ada Popa and Joseph E. Gonzalez and Ion Stoica},
+	Booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems (EuroSys)},
 	Doi = {10.1145/3342195.3387552},
 	Isbn = {9781450368827},
 	Keywords = {peerrev},
@@ -252,7 +252,7 @@ We implemented OCQ as an extension to Apache Spark SQL. We find that OCQ is up t
 	Address = {New York, NY, USA},
 	Articleno = {15},
 	Author = {Vikram Sreekanti and Chenggang Wu and Saurav Chhatrapati and Joseph E. Gonzalez and Joseph M. Hellerstein and Jose M. Faleiro},
-	Booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems},
+	Booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems (EuroSys)},
 	Code = {https://github.com/vsreekanti/aft},
 	Doi = {10.1145/3342195.3387535},
 	Isbn = {9781450368827},
@@ -370,7 +370,7 @@ We present Ansor, a tensor program generation framework for deep learning applic
 @inproceedings{pmlr-v108-saxena20a,
 	Address = {Online},
 	Author = {Vidit Saxena and Joakim Jalden and Joseph E. Gonzalez},
-	Booktitle = {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},
+	Booktitle = {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics (AIStats)},
 	Editor = {Chiappa, Silvia and Calandra, Roberto},
 	Keywords = {peerrev},
 	Month = {8},
@@ -405,7 +405,7 @@ We present Ansor, a tensor program generation framework for deep learning applic
 
 @incollection{mlsys2020_196,
 	Author = {Paras Jain and Ajay Jain and Aniruddha Nrusimha and Amir Gholami and Pieter Abbeel and Kurt Keutzer and Ion Stoica and Joseph E. Gonzalez},
-	Booktitle = {Proceedings of Machine Learning and Systems 2020},
+	Booktitle = {Proceedings of Machine Learning and Systems},
 	Code = {https://github.com/parasj/checkmate},
 	Keywords = {peerrev},
 	Pages = {497--511},
@@ -447,7 +447,7 @@ We present Ansor, a tensor program generation framework for deep learning applic
 	Author = {Vidit Saxena and Joakim Jald{\'{e}}n and Joseph E. Gonzalez and Mats Bengtsson and Hugo M. Tullberg and Ion Stoica},
 	Bibsource = {dblp computer science bibliography, https://dblp.org},
 	Biburl = {https://dblp.org/rec/bib/conf/sigcomm/SaxenaJGBTS19},
-	Booktitle = {Proceedings of the 2019 Workshop on Network Meets {AI} {\&} ML, NetAI at SIGCOMM 2019, Beijing, China, August 23, 2019.},
+	Booktitle = {Proceedings of the Workshop on Network Meets {AI} ({NetAI}) at SIGCOMM},
 	Doi = {10.1145/3341216.3342212},
 	Keywords = {peerrev},
 	Pages = {44--49},
@@ -460,7 +460,7 @@ We present Ansor, a tensor program generation framework for deep learning applic
 
 @proceedings{Zhang19,
 	Author = {Tianjun Zhang and Zhewei Yao and Amir Gholami and Kurt Keutzer and Joseph E. Gonzalez and George Biros and Michael W. Mahoney},
-	Booktitle = {Neural Information Processing Systems ({NeurIPS} '19)},
+	Booktitle = {Neural Information Processing Systems ({NeurIPS})},
 	Keywords = {peerrev},
 	Title = {{ANODEV2:} A Coupled Neural ODE Evolution Framework},
 	Url = {https://arxiv.org/abs/1906.04596},

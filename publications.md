@@ -14,7 +14,7 @@ order: 2
 
 
 <div id="pmlr-v108-saxena20a" class="publication">
-<div class="summary"><p>Vidit Saxena, Joakim Jalden, and Joseph E. Gonzalez. <i>"Thompson Sampling for Linearly Constrained Bandits." </i><b>Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics</b>, 2020.</p></div><div class="links">
+<div class="summary"><p>Vidit Saxena, Joakim Jalden, and Joseph E. Gonzalez. <i>"Thompson Sampling for Linearly Constrained Bandits." </i><b>Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics (AIStats)</b>, 2020.</p></div><div class="links">
 <ul>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#pmlr-v108-saxena20a_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#pmlr-v108-saxena20a_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
@@ -27,7 +27,7 @@ order: 2
  address = {Online},
  author = {Vidit Saxena and Joakim Jalden and Joseph E. Gonzalez},
  bdsk-url-1 = {http://proceedings.mlr.press/v108/saxena20a.html},
- booktitle = {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},
+ booktitle = {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics (AIStats)},
  editor = {Chiappa, Silvia and Calandra, Roberto},
  keywords = {peerrev},
  month = {8},
@@ -176,7 +176,7 @@ This leads to an apparent trade-off between the training efficiency of large Tra
 </div></div>
 
 <div id="AftEuroSys20" class="publication">
-<div class="summary"><p>Vikram Sreekanti, Chenggang Wu, Saurav Chhatrapati, Joseph E. Gonzalez, Joseph M. Hellerstein, and Jose M. Faleiro. <i>"A Fault-Tolerance Shim for Serverless Computing." </i><b>Proceedings of the Fifteenth European Conference on Computer Systems</b>, 2020.</p></div><div class="links">
+<div class="summary"><p>Vikram Sreekanti, Chenggang Wu, Saurav Chhatrapati, Joseph E. Gonzalez, Joseph M. Hellerstein, and Jose M. Faleiro. <i>"A Fault-Tolerance Shim for Serverless Computing." </i><b>Proceedings of the Fifteenth European Conference on Computer Systems (EuroSys)</b>, 2020.</p></div><div class="links">
 <ul>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#AftEuroSys20_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#AftEuroSys20_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
@@ -195,7 +195,7 @@ In this paper, we present aft, an atomic fault tolerance shim for serverless app
  articleno = {15},
  author = {Vikram Sreekanti and Chenggang Wu and Saurav Chhatrapati and Joseph E. Gonzalez and Joseph M. Hellerstein and Jose M. Faleiro},
  bdsk-url-1 = {https://doi.org/10.1145/3342195.3387535},
- booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems},
+ booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems (EuroSys)},
  code = {https://github.com/vsreekanti/aft},
  doi = {10.1145/3342195.3387535},
  isbn = {9781450368827},
@@ -313,7 +313,7 @@ We present Ansor, a tensor program generation framework for deep learning applic
 </div></div>
 
 <div id="mlsys2020_196" class="publication">
-<div class="summary"><p>Paras Jain, Ajay Jain, Aniruddha Nrusimha, Amir Gholami, Pieter Abbeel, Kurt Keutzer, Ion Stoica, and Joseph E. Gonzalez. <i>"Breaking the Memory Wall with Optimal Tensor Rematerialization." </i><b>Proceedings of Machine Learning and Systems 2020</b>, 2020.</p></div><div class="links">
+<div class="summary"><p>Paras Jain, Ajay Jain, Aniruddha Nrusimha, Amir Gholami, Pieter Abbeel, Kurt Keutzer, Ion Stoica, and Joseph E. Gonzalez. <i>"Breaking the Memory Wall with Optimal Tensor Rematerialization." </i><b>Proceedings of Machine Learning and Systems</b>, 2020.</p></div><div class="links">
 <ul>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#mlsys2020_196_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#mlsys2020_196_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
@@ -326,7 +326,7 @@ We present Ansor, a tensor program generation framework for deep learning applic
  abstract = {Modern neural networks are increasingly bottlenecked by the limited capacity of on-device GPU memory. Prior work explores dropping activations as a strategy to scale to larger neural networks with fixed memory. However, these heuristics assume uniform cost per layer and only consider simple linear chain architectures, limiting their usability. In this paper, we formalize the problem of trading-off computation time and memory requirements for DNN training as the tensor rematerialization optimization problem. We develop a new system to optimally solve the problem in reasonable times (under an hour) using off-the-shelf MILP solvers. These schedules subsequently accelerate millions of training iterations. Our optimization pass in TensorFlow 2.0 automatically yields real training speedups of up to 4.8x over prior work, and can enable up to 5x increase in input size for real-world large networks.},
  author = {Paras Jain and Ajay Jain and Aniruddha Nrusimha and Amir Gholami and Pieter Abbeel and Kurt Keutzer and Ion Stoica and Joseph E. Gonzalez},
  bdsk-url-1 = {https://arxiv.org/abs/1910.02653},
- booktitle = {Proceedings of Machine Learning and Systems 2020},
+ booktitle = {Proceedings of Machine Learning and Systems},
  code = {https://github.com/parasj/checkmate},
  keywords = {peerrev},
  pages = {497--511},
@@ -338,25 +338,23 @@ We present Ansor, a tensor program generation framework for deep learning applic
 </div></div>
 
 <div id="Cloudburst20" class="publication">
-<div class="summary"><p>Vikram Sreekanti, Chenggang Wu, Xiayue Charles Lin, Johann Schleier-Smith, Jose M. Faleiro, Joseph E. Gonzalez, Joseph M. Hellerstein, and Alexey Tumanov. <i>"Cloudburst: Stateful Functions-as-a-Service." </i><b>CoRR (arXiv)</b>, 2020.</p></div><div class="links">
+<div class="summary"><p>Vikram Sreekanti, Chenggang Wu, Xiayue Charles Lin, Johann Schleier-Smith, Jose M. Faleiro, Joseph E. Gonzalez, Joseph M. Hellerstein, and Alexey Tumanov. <i>"Cloudburst: Stateful Functions-as-a-Service." </i><b>Proceedings of Very Large Data Bases (PVLDB)</b>, 2020.</p></div><div class="links">
 <ul>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Cloudburst20_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Cloudburst20_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
-	<li><a class="btn btn-primary btn-sm" target="_blank" href="https://arxiv.org/abs/2001.04592">paper</a></li>
+	<li><a class="btn btn-primary btn-sm" target="_blank" href="http://www.vldb.org/pvldb/vol13/p2438-sreekanti.pdf">paper</a></li>
 </ul>
 </div>
 <div class="cards"><div id="Cloudburst20_abs" class="collapse abstract"><div class="card card-body">Function-as-a-Service (FaaS) platforms and ``serverless'' cloud computing are becoming increasingly popular. Current FaaS offerings are targeted at stateless functions that do minimal I/O and communication. We argue that the benefits of serverless computing can be extended to a broader range of applications and algorithms. We present the design and implementation of Cloudburst, a stateful FaaS platform that provides familiar Python programming with low-latency mutable state and communication, while maintaining the autoscaling benefits of serverless computing. Cloudburst accomplishes this by leveraging Anna, an autoscaling key-value store, for state sharing and overlay routing combined with mutable caches co-located with function executors for data locality. Performant cache consistency emerges as a key challenge in this architecture. To this end, Cloudburst provides a combination of lattice-encapsulated state and new definitions and protocols for distributed session consistency. Empirical results on benchmarks and diverse applications show that Cloudburst makes stateful functions practical, reducing the state-management overheads of current FaaS platforms by orders of magnitude while also improving the state of the art in serverless consistency.</div></div><div id="Cloudburst20_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@article{Cloudburst20,
+@inproceedings{Cloudburst20,
  abstract = {Function-as-a-Service (FaaS) platforms and ``serverless'' cloud computing are becoming increasingly popular. Current FaaS offerings are targeted at stateless functions that do minimal I/O and communication. We argue that the benefits of serverless computing can be extended to a broader range of applications and algorithms. We present the design and implementation of Cloudburst, a stateful FaaS platform that provides familiar Python programming with low-latency mutable state and communication, while maintaining the autoscaling benefits of serverless computing. Cloudburst accomplishes this by leveraging Anna, an autoscaling key-value store, for state sharing and overlay routing combined with mutable caches co-located with function executors for data locality. Performant cache consistency emerges as a key challenge in this architecture. To this end, Cloudburst provides a combination of lattice-encapsulated state and new definitions and protocols for distributed session consistency. Empirical results on benchmarks and diverse applications show that Cloudburst makes stateful functions practical, reducing the state-management overheads of current FaaS platforms by orders of magnitude while also improving the state of the art in serverless consistency.},
- archiveprefix = {arXiv},
  author = {Vikram Sreekanti and Chenggang Wu and Xiayue Charles Lin and Johann Schleier{-}Smith and Jose M. Faleiro and Joseph E. Gonzalez and Joseph M. Hellerstein and Alexey Tumanov},
- bdsk-url-1 = {https://arxiv.org/abs/2001.04592},
- eprint = {2001.04592},
- journal = {CoRR},
- keywords = {arxivpre},
+ bdsk-url-1 = {http://www.vldb.org/pvldb/vol13/p2438-sreekanti.pdf},
+ booktitle = {Proceedings of Very Large Data Bases (PVLDB)},
+ keywords = {peerrev},
  title = {Cloudburst: Stateful Functions-as-a-Service},
- url = {https://arxiv.org/abs/2001.04592},
- volume = {abs/2001.04592},
+ url = {http://www.vldb.org/pvldb/vol13/p2438-sreekanti.pdf},
+ volume = {13},
  year = {2020}
 }
 </code></pre></div></div>
@@ -557,7 +555,7 @@ goals of the Apple and google exposure notification protocols.},
 </div></div>
 
 <div id="OCQEuroSys20" class="publication">
-<div class="summary"><p>Dave, Ankur, Leung, Chester, Popa, Raluca Ada, Gonzalez, Joseph E., Stoica, and Ion. <i>"Oblivious Coopetitive Analytics Using Hardware Enclaves." </i><b>Proceedings of the Fifteenth European Conference on Computer Systems</b>, 2020.</p></div><div class="links">
+<div class="summary"><p>Ankur Dave, Chester Leung, Raluca Ada Popa, Joseph E. Gonzalez, and Ion Stoica. <i>"Oblivious Coopetitive Analytics Using Hardware Enclaves." </i><b>Proceedings of the Fifteenth European Conference on Computer Systems (EuroSys)</b>, 2020.</p></div><div class="links">
 <ul>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#OCQEuroSys20_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#OCQEuroSys20_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
@@ -577,9 +575,9 @@ We propose Oblivious Coopetitive Queries (OCQ), an efficient, general framework 
 We implemented OCQ as an extension to Apache Spark SQL. We find that OCQ is up to 9.9x faster than Opaque, a state-of-the-art secure analytics framework which outsources all data and computation to an enclave-enabled cloud; and is up to 219x faster than implementing analytics using AgMPC, a state-of-the-art secure multi-party computation framework.},
  address = {New York, NY, USA},
  articleno = {39},
- author = {Dave, Ankur and Leung, Chester and Popa, Raluca Ada and Gonzalez, Joseph E. and Stoica, Ion},
+ author = {Ankur Dave and Chester Leung and Raluca Ada Popa and Joseph E. Gonzalez and Ion Stoica},
  bdsk-url-1 = {https://doi.org/10.1145/3342195.3387552},
- booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems},
+ booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems (EuroSys)},
  doi = {10.1145/3342195.3387552},
  isbn = {9781450368827},
  keywords = {peerrev},
@@ -920,7 +918,7 @@ We implemented OCQ as an extension to Apache Spark SQL. We find that OCQ is up t
 </div></div>
 
 <div id="Zhang19" class="publication">
-<div class="summary"><p>Tianjun Zhang, Zhewei Yao, Amir Gholami, Kurt Keutzer, Joseph E. Gonzalez, George Biros, and Michael W. Mahoney. <i>"ANODEV2: A Coupled Neural ODE Evolution Framework." </i><b>Neural Information Processing Systems (NeurIPS '19)</b>, 2019.</p></div><div class="links">
+<div class="summary"><p>Tianjun Zhang, Zhewei Yao, Amir Gholami, Kurt Keutzer, Joseph E. Gonzalez, George Biros, and Michael W. Mahoney. <i>"ANODEV2: A Coupled Neural ODE Evolution Framework." </i><b>Neural Information Processing Systems (NeurIPS)</b>, 2019.</p></div><div class="links">
 <ul>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Zhang19_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Zhang19_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
@@ -932,7 +930,7 @@ We implemented OCQ as an extension to Apache Spark SQL. We find that OCQ is up t
  abstract = {It has been observed that residual networks can be viewed as the explicit Euler discretization of an Ordinary Differential Equation (ODE). This observation motivated the introduction of so-called Neural ODEs, which allow more general discretization schemes with adaptive time stepping. Here, we propose ANODEV2, which is an extension of this approach that also allows evolution of the neural network parameters, in a coupled ODE-based formulation. The Neural ODE method introduced earlier is in fact a special case of this new more general framework. We present the formulation of ANODEV2, derive optimality conditions, and implement a coupled reaction-diffusion-advection version of this framework in PyTorch. We present empirical results using several different configurations of ANODEV2, testing them on multiple models on CIFAR-10. We report results showing that this coupled ODE-based framework is indeed trainable, and that it achieves higher accuracy, as compared to the baseline models as well as the recently-proposed Neural ODE approach.},
  author = {Tianjun Zhang and Zhewei Yao and Amir Gholami and Kurt Keutzer and Joseph E. Gonzalez and George Biros and Michael W. Mahoney},
  bdsk-url-1 = {https://arxiv.org/abs/1906.04596},
- booktitle = {Neural Information Processing Systems ({NeurIPS} '19)},
+ booktitle = {Neural Information Processing Systems ({NeurIPS})},
  keywords = {peerrev},
  title = { {ANODEV2:} A Coupled Neural ODE Evolution Framework},
  url = {https://arxiv.org/abs/1906.04596},
@@ -942,7 +940,7 @@ We implemented OCQ as an extension to Apache Spark SQL. We find that OCQ is up t
 </div></div>
 
 <div id="SaxenaSigcommNetAI" class="publication">
-<div class="summary"><p>Vidit Saxena, Joakim Jald\'en, Joseph E. Gonzalez, Mats Bengtsson, Hugo M. Tullberg, and Ion Stoica. <i>"Contextual Multi-Armed Bandits for Link Adaptation in Cellular Networks." </i><b>Proceedings of the 2019 Workshop on Network Meets AI \& ML, NetAI at SIGCOMM 2019, Beijing, China, August 23, 2019.</b>, 2019.</p></div><div class="links">
+<div class="summary"><p>Vidit Saxena, Joakim Jald\'en, Joseph E. Gonzalez, Mats Bengtsson, Hugo M. Tullberg, and Ion Stoica. <i>"Contextual Multi-Armed Bandits for Link Adaptation in Cellular Networks." </i><b>Proceedings of the Workshop on Network Meets AI (NetAI) at SIGCOMM</b>, 2019.</p></div><div class="links">
 <ul>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#SaxenaSigcommNetAI_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
 	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#SaxenaSigcommNetAI_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
@@ -956,7 +954,7 @@ We implemented OCQ as an extension to Apache Spark SQL. We find that OCQ is up t
  bdsk-url-1 = {https://doi.org/10.1145/3341216.3342212},
  bibsource = {dblp computer science bibliography, https://dblp.org},
  biburl = {https://dblp.org/rec/bib/conf/sigcomm/SaxenaJGBTS19},
- booktitle = {Proceedings of the 2019 Workshop on Network Meets {AI} {\&} ML, NetAI at SIGCOMM 2019, Beijing, China, August 23, 2019.},
+ booktitle = {Proceedings of the Workshop on Network Meets {AI} ({NetAI}) at SIGCOMM},
  doi = {10.1145/3341216.3342212},
  keywords = {peerrev},
  pages = {44--49},
