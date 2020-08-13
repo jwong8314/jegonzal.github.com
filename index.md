@@ -77,6 +77,7 @@ I am fortunate to advise the following amazing students.
 * [Simon Mo](https://www.linkedin.com/in/simon-mo-40151a87)
 * [Charles Packer](https://people.eecs.berkeley.edu/~cpacker/)
 * [Shishir Patil](https://shishirpatil.github.io/)
+* [Devin Petersohn](https://www.linkedin.com/in/devinpetersohn/)
 * [Suzanne Petryk](https://www.linkedin.com/in/suzanne-petryk/)
 * [Daniel Rothchild](https://www.linkedin.com/in/daniel-rothchild-45510b38/)
 * [Peter Schafhalter](https://github.com/pschafhalter)
