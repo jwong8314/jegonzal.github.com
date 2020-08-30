@@ -7,7 +7,15 @@ order: 3
 ---
 
 
-# Data Science 100
+## [Conversations with Thought Leaders in Technology (CS198-100)](https://ucbrise.github.io/thought-leaders-fa20/). 
+
+This interactive seminar class will connect a select group of Berkeley students with thought leaders at major technology companies and venture capital firms. Each week will be organized around a short set of readings related to the speaker’s background followed by a live zoom session with that speaker. Students will participate in an interactive slack discussion and generate questions to ask each speaker. Students will learn about how new technology is funded and developed as well as trends in the industry. They will also have the opportunity to meet face-to-face with CXOs, VC partners, and top research scientists from around the world and learn about their career paths. This is also an amazing opportunity to network with leaders in the technology world.
+
+
+---
+
+
+## Data Science 100
 
 I co-created this large intermediate data science class. This class now serves over 1200 students a semester.
 
@@ -27,7 +35,7 @@ If you are having issues enrolling please contact <a href="mailto:csconners@cs.b
 
 
 
-# [AI-Sys Graduate Seminar (294-162) FA 2019](https://ucbrise.github.io/cs294-ai-sys-fa19/). 
+## [AI-Sys Graduate Seminar (294-162) FA 2019](https://ucbrise.github.io/cs294-ai-sys-fa19/). 
 
 [Course Website](https://ucbrise.github.io/cs294-ai-sys-fa19/)
 
@@ -59,7 +67,7 @@ This seminar aims to serve as a catalyst for research in the RISE lab, a new lab
 
 
 
-# Introduction to Databases
+## Introduction to Databases
 
 Access methods and file systems to facilitate data access. Hierarchical, network, relational, and object-oriented data models. Query languages for models. Embedding query languages in programming languages. Database services including protection, integrity control, and alternative views of data. High-level interfaces including application generators, browsers, and report writers. Introduction to transaction processing. Database system implementation to be done as term project.
 
