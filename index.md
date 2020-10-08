@@ -130,10 +130,12 @@ I am fortunate to advise the following amazing students.
 * [Scott Lee](https://scottjlee.github.io)
 * [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
 * [Ashwinee Panda](https://www.linkedin.com/in/ashwineepanda)
+* [Vikram Sreekanti](https://www.vikrams.io)
 * [Hari Subbaraj](https://www.linkedin.com/in/hsubbaraj)
 * [Victor Sun]()
 * [Alexey Tumanov](https://www.cc.gatech.edu/people/alexey-tumanov)
 * [Nikita Vemuri](https://www.linkedin.com/in/nikitavemuri)
+* [Chenggang Wu](http://cgwu.io/)
 * [Flora Xue](https://floraxue.github.io/index.html)
 * [Neeraja Yadwadkar](https://people.eecs.berkeley.edu/~neerajay/)
 * [Andy Yan]()
@@ -157,9 +159,10 @@ If you are looking for a post-doc position please contact me directly.
 
 We are also looking for motivated undergraduate students who would like to get involved in doing cutting edge research.  If you are an undergraduate at Berkeley and are interested in getting involved in research please fill out the [DARE Application](https://dare.berkeley.edu/).
 
-### Entrepreneurship 
-
+<!-- ### Entrepreneurship 
 I am currently a technical advisor for [AnyScale.ai](http://anyscale.ai) which is developing a platform for distributed computing in Python.  [AnyScale.ai](http://anyscale.ai) is currently hiring!
+ -->
+
 
 ## Funding
 
