@@ -59,10 +59,9 @@ I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS d
 
 
 
-## COVID-19 News 
+## News 
 
-I recently released a special edition of the [Data Engineering Bulletin](http://sites.computer.org/debull/A20june/issue1.htm).  We also have a [blog post](https://medium.com/@covista/governments-vs-big-tech-resolving-differences-in-contact-tracing-b3d39193bfe4) about advances and issues in digital contact tracing.
-
+My group is starting to explore some of the underlying design decisions in feature stores.  Checkout out recent blog [Feature Stores: The Data Side of ML Pipelines](https://medium.com/riselab/feature-stores-the-data-side-of-ml-pipelines-7083d69bff1c).
 
  
 ## Current Graduate Students and Post-docs
@@ -71,6 +70,8 @@ I am fortunate to advise the following amazing students.
 
 #### Graduate Students
 
+* [Lisa Dunlap](https://www.linkedin.com/in/lisabdunlap)
+* [Yu Gai]()
 * [Paras Jain](http://parasjain.com)
 * [Richard Liaw](https://www.linkedin.com/in/richardliaw)
 * [Kevin Lin](https://people.eecs.berkeley.edu/~kevinlin/)
@@ -84,31 +85,28 @@ I am fortunate to advise the following amazing students.
 * [Eyal Sela](https://rise.cs.berkeley.edu/blog/author/ges/)
 * [Brijen Thananjeyan](https://bthananjeyan.github.io)
 * [Alvin Wan](http://alvinwan.com)
-* [Xin Wang](https://people.eecs.berkeley.edu/~xinw/)
-* [Tianjun Zhang]()
+* [Sarah Wooders](http://sarahwooders.com/)
+* [Tianjun Zhang](https://www.linkedin.com/in/tianjun-zhang-333bb2126)
 * [Lianmin Zheng](http://lmzheng.net/)
 
 
 
+<!-- 
+#### Masters Students
 
-<!-- #### Masters Students
-
- -->
 
 
 #### Undergraduates
-
-* [Lisa Dunlap](https://www.linkedin.com/in/lisabdunlap)
-* [Rehan Durrani](https://github.com/RehanSD)
-* [Cathy Li](https://www.linkedin.com/in/cathy-li-81068b141/)
-* [Mong Ng](http://www.mong.life/about-me/)
+ -->
 
 #### Post-docs
 
 * [Jianfei Chen](http://people.eecs.berkeley.edu/~jianfei/)
 * [Kirthevasan Kandasamy](https://people.eecs.berkeley.edu/~kandasamy/)
+* [Xin Wang](https://people.eecs.berkeley.edu/~xinw/)
 * [Matthew Wright](https://www.linkedin.com/in/mattawright)
 * [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/)
+
 
 
 #### Former Students and Post-docs
@@ -118,6 +116,7 @@ I am fortunate to advise the following amazing students.
 * [Francios Belletti](https://github.com/bellettif)
 * [Daniel Crankshaw](https://dancrankshaw.com/)
 * [Aman Dhar](https://www.linkedin.com/in/amandhar/)
+* [Rehan Durrani](https://github.com/RehanSD)
 * [Edward Fang](https://www.linkedin.com/in/edward-h-fang)
 * [Vlad Feinberg](https://vlad17.github.io/about)
 * [Noah Golmant](http://noahgolmant.com)
@@ -128,7 +127,9 @@ I am fortunate to advise the following amazing students.
 * [Alvin Kao]()
 * [Alexander Ku](https://www.linkedin.com/in/alexyku/)
 * [Scott Lee](https://scottjlee.github.io)
+* [Cathy Li](https://www.linkedin.com/in/cathy-li-81068b141/)
 * [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
+* [Mong Ng](http://www.mong.life/about-me/)
 * [Ashwinee Panda](https://www.linkedin.com/in/ashwineepanda)
 * [Vikram Sreekanti](https://www.vikrams.io)
 * [Hari Subbaraj](https://www.linkedin.com/in/hsubbaraj)
@@ -140,6 +141,10 @@ I am fortunate to advise the following amazing students.
 * [Neeraja Yadwadkar](https://people.eecs.berkeley.edu/~neerajay/)
 * [Andy Yan]()
 * [Corey Zumar](https://www.linkedin.com/in/corey-zumar-0a770982)
+
+
+
+
 
 
 
