@@ -229,6 +229,38 @@ This leads to an apparent trade-off between the training efficiency of large Tra
 </code></pre></div></div>
 </div></div>
 
+<div id="rol2020hindsight" class="publication">
+<div class="summary"><p>Rolando Garcia, Eric Liu, Vikram Sreekanti, Bobby Yan 
+and Anusha Dandamudi, Joseph E. Gonzalez, Joseph M. Hellerstein, and Koushik Sen. <i>"Hindsight Logging for Model Training." </i><b>Proc. VLDB Endow.</b>, 2020.</p></div><div class="links">
+<ul>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#rol2020hindsight_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
+	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#rol2020hindsight_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
+	<li><a class="btn btn-primary btn-sm" target="_blank" href="https://doi.org/10.14778/3436905.3436925">paper</a></li>
+</ul>
+</div>
+<div class="cards"><div id="rol2020hindsight_abs" class="collapse abstract"><div class="card card-body">In modern Machine Learning, model training is an iterative, experimental process that can consume enormous computation resources and developer time. To aid in that process, experienced model developers log and visualize program variables during training runs. Exhaustive logging of all variables is infeasible, so developers are left to choose between slowing down training via extensive conservative logging, or letting training run fast via minimalist optimistic logging that may omit key information. As a compromise, optimistic logging can be accompanied by program checkpoints; this allows developers to add log statements post-hoc, and "replay" desired log statements from checkpoint---a process we refer to as hindsight logging. Unfortunately, hindsight logging raises tricky problems in data management and software engineering. Done poorly, hindsight logging can waste resources and generate technical debt embodied in multiple variants of training code. In this paper, we present methodologies for efficient and effective logging practices for model training, with a focus on techniques for hindsight logging. Our goal is for experienced model developers to learn and adopt these practices. To make this easier, we provide an open-source suite of tools for Fast Low-Overhead Recovery (flor) that embodies our design across three tasks: (i) efficient background logging in Python, (ii) adaptive periodic checkpointing, and (iii) an instrumentation library that codifies hindsight logging for efficient and automatic record-replay of model-training. Model developers can use each flor tool separately as they see fit, or they can use flor in hands-free mode, entrusting it to instrument their code end-to-end for efficient record-replay. Our solutions leverage techniques from physiological transaction logs and recovery in database systems. Evaluations on modern ML benchmarks demonstrate that flor can produce fast checkpointing with small user-specifiable overheads (e.g. 7\%), and still provide hindsight log replay times orders of magnitude faster than restarting training from scratch.</div></div><div id="rol2020hindsight_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
+@article{rol2020hindsight,
+ abstract = {In modern Machine Learning, model training is an iterative, experimental process that can consume enormous computation resources and developer time. To aid in that process, experienced model developers log and visualize program variables during training runs. Exhaustive logging of all variables is infeasible, so developers are left to choose between slowing down training via extensive conservative logging, or letting training run fast via minimalist optimistic logging that may omit key information. As a compromise, optimistic logging can be accompanied by program checkpoints; this allows developers to add log statements post-hoc, and "replay" desired log statements from checkpoint---a process we refer to as hindsight logging. Unfortunately, hindsight logging raises tricky problems in data management and software engineering. Done poorly, hindsight logging can waste resources and generate technical debt embodied in multiple variants of training code. In this paper, we present methodologies for efficient and effective logging practices for model training, with a focus on techniques for hindsight logging. Our goal is for experienced model developers to learn and adopt these practices. To make this easier, we provide an open-source suite of tools for Fast Low-Overhead Recovery (flor) that embodies our design across three tasks: (i) efficient background logging in Python, (ii) adaptive periodic checkpointing, and (iii) an instrumentation library that codifies hindsight logging for efficient and automatic record-replay of model-training. Model developers can use each flor tool separately as they see fit, or they can use flor in hands-free mode, entrusting it to instrument their code end-to-end for efficient record-replay. Our solutions leverage techniques from physiological transaction logs and recovery in database systems. Evaluations on modern ML benchmarks demonstrate that flor can produce fast checkpointing with small user-specifiable overheads (e.g. 7\%), and still provide hindsight log replay times orders of magnitude faster than restarting training from scratch.},
+ author = {Rolando Garcia and Eric Liu and Vikram Sreekanti and Bobby Yan 
+and Anusha Dandamudi and Joseph E. Gonzalez and Joseph M. Hellerstein  and Koushik Sen},
+ doi = {10.14778/3436905.3436925},
+ issn = {2150-8097},
+ issue_date = {December 2020},
+ journal = {Proc. VLDB Endow.},
+ keywords = {peerrev},
+ month = {12},
+ number = {4},
+ numpages = {12},
+ pages = {682–693},
+ publisher = {VLDB Endowment},
+ title = {Hindsight Logging for Model Training},
+ url = {https://doi.org/10.14778/3436905.3436925},
+ volume = {14},
+ year = {2020}
+}
+</code></pre></div></div>
+</div></div>
+
 <div id="InferlineSOCC20" class="publication">
 <div class="summary"><p>Daniel Crankshaw, Gur-Eyal Sela, Corey Zumar, Xiangxi Mo, Joseph E. Gonzalez, Ion Stoica, and Alexey Tumanov. <i>"InferLine: ML Inference Pipeline Composition Framework." </i><b>Proceedings of the ACM Symposium on Cloud Computing</b>, 2020.</p></div><div class="links">
 <ul>
@@ -865,30 +897,6 @@ We implemented OCQ as an extension to Apache Spark SQL. We find that OCQ is up t
  code = {https://github.com/modin-project/modin},
  date-modified = {2020-08-02 11:27:35 -0700},
  keywords = {peerrev},
- title = {Towards Scalable Dataframe Systems},
- url = {http://www.vldb.org/pvldb/vol13/p2033-petersohn.pdf},
- volume = {13},
- year = {2020}
-}
-</code></pre></div></div>
-</div></div>
-
-<div id="rol2020hindsight" class="publication">
-<div class="summary"><p>Devin Petersohn, William W. Ma, Doris Jung Lin Lee, Stephen Macke, Doris Xin, Xiangxi Mo, Joseph Gonzalez, Joseph M. Hellerstein, Anthony D. Joseph, and Aditya G. Parameswaran. <i>"Towards Scalable Dataframe Systems." </i><b>Proc. VLDB Endow.</b>, 2020.</p></div><div class="links">
-<ul>
-	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#rol2020hindsight_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a></li>
-	<li><a class="btn btn-primary btn-sm" data-toggle="collapse" href="#rol2020hindsight_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a></li>
-	<li><a class="btn btn-primary btn-sm" target="_blank" href="http://www.vldb.org/pvldb/vol13/p2033-petersohn.pdf">paper</a></li>
-</ul>
-</div>
-<div class="cards"><div id="rol2020hindsight_abs" class="collapse abstract"><div class="card card-body">Due to the long timelapse between the triggering and detection of a bug in the machine learning lifecycle, model developers favor data-centric logfile analysis over traditional interactive debugging techniques. But when useful execution data is missing from the logs after training, developers have little recourse beyond re-executing training with more logging statements, or guessing. In this paper, we present hindsight logging, a novel technique for efficiently querying ad-hoc execution data, long after model training. The goal of hindsight logging is to enable analysis of past executions as if the logs had been exhaustive. Rather than materialize logs up front, we draw on the idea of physiological database recovery, and adapt it to arbitrary programs. Developers can query the state in past runs of a program by adding arbitrary log statements to their code; a combination of physical and logical recovery is used to quickly produce the output of the new log statements. We implement these ideas in Flor, a record-replay system for hindsight logging in Python. We evaluate Flor's performance on eight different model training workloads from current computer vision and NLP benchmarks. We find that Flor replay achieves near-ideal scale-out and order-of-magnitude speedups in replay, with just 1.47\% average runtime overhead from record.</div></div><div id="rol2020hindsight_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@article{rol2020hindsight,
- abstract = {Due to the long timelapse between the triggering and detection of a bug in the machine learning lifecycle, model developers favor data-centric logfile analysis over traditional interactive debugging techniques. But when useful execution data is missing from the logs after training, developers have little recourse beyond re-executing training with more logging statements, or guessing. In this paper, we present hindsight logging, a novel technique for efficiently querying ad-hoc execution data, long after model training. The goal of hindsight logging is to enable analysis of past executions as if the logs had been exhaustive. Rather than materialize logs up front, we draw on the idea of physiological database recovery, and adapt it to arbitrary programs. Developers can query the state in past runs of a program by adding arbitrary log statements to their code; a combination of physical and logical recovery is used to quickly produce the output of the new log statements. We implement these ideas in Flor, a record-replay system for hindsight logging in Python. We evaluate Flor's performance on eight different model training workloads from current computer vision and NLP benchmarks. We find that Flor replay achieves near-ideal scale-out and order-of-magnitude speedups in replay, with just 1.47\% average runtime overhead from record.},
- author = {Devin Petersohn and William W. Ma and Doris Jung Lin Lee and Stephen Macke and Doris Xin and Xiangxi Mo and Joseph Gonzalez and Joseph M. Hellerstein and Anthony D. Joseph and Aditya G. Parameswaran},
- journal = {Proc. {VLDB} Endow.},
- keywords = {peerrev},
- number = {11},
- pages = {2033--2046},
  title = {Towards Scalable Dataframe Systems},
  url = {http://www.vldb.org/pvldb/vol13/p2033-petersohn.pdf},
  volume = {13},

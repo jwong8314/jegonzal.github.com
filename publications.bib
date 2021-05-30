@@ -377,16 +377,23 @@
    abstract     = {The black-box nature of neural networks limits model decision interpretability, in particular for high-dimensional inputs in computer vision and for dense pixel prediction tasks like segmentation. To address this, prior work combines neural networks with decision trees. However, such models (1) perform poorly when compared to state-of-the-art segmentation models or (2) fail to produce decision rules with spatially-grounded semantic meaning. In this work, we build a hybrid neural-network and decision-tree model for segmentation that (1) attains neural network segmentation accuracy and (2) provides semi-automatically constructed visual decision rules such as ''Is there a window?.'' We obtain semantic visual meaning by extending saliency methods to segmentation and attain accuracy by leveraging insights from neural-backed decision trees, a deep learning analog of decision trees for image classification. Our model SegNBDT attains accuracy within ~2-4\% of the state-of-the-art HRNetV2 segmentation model while also retaining explainability; we achieve state-of-the-art performance for explainable models on three benchmark datasets -- Pascal-Context (49.12\%), Cityscapes (79.01\%), and Look Into Person (51.64\%). Furthermore, user studies suggest visual decision rules are more interpretable, particularly for incorrect predictions. Code and pretrained models can be found at this https URL.}
 }
 @article{rol2020hindsight,
-   title        = {Towards Scalable Dataframe Systems},
-   author       = {Devin Petersohn and William W. Ma and Doris Jung Lin Lee and Stephen Macke and Doris Xin and Xiangxi Mo and Joseph Gonzalez and Joseph M. Hellerstein and Anthony D. Joseph and Aditya G. Parameswaran},
-   year         = 2020,
-   journal      = {Proc. {VLDB} Endow.},
-   volume       = 13,
-   number       = 11,
-   pages        = {2033--2046},
-   url          = {http://www.vldb.org/pvldb/vol13/p2033-petersohn.pdf},
-   keywords     = {peerrev},
-   abstract     = {Due to the long timelapse between the triggering and detection of a bug in the machine learning lifecycle, model developers favor data-centric logfile analysis over traditional interactive debugging techniques. But when useful execution data is missing from the logs after training, developers have little recourse beyond re-executing training with more logging statements, or guessing. In this paper, we present hindsight logging, a novel technique for efficiently querying ad-hoc execution data, long after model training. The goal of hindsight logging is to enable analysis of past executions as if the logs had been exhaustive. Rather than materialize logs up front, we draw on the idea of physiological database recovery, and adapt it to arbitrary programs. Developers can query the state in past runs of a program by adding arbitrary log statements to their code; a combination of physical and logical recovery is used to quickly produce the output of the new log statements. We implement these ideas in Flor, a record-replay system for hindsight logging in Python. We evaluate Flor's performance on eight different model training workloads from current computer vision and NLP benchmarks. We find that Flor replay achieves near-ideal scale-out and order-of-magnitude speedups in replay, with just 1.47\% average runtime overhead from record.}
+   author = {Rolando Garcia and Eric Liu and Vikram Sreekanti and Bobby Yan 
+   and Anusha Dandamudi and Joseph E. Gonzalez and Joseph M. Hellerstein  and Koushik Sen},
+   title = {Hindsight Logging for Model Training},
+   year = {2020},
+   issue_date = {December 2020},
+   publisher = {VLDB Endowment},
+   volume = {14},
+   number = {4},
+   issn = {2150-8097},
+   keywords   = {peerrev},
+   url = {https://doi.org/10.14778/3436905.3436925},
+   doi = {10.14778/3436905.3436925},
+   abstract = {In modern Machine Learning, model training is an iterative, experimental process that can consume enormous computation resources and developer time. To aid in that process, experienced model developers log and visualize program variables during training runs. Exhaustive logging of all variables is infeasible, so developers are left to choose between slowing down training via extensive conservative logging, or letting training run fast via minimalist optimistic logging that may omit key information. As a compromise, optimistic logging can be accompanied by program checkpoints; this allows developers to add log statements post-hoc, and "replay" desired log statements from checkpoint---a process we refer to as hindsight logging. Unfortunately, hindsight logging raises tricky problems in data management and software engineering. Done poorly, hindsight logging can waste resources and generate technical debt embodied in multiple variants of training code. In this paper, we present methodologies for efficient and effective logging practices for model training, with a focus on techniques for hindsight logging. Our goal is for experienced model developers to learn and adopt these practices. To make this easier, we provide an open-source suite of tools for Fast Low-Overhead Recovery (flor) that embodies our design across three tasks: (i) efficient background logging in Python, (ii) adaptive periodic checkpointing, and (iii) an instrumentation library that codifies hindsight logging for efficient and automatic record-replay of model-training. Model developers can use each flor tool separately as they see fit, or they can use flor in hands-free mode, entrusting it to instrument their code end-to-end for efficient record-replay. Our solutions leverage techniques from physiological transaction logs and recovery in database systems. Evaluations on modern ML benchmarks demonstrate that flor can produce fast checkpointing with small user-specifiable overheads (e.g. 7\%), and still provide hindsight log replay times orders of magnitude faster than restarting training from scratch.},
+journal = {Proc. VLDB Endow.},
+month = {12},
+pages = {682–693},
+numpages = {12}
 }
 @inproceedings{ng2020bevseg,
    title        = {{BEV-Seg}: Bird's Eye View Semantic Segmentation Using Geometry and Semantic Point Cloud},
