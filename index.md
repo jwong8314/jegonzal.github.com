@@ -27,7 +27,11 @@ order: 2
 
   <li> <b>Office:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley CA 94720</li>
 
-  <li> <b>Office Hours (Year Round):</b>  <a target="_blank" href="https://berkeley.zoom.us/j/92550107116?pwd=NkEzM0VmMkQxb1BqOFMxMDZRa0xVdz09">Zoom Meeting</a> Fridays from 1:00PM to 2:00PM </li>
+  <li> <b>Office Hours:</b>Please email me to setup a meeting time.
+
+   <!-- <a target="_blank" href="https://berkeley.zoom.us/j/92550107116?pwd=NkEzM0VmMkQxb1BqOFMxMDZRa0xVdz09">Zoom Meeting</a> Fridays from 1:00PM to 2:00PM  -->
+
+ </li>
 
 
   <li> <b>Email:</b>
