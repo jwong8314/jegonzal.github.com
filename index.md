@@ -21,13 +21,17 @@ order: 2
 <div>
 <h1> Joseph E. Gonzalez </h1>
 <ul style="list-style-type:none">
-<li> Assistant Professor, UC Berkeley </li>
+<li> Associate Professor, UC Berkeley </li>
 
   <li> <a target="_blank" href="http://eecs.berkeley.edu">Department of Electrical Engineering and Computer Science</a> </li>
 
   <li> <b>Office:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley CA 94720</li>
 
-  <li> <b>Office Hours (Year Round):</b>  <a target="_blank" href="https://berkeley.zoom.us/j/97475874044">Zoom Meeting</a> Thursdays from 2:00PM to 3:00PM </li>
+  <li> <b>Office Hours:</b>Please email me to setup a meeting time.
+
+   <!-- <a target="_blank" href="https://berkeley.zoom.us/j/92550107116?pwd=NkEzM0VmMkQxb1BqOFMxMDZRa0xVdz09">Zoom Meeting</a> Fridays from 1:00PM to 2:00PM  -->
+
+ </li>
 
 
   <li> <b>Email:</b>
@@ -41,73 +45,56 @@ order: 2
 </div>
 
 
-I am an assistant professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley and a founding member of the new UC Berkeley [RISE Lab](http://rise.cs.berkeley.edu).  My [research interests](research) are at the intersection of machine learning and data systems and my students are working on a wide range of projects including:
-
+Joseph is a Professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley, a co-director and founding member of the UC Berkeley [RISE Lab](http://rise.cs.berkeley.edu) and a member of the Berkeley AI Research ([BAIR](bair.berkeley.edu) Group).  His [research interests](research) span machine learning and data systems and he has a wide range of projects including:
 
 * real-time model serving 
-* dynamic deep neural networks for transfer learning
+* dynamic deep neural networks
 * accelerated deep learning for high-resolution computer vision
 * new cryptographic primitives for federated learning
 * frameworks for deep reinforcement learning and parameter tuning
 * explainable reinforcement learning
 * software platforms for autonomous vehicles
+* new approaches to cloud computing
 
-<b>Co-founder:</b> I am also co-founder of <a href="http://Turi.com">Turi Inc.</a> (formerly GraphLab), which was based on my work on the <a href="https://github.com/dato-code/PowerGraph">GraphLab and PowerGraph Systems</a>.  Turi was recently <a href="http://www.geekwire.com/2016/exclusive-apple-acquires-turi-major-exit-seattle-based-machine-learning-ai-startup/">acquired</a> by Apple Inc.
-
-
-<b>Background:</b> Before joining UC Berkeley as a professor,  I was a post-doc in the  <a href="https://amplab.cs.berkeley.edu">AMPLab</a> working on several projects including <a href="http://spark.apache.org/graphx/">GraphX</a> (now part of <a href="http://spark.apache.org">Apache Spark</a>), early versions of <a href="http://mlbase.org">MLbase</a>, <a href="https://amplab.cs.berkeley.edu/projects/velox/">Velox</a>, and <a href="https://amplab.cs.berkeley.edu/projects/ccml/">concurrency control for ML</a>.
+In 2020, Joseph launched a new stealth company based on his research to radically simplify the process of deploying advanced analytics and machine learning in modern data driven enterprises.  Prior to joining Berkeley, Joseph co-founded <a href="http://Turi.com">Turi Inc.</a> (formerly GraphLab), which was based on his thesis work on the <a href="https://github.com/dato-code/PowerGraph">GraphLab and PowerGraph Systems</a>.  Turi was eventually <a href="http://www.geekwire.com/2016/exclusive-apple-acquires-turi-major-exit-seattle-based-machine-learning-ai-startup/">acquired</a> by Apple.
 
 
 
-## COVID-19 News 
 
-I recently released a special edition of the [Data Engineering Bulletin](http://sites.computer.org/debull/A20june/issue1.htm).  We also have a [blog post](https://medium.com/@covista/governments-vs-big-tech-resolving-differences-in-contact-tracing-b3d39193bfe4) about advances and issues in digital contact tracing.
+## News 
 
+Joseph is starting to explore some of the underlying design decisions in feature stores.  Checkout out recent blog [Feature Stores: The Data Side of ML Pipelines](https://medium.com/riselab/feature-stores-the-data-side-of-ml-pipelines-7083d69bff1c).
 
  
-## Current Graduate Students and Post-docs
+## Current Masters Students, Graduate Students, and Post-docs
 
-I am fortunate to advise the following amazing students.
-
-#### Graduate Students
-
+* [Lisa Dunlap](https://www.linkedin.com/in/lisabdunlap)
+* [Yu Gai](https://dblp.org/pid/209/9750.html)
 * [Paras Jain](http://parasjain.com)
-* [Richard Liaw](https://www.linkedin.com/in/richardliaw)
+* [Debbie Liang](https://www.linkedin.com/in/debbie-liang/)
 * [Kevin Lin](https://people.eecs.berkeley.edu/~kevinlin/)
-* [Simon Mo](https://github.com/simon-mo)
+* [Sukrit Kalra](https://scholar.google.com/citations?user=QXTHX0kAAAAJ&hl=en)
 * [Charles Packer](https://people.eecs.berkeley.edu/~cpacker/)
 * [Shishir Patil](https://shishirpatil.github.io/)
+* [Nathan Pemberton](https://people.eecs.berkeley.edu/~nathanp/)
 * [Suzanne Petryk](https://www.linkedin.com/in/suzanne-petryk/)
 * [Daniel Rothchild](https://www.linkedin.com/in/daniel-rothchild-45510b38/)
-* [Peter Schafhalter](https://github.com/pschafhalter)
+* [Peter Schafhalter](https://pschafhalter.com/)
 * [Eyal Sela](https://rise.cs.berkeley.edu/blog/author/ges/)
 * [Brijen Thananjeyan](https://bthananjeyan.github.io)
 * [Alvin Wan](http://alvinwan.com)
-* [Xin Wang](https://people.eecs.berkeley.edu/~xinw/)
-* [Tianjun Zhang]()
+* [Sarah Wooders](http://sarahwooders.com/)
+* [Justin Wong](https://www.linkedin.com/in/justin-wong-23155411b/)
+* [Tianjun Zhang](https://www.linkedin.com/in/tianjun-zhang-333bb2126)
 * [Lianmin Zheng](http://lmzheng.net/)
 
 
 
-
-<!-- #### Masters Students
-
- -->
-
-
-#### Undergraduates
-
-* [Lisa Dunlap](https://www.linkedin.com/in/lisabdunlap)
-* [Rehan Durrani](https://github.com/RehanSD)
-* [Cathy Li](https://www.linkedin.com/in/cathy-li-81068b141/)
-* [Mong Ng](http://www.mong.life/about-me/)
-
 #### Post-docs
 
-* [Jianfei Chen](http://people.eecs.berkeley.edu/~jianfei/)
 * [Kirthevasan Kandasamy](https://people.eecs.berkeley.edu/~kandasamy/)
-* [Matthew Wright](https://www.linkedin.com/in/mattawright)
 * [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/)
+
 
 
 #### Former Students and Post-docs
@@ -115,8 +102,10 @@ I am fortunate to advise the following amazing students.
 
 * [Daiyaan Arfeen](https://www.linkedin.com/in/daiyaanarfeen)
 * [Francios Belletti](https://github.com/bellettif)
+* [Jianfei Chen](http://people.eecs.berkeley.edu/~jianfei/)
 * [Daniel Crankshaw](https://dancrankshaw.com/)
 * [Aman Dhar](https://www.linkedin.com/in/amandhar/)
+* [Rehan Durrani](https://github.com/RehanSD)
 * [Edward Fang](https://www.linkedin.com/in/edward-h-fang)
 * [Vlad Feinberg](https://vlad17.github.io/about)
 * [Noah Golmant](http://noahgolmant.com)
@@ -127,16 +116,29 @@ I am fortunate to advise the following amazing students.
 * [Alvin Kao]()
 * [Alexander Ku](https://www.linkedin.com/in/alexyku/)
 * [Scott Lee](https://scottjlee.github.io)
+* [Cathy Li](https://www.linkedin.com/in/cathy-li-81068b141/)
+* [Richard Liaw](https://www.linkedin.com/in/richardliaw)
 * [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
+* [Simon Mo](https://www.linkedin.com/in/simon-mo-834217162/)
+* [Mong Ng](http://www.mong.life/about-me/)
 * [Ashwinee Panda](https://www.linkedin.com/in/ashwineepanda)
+* [Devin Petersohn](https://www.linkedin.com/in/devinpetersohn/)
+* [Vikram Sreekanti](https://www.vikrams.io)
 * [Hari Subbaraj](https://www.linkedin.com/in/hsubbaraj)
 * [Victor Sun]()
 * [Alexey Tumanov](https://www.cc.gatech.edu/people/alexey-tumanov)
 * [Nikita Vemuri](https://www.linkedin.com/in/nikitavemuri)
+* [Xin Wang](https://people.eecs.berkeley.edu/~xinw/)
+* [Matthew Wright](https://www.linkedin.com/in/mattawright)
+* [Chenggang Wu](http://cgwu.io/)
 * [Flora Xue](https://floraxue.github.io/index.html)
 * [Neeraja Yadwadkar](https://people.eecs.berkeley.edu/~neerajay/)
 * [Andy Yan]()
 * [Corey Zumar](https://www.linkedin.com/in/corey-zumar-0a770982)
+
+
+
+
 
 
 
@@ -156,13 +158,14 @@ If you are looking for a post-doc position please contact me directly.
 
 We are also looking for motivated undergraduate students who would like to get involved in doing cutting edge research.  If you are an undergraduate at Berkeley and are interested in getting involved in research please fill out the [DARE Application](https://dare.berkeley.edu/).
 
-### Entrepreneurship 
-
+<!-- ### Entrepreneurship 
 I am currently a technical advisor for [AnyScale.ai](http://anyscale.ai) which is developing a platform for distributed computing in Python.  [AnyScale.ai](http://anyscale.ai) is currently hiring!
+ -->
+
 
 ## Funding
 
-My research as part of the UC Berkeley RISE Lab is funded by the NSF Expedition grant, NSF CAREER Award, and the consortium of industrial sponsors:
+This research is funded by the RISE Lab NSF Expedition grant, NSF CAREER Award, and the consortium of industrial sponsors:
 
 <img src="assets/images/sponsors.png" width="800">
 
