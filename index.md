@@ -119,7 +119,7 @@ Joseph is starting to explore some of the underlying design decisions in feature
 * [Cathy Li](https://www.linkedin.com/in/cathy-li-81068b141/)
 * [Richard Liaw](https://www.linkedin.com/in/richardliaw)
 * [Yika Yujia Luo](https://www.linkedin.com/in/yika-yujia-luo-3a835b87)
-* [Simon Mo](https://www.linkedin.com/in/simon-mo-40151a87)
+* [Simon Mo](https://www.linkedin.com/in/simon-mo-834217162/)
 * [Mong Ng](http://www.mong.life/about-me/)
 * [Ashwinee Panda](https://www.linkedin.com/in/ashwineepanda)
 * [Devin Petersohn](https://www.linkedin.com/in/devinpetersohn/)
