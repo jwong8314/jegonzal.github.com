@@ -7,12 +7,26 @@ order: 3
 ---
 
 
+## [AI-Sys Graduate Seminar (294-162) SP22](https://ucbrise.github.io/cs294-ai-sys-sp22/). 
+
+[Course Website](https://ucbrise.github.io/cs294-ai-sys-sp22/)
+
+
+### Description
+
+The recent success of AI has been in large part due in part to advances in hardware and software systems. These systems have enabled training increasingly complex models on ever larger datasets. In the process, these systems have also simplified model development, enabling the rapid growth in the machine learning community. These new hardware and software systems include a new generation of GPUs and hardware accelerators (e.g., TPU and Nervana), open source frameworks such as Theano, TensorFlow, PyTorch, MXNet, Apache Spark, Clipper, Horovod, and Ray, and a myriad of systems deployed internally at companies just to name a few. At the same time, we are witnessing a flurry of ML/RL applications to improve hardware and system designs, job scheduling, program synthesis, and circuit layouts.
+
+In this course, we will describe the latest trends in systems designs to better support the next generation of AI applications, and applications of AI to optimize the architecture and the performance of systems. The format of this course will be a mix of lectures, in class paper review discussions, and student presentations. Students will be responsible for paper readings, and completing a hands-on project. For projects, we will strongly encourage teams that contains both AI and systems students.
+
+---
+
+
 ## [Conversations with Thought Leaders in Technology (CS198-100)](https://ucbrise.github.io/thought-leaders-fa20/). 
 
 This interactive seminar class will connect a select group of Berkeley students with thought leaders at major technology companies and venture capital firms. Each week will be organized around a short set of readings related to the speaker’s background followed by a live zoom session with that speaker. Students will participate in an interactive slack discussion and generate questions to ask each speaker. Students will learn about how new technology is funded and developed as well as trends in the industry. They will also have the opportunity to meet face-to-face with CXOs, VC partners, and top research scientists from around the world and learn about their career paths. This is also an amazing opportunity to network with leaders in the technology world.
 
 
----
+
 
 
 ## Data Science 100
