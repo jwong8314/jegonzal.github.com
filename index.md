@@ -38,7 +38,7 @@ order: 2
     <script type="text/javascript"> email_address("jegonzal") </script>
   </li>
 
-  <li> <b>Twitter:</b> <a href="https://twitter.com/mejoeyg">@mejoeyg</a>,  someday I might start tweeting.</li>
+  <li> <b>Twitter:</b> <a href="https://twitter.com/profjoeyg">@profjoeyg</a>,  someday I might start tweeting.</li>
   </ul>
 </div>
 
