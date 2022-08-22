@@ -50,14 +50,17 @@ df['bib'] = bib_database.entries
 
 
 
-def write_authors(authors, f):
-    f.write('<div class="authors">\n')
-    f.write('<ul class="author">\n')
-    print(authors)
-    for author in map(str.strip, authors.split(" and ")):
-        f.write(f"\t<li>{author}</li>\n")
-    f.write("</ul>\n")
-    f.write('</div>\n')
+# def write_authors(authors, f):
+#     f.write('<div class="authors">\n')
+#     f.write('<ul class="author">\n')
+#     print(authors)
+#     for author in map(str.strip, authors.split(" and ")):
+#         if "," in author:
+#             last, first = author.split(",")
+#             author = first.strip() + " " + last.strip()
+#         f.write(f"\t<li>{author}</li>\n")
+#     f.write("</ul>\n")
+#     f.write('</div>\n')
 
 def write_links(row, f):
     f.write('<div class="links">\n')
@@ -86,7 +89,16 @@ def write_bib(bib_id, bib, f):
 def write_nat_bib(bib_id, r, f):
     # f.write(f"""<div id="{bib_id}_nat_bib" class="collapse nat-bibtex-entry">""")
     # f.write('<div class="card card-body">')
-    authors = ", ".join(map(str.strip, r["author"].split(" and ")))
+    authors = map(str.strip, r["author"].split(" and "))
+    def reverse_name(author):
+        if "," in author:
+            last, first = author.split(",")
+            author = first.strip() + " " + last.strip()
+        return author
+    authors = map(reverse_name, authors)
+    authors = ", ".join(authors)
+
+    # Put an "and" between the last two authors
     authors = authors[::-1].replace(",", ", and"[::-1], 1)[::-1]
     f.write("<p>" + authors + 
         ". <i>\"" + r['title'] + ".\" </i>" +
