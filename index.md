@@ -27,7 +27,7 @@ order: 2
 
   <li> <b>Office:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley CA 94720</li>
 
-  <li> <b>Office Hours:</b>Please email me to setup a meeting time.</li>
+  <li> <b>Office Hours:</b> Book a meeting using using <a href="https://calendly.com/jegonzal/office-hours">calendly</a>.</li>
   <li> <b>Blog:</b> <a href="https://medium.com/@profjoeyg">Casual Thoughts on ML Systems.</a> </li>
 
 
