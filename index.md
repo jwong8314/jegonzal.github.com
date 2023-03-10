@@ -46,6 +46,7 @@ Joseph is a Professor in the <a href="http://www.eecs.berkeley.edu">EECS departm
 
 * real-time model serving 
 * dynamic deep neural networks
+* machine learning on edge devices
 * accelerated deep learning for high-resolution computer vision
 * new cryptographic primitives for federated learning
 * frameworks for deep reinforcement learning and parameter tuning
@@ -60,7 +61,9 @@ In 2020, Joseph launched a new stealth company based on his research to radicall
 
 ## News 
 
-Joseph is starting to explore some of the underlying design decisions in feature stores.  Checkout out recent blog [Feature Stores: The Data Side of ML Pipelines](https://medium.com/riselab/feature-stores-the-data-side-of-ml-pipelines-7083d69bff1c).
+* POET is featured by [IEEE Spectrum](https://spectrum.ieee.org/neural-network-training)! The first demonstration on how to train SOTA ML models on smartphones and resource constrained edge devices.
+
+* Joseph is starting to explore some of the underlying design decisions in feature stores.  Checkout out recent blog [Feature Stores: The Data Side of ML Pipelines](https://medium.com/riselab/feature-stores-the-data-side-of-ml-pipelines-7083d69bff1c).
 
  
 ## Current Masters Students, Graduate Students, and Post-docs
