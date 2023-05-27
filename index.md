@@ -45,7 +45,7 @@ order: 2
 Joseph is a Professor in the <a href="http://www.eecs.berkeley.edu">EECS department</a> at UC Berkeley, a co-director and founding member of the UC Berkeley [RISE Lab](http://rise.cs.berkeley.edu) and a member of the Berkeley AI Research ([BAIR](bair.berkeley.edu) Group).  His [research interests](research) span machine learning and data systems and he has a wide range of projects including:
 
 * real-time model serving 
-* dynamic deep neural networks
+* large language models
 * machine learning on edge devices
 * accelerated deep learning for high-resolution computer vision
 * new cryptographic primitives for federated learning
@@ -60,6 +60,9 @@ In 2020, Joseph launched a new stealth company based on his research to radicall
 
 
 ## News 
+
+
+* We release [Gorilla Large Language Model](https://gorilla.cs.berkeley.edu/) 🦍 LLMs need to interact with the world through APIs, and we teach LLMs to write APIs calls accurately without hallucination. 
 
 * POET is featured by [IEEE Spectrum](https://spectrum.ieee.org/neural-network-training)! The first demonstration on how to train SOTA ML models on smartphones and resource constrained edge devices.
 
