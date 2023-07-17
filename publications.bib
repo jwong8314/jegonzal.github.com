@@ -6,6 +6,86 @@
 
 %% Saved with string encoding Unicode (UTF-8) 
 
+@misc{zheng2023judging,
+      title={Judging LLM-as-a-judge with MT-Bench and Chatbot Arena}, 
+      author={Lianmin Zheng and Wei-Lin Chiang and Ying Sheng and Siyuan Zhuang and Zhanghao Wu and Yonghao Zhuang and Zi Lin and Zhuohan Li and Dacheng Li and Eric. P Xing and Hao Zhang and Joseph E. Gonzalez and Ion Stoica},
+      year={2023},
+      eprint={2306.05685},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url = {https://arxiv.org/abs/2204.05149},
+      keywords = {arxivpre},
+      abstract={Evaluating large language model (LLM) based chat assistants is challenging due to their broad capabilities and the inadequacy of existing benchmarks in measuring human preferences. To address this, we explore using strong LLMs as judges to evaluate these models on more open-ended questions. We examine the usage and limitations of LLM-as-a-judge, such as position and verbosity biases and limited reasoning ability, and propose solutions to migrate some of them. We then verify the agreement between LLM judges and human preferences by introducing two benchmarks: MT-bench, a multi-turn question set; and Chatbot Arena, a crowdsourced battle platform. Our results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well, achieving over 80\% agreement, the same level of agreement between humans. Hence, LLM-as-a-judge is a scalable and explainable way to approximate human preferences, which are otherwise very expensive to obtain. Additionally, we show our benchmark and traditional benchmarks complement each other by evaluating several variants of LLaMA/Vicuna. We will publicly release 80 MT-bench questions, 3K expert votes, and 30K conversations with human preferences from Chatbot Arena.},
+      code={https://github.com/lmsys/fastchat}
+}
+
+@misc{dunlap2023diversify,
+      title={Diversify Your Vision Datasets with Automatic Diffusion-Based Augmentation}, 
+      author={Lisa Dunlap and Alyssa Umino and Han Zhang and Jiezhi Yang and Joseph E. Gonzalez and Trevor Darrell},
+      year={2023},
+      eprint={2305.16289},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      keywords={arxivpre},
+      url={https://arxiv.org/abs/2305.16289},
+      abstract={Many fine-grained classification tasks, like rare animal identification, have limited training data and consequently classifiers trained on these datasets often fail to generalize to variations in the domain like changes in weather or location. As such, we explore how natural language descriptions of the domains seen in training data can be used with large vision models trained on diverse pretraining datasets to generate useful variations of the training data. We introduce ALIA (Automated Language-guided Image Augmentation), a method which utilizes large vision and language models to automatically generate natural language descriptions of a dataset's domains and augment the training data via language-guided image editing. To maintain data integrity, a model trained on the original dataset filters out minimal image edits and those which corrupt class-relevant information. The resulting dataset is visually consistent with the original training data and offers significantly enhanced diversity. On fine-grained and cluttered datasets for classification and detection, ALIA surpasses traditional data augmentation and text-to-image generated data by up to 15\%, often even outperforming equivalent additions of real data.},
+      code={https://github.com/lisadunlap/ALIA}
+}
+
+
+@misc{lin2023decomposing,
+      title={Decomposing Complex Queries for Tip-of-the-tongue Retrieval}, 
+      author={Kevin Lin and Kyle Lo and Joseph E. Gonzalez and Dan Klein},
+      year={2023},
+      eprint={2305.15053},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      keywords={arxivpre},
+      url={https://arxiv.org/abs/2305.15053},
+      abstract={When re-finding items, users who forget or are uncertain about identifying details often rely on creative strategies for expressing their information needs -- complex queries that describe content elements (e.g., book characters or events), information beyond the document text (e.g., descriptions of book covers), or personal context (e.g., when they read a book). This retrieval setting, called tip of the tongue (TOT), is especially challenging for models heavily reliant on lexical and semantic overlap between query and document text. In this work, we introduce a simple yet effective framework for handling such complex queries by decomposing the query into individual clues, routing those as sub-queries to specialized retrievers, and ensembling the results. This approach allows us to take advantage of off-the-shelf retrievers (e.g., CLIP for retrieving images of book covers) or incorporate retriever-specific logic (e.g., date constraints). We show that our framework incorportating query decompositions into retrievers can improve gold book recall up to 7\% relative again for Recall\@5 on a new collection of 14,441 real-world query-book pairs from an online community for resolving TOT inquiries.}
+}
+
+@misc{patil2023gorilla,
+      title={Gorilla: Large Language Model Connected with Massive APIs}, 
+      author={Shishir G. Patil and Tianjun Zhang and Xin Wang and Joseph E. Gonzalez},
+      year={2023},
+      eprint={2305.15334},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2305.15334},
+      keywords={arxivpre},
+      abstract={Large Language Models (LLMs) have seen an impressive wave of advances recently, with models now excelling in a variety of tasks, such as mathematical reasoning and program synthesis. However, their potential to effectively use tools via API calls remains unfulfilled. This is a challenging task even for today's state-of-the-art LLMs such as GPT-4, largely due to their inability to generate accurate input arguments and their tendency to hallucinate the wrong usage of an API call. We release Gorilla, a finetuned LLaMA-based model that surpasses the performance of GPT-4 on writing API calls. When combined with a document retriever, Gorilla demonstrates a strong capability to adapt to test-time document changes, enabling flexible user updates or version changes. It also substantially mitigates the issue of hallucination, commonly encountered when prompting LLMs directly. To evaluate the model's ability, we introduce APIBench, a comprehensive dataset consisting of HuggingFace, TorchHub, and TensorHub APIs. The successful integration of the retrieval system with Gorilla demonstrates the potential for LLMs to use tools more accurately, keep up with frequently updated documentation, and consequently increase the reliability and applicability of their outputs.},
+      code={https://gorilla.cs.berkeley.edu}
+}
+
+@misc{petryk2023simple,
+      title={Simple Token-Level Confidence Improves Caption Correctness}, 
+      author={Suzanne Petryk and Spencer Whitehead and Joseph E. Gonzalez and Trevor Darrell and Anna Rohrbach and Marcus Rohrbach},
+      year={2023},
+      eprint={2305.07021},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      keywords={arxivpre},
+      url={https://arxiv.org/abs/2305.07021},
+      abstract={The ability to judge whether a caption correctly describes an image is a critical part of vision-language understanding. However, state-of-the-art models often misinterpret the correctness of fine-grained details, leading to errors in outputs such as hallucinating objects in generated captions or poor compositional reasoning. In this work, we explore Token-Level Confidence, or TLC, as a simple yet surprisingly effective method to assess caption correctness. Specifically, we fine-tune a vision-language model on image captioning, input an image and proposed caption to the model, and aggregate either algebraic or learned token confidences over words or sequences to estimate image-caption consistency. Compared to sequence-level scores from pretrained models, TLC with algebraic confidence measures achieves a relative improvement in accuracy by 10\% on verb understanding in SVO-Probes and outperforms prior state-of-the-art in image and group scores for compositional reasoning in Winoground by a relative 37\% and 9\%, respectively. When training data are available, a learned confidence estimator provides further improved performance, reducing object hallucination rates in MS COCO Captions by a relative 30\% over the original model and setting a new state-of-the-art.}
+}
+
+
+
+@inproceedings{Zhuang23,
+	abstract = {We study a novel and important communication pattern in large-scale model-parallel deep learning (DL), which we call cross-mesh resharding. This pattern emerges when the two paradigms of model parallelism – intra-operator and inter-operator parallelism – are combined to support large models on large clusters. In cross-mesh resharding, a sharded tensor needs to be sent from a source device mesh to a destination device mesh, on which the tensor may be distributed with the same or different layouts. We formalize this as a many-to-many multicast communication problem, and show that existing approaches either are sub-optimal or do not generalize to different network topologies or tensor layouts, which result from different model architectures and parallelism strategies. We then propose two contributions to address cross-mesh resharding: an efficient broadcast-based communication system, and an "overlapping-friendly" pipeline schedule. On microbenchmarks, our overall system outperforms existing ones by up to 10x across various tensor and mesh layouts. On end-to-end training of two large models, GPT-3 and U-Transformer, we improve throughput by 10\% and 50\%, respectively.},
+	author = {Yonghao Zhuang, Lianmin Zheng, Zhuohan Li, Eric Xing, Qirong Ho, Joseph Gonzalez, Ion Stoica, Hao Zhang, Hexu Zhao},
+	booktitle = {Proceedings of Machine Learning and Systems},
+	keywords = {peerrev, selected},
+	title = {On Optimizing the Communication of Model Parallelism},
+	url = {https://proceedings.mlsys.org/paper_files/paper/2023/hash/d0b9a3081f811b2a307c38ad457a487c-Abstract-mlsys2023.html},
+	year = {2023}}
+
+
+
+@inproceedings{Lau22, author = {Lau, Sam and Nolan, Deborah and Gonzalez, Joseph and Guo, Philip J.}, title = {How Computer Science and Statistics Instructors Approach Data Science Pedagogy Differently: Three Case Studies}, year = {2022}, isbn = {9781450390705}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3478431.3499384}, doi = {10.1145/3478431.3499384}, abstract = {Over the past decade, data science courses have been growing more popular across university campuses. These courses often involve a mix of programming and statistics and are taught by instructors from diverse backgrounds. In our experiences launching a data science program at a large public U.S. university over the past four years, we noticed one central tension within many such courses: instructors must finely balance how much computing versus statistics to teach in the limited available time. In this experience report, we provide a detailed firsthand reflection on how we have personally balanced these two major topic areas within several offerings of a large introductory data science course that we taught and wrote an accompanying textbook for; our course has served several thousand students over the past four years. We present three case studies from our experiences to illustrate how computer science and statistics instructors approach data science differently on topics ranging from algorithmic depth to modeling to data acquisition. We then draw connections to deeper tradeoffs in data science to help guide instructors who design interdisciplinary courses. We conclude by suggesting ways that instructors can incorporate both computer science and statistics perspectives to improve data science teaching.}, booktitle = {Proceedings of the 53rd ACM Technical Symposium on Computer Science Education - Volume 1}, pages = {29–35}, numpages = {7}, keywords = {peerrev, selected}, location = {Providence, RI, USA}, series = {SIGCSE 2022} }
+
+
 
 
 @inproceedings{poet22,
