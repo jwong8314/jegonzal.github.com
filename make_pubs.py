@@ -29,6 +29,7 @@ df['abstract'] = [e['abstract'] if 'abstract' in e else "" for e in bib_database
 
 if (df['ID'].value_counts() > 1).sum() > 0:
     x = df['ID'].value_counts()
+    print("Duplicate IDs found in publications.bib")
     print(x[x > 1])
     exit(1)
 
