@@ -1031,24 +1031,6 @@
 }
 
 @inproceedings{Lau22,
-  author    = {Lau, Sam and Nolan, Deborah and Gonzalez, Joseph and Guo, Philip J.},
-  title     = {How Computer Science and Statistics Instructors Approach Data Science Pedagogy Differently: Three Case Studies},
-  year      = {2022},
-  isbn      = {9781450390705},
-  publisher = {Association for Computing Machinery},
-  address   = {New York, NY, USA},
-  url       = {https://doi.org/10.1145/3478431.3499384},
-  doi       = {10.1145/3478431.3499384},
-  abstract  = {Over the past decade, data science courses have been growing more popular across university campuses. These courses often involve a mix of programming and statistics and are taught by instructors from diverse backgrounds. In our experiences launching a data science program at a large public U.S. university over the past four years, we noticed one central tension within many such courses: instructors must finely balance how much computing versus statistics to teach in the limited available time. In this experience report, we provide a detailed firsthand reflection on how we have personally balanced these two major topic areas within several offerings of a large introductory data science course that we taught and wrote an accompanying textbook for; our course has served several thousand students over the past four years. We present three case studies from our experiences to illustrate how computer science and statistics instructors approach data science differently on topics ranging from algorithmic depth to modeling to data acquisition. We then draw connections to deeper tradeoffs in data science to help guide instructors who design interdisciplinary courses. We conclude by suggesting ways that instructors can incorporate both computer science and statistics perspectives to improve data science teaching.},
-  booktitle = {Proceedings of the 53rd ACM Technical Symposium on Computer Science Education - Volume 1},
-  pages     = {29–35},
-  numpages  = {7},
-  keywords  = {peerrev, selected},
-  location  = {Providence, RI, USA},
-  series    = {SIGCSE 2022}
-}
-
-@inproceedings{Lau22,
   abstract   = {Over the past decade, data science courses have been growing more popular across university campuses. These courses often involve a mix of programming and statistics and are taught by instructors from diverse backgrounds. In our experiences launching a data science program at a large public U.S. university over the past four years, we noticed one central tension within many such courses: instructors must finely balance how much computing versus statistics to teach in the limited available time. In this experience report, we provide a detailed firsthand reflection on how we have personally balanced these two major topic areas within several offerings of a large introductory data science course that we taught and wrote an accompanying textbook for; our course has served several thousand students over the past four years. We present three case studies from our experiences to illustrate how computer science and statistics instructors approach data science differently on topics ranging from algorithmic depth to modeling to data acquisition. We then draw connections to deeper tradeoffs in data science to help guide instructors who design interdisciplinary courses. We conclude by suggesting ways that instructors can incorporate both computer science and statistics perspectives to improve data science teaching.},
   address    = {New York, NY, USA},
   author     = {Lau, Sam and Nolan, Deborah and Gonzalez, Joseph and Guo, Philip J.},
@@ -2441,7 +2423,7 @@
 
 @inproceedings{Zhuang23,
   abstract  = {We study a novel and important communication pattern in large-scale model-parallel deep learning (DL), which we call cross-mesh resharding. This pattern emerges when the two paradigms of model parallelism – intra-operator and inter-operator parallelism – are combined to support large models on large clusters. In cross-mesh resharding, a sharded tensor needs to be sent from a source device mesh to a destination device mesh, on which the tensor may be distributed with the same or different layouts. We formalize this as a many-to-many multicast communication problem, and show that existing approaches either are sub-optimal or do not generalize to different network topologies or tensor layouts, which result from different model architectures and parallelism strategies. We then propose two contributions to address cross-mesh resharding: an efficient broadcast-based communication system, and an "overlapping-friendly" pipeline schedule. On microbenchmarks, our overall system outperforms existing ones by up to 10x across various tensor and mesh layouts. On end-to-end training of two large models, GPT-3 and U-Transformer, we improve throughput by 10\% and 50\%, respectively.},
-  author    = {Yonghao Zhuang, Lianmin Zheng, Zhuohan Li, Eric Xing, Qirong Ho, Joseph Gonzalez, Ion Stoica, Hao Zhang, Hexu Zhao},
+  author    = {Zhuang, Yonghao and Zheng, Lianmin and Li, Zhuohan and Xing, Eric and Ho, Qirong and Gonzalez, Joseph E. and Stoica , Ion and Zhang, Hao and Zhao, Hexu},
   booktitle = {Proceedings of Machine Learning and Systems},
   keywords  = {peerrev, selected},
   title     = {On Optimizing the Communication of Model Parallelism},

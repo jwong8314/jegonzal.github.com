@@ -27,7 +27,11 @@ df['month'] = [e['month'] if 'month' in e else 1 for e in bib_database.entries]
 df['url'] = [e['url'] if 'url' in e else "" for e in bib_database.entries]
 df['abstract'] = [e['abstract'] if 'abstract' in e else "" for e in bib_database.entries]
 
-assert((df['ID'].value_counts() > 1).sum() == 0)
+if (df['ID'].value_counts() > 1).sum() > 0:
+    x = df['ID'].value_counts()
+    print(x[x > 1])
+    exit(1)
+
 
 def get_venue(e):
     if "booktitle" in e:
