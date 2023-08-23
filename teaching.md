@@ -6,6 +6,33 @@ group: navigation
 order: 3
 ---
 
+# Current Teaching
+
+
+## [AI-Sys LLM Edition Graduate Seminar (294-162) FA23](https://learning-systems.notion.site/AI-Systems-LLM-Edition-294-162-Fall-2023-661887583bd340fa851e6a8da8e29abb?pvs=4). 
+
+[Course Website](https://learning-systems.notion.site/AI-Systems-LLM-Edition-294-162-Fall-2023-661887583bd340fa851e6a8da8e29abb?pvs=4)
+
+### Description
+The recent success of AI has been at least partly driven by advances in hardware and software systems. These systems have enabled training increasingly complex models on ever larger datasets. In the process, these systems have also simplified model development, enabling the rapid growth in the machine learning community. These new hardware and software systems include a new generation of GPUs and hardware accelerators (e.g., TPU) as well as open source frameworks such as TensorFlow and PyTorch (and many others) and have shaped AI research and practice.
+
+A fundamental hypothesis in AI-Systems research is that advances in systems will enable the continued scaling of models and data to unlock new AI capabilities. In the past few years, we have started to see significant evidence of this hypothesis with very large models unlock new AI capabilities especially in the context of text and image generation.  
+
+In this course, we will study the latest trends in systems designs to better support the next generation of AI applications.  We will focus on advances in generative AI and specifically LLMs and how they have mirrored advances in computer systems for AI. We will cover the key pieces of work from the system and AI literature that have driven these advances and may reveal where research is headed next.
+
+
+---
+# Previously Taught
+
+## [Data 8: Foundations of Data Science](https://www.data8.org/sp23/)
+
+[Course Website](https://www.data8.org/sp23/)
+
+### Description
+
+The UC Berkeley Foundations of Data Science course combines three perspectives: inferential thinking, computational thinking, and real-world relevance. Given data arising from some real-world phenomenon, how does one analyze that data so as to understand that phenomenon? The course teaches critical concepts and skills in computer programming and statistical inference, in conjunction with hands-on analysis of real-world datasets, including economic data, document collections, geographical data, and social networks. It delves into social issues surrounding data analysis such as privacy and design.
+
+
 
 ## [AI-Sys Graduate Seminar (294-162) SP22](https://ucbrise.github.io/cs294-ai-sys-sp22/). 
 
@@ -18,7 +45,7 @@ The recent success of AI has been in large part due in part to advances in hardw
 
 In this course, we will describe the latest trends in systems designs to better support the next generation of AI applications, and applications of AI to optimize the architecture and the performance of systems. The format of this course will be a mix of lectures, in class paper review discussions, and student presentations. Students will be responsible for paper readings, and completing a hands-on project. For projects, we will strongly encourage teams that contains both AI and systems students.
 
----
+
 
 
 ## [Conversations with Thought Leaders in Technology (CS198-100)](https://ucbrise.github.io/thought-leaders-fa20/). 
