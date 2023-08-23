@@ -6,7 +6,7 @@ group: navigation
 order: 3
 ---
 
-# Current Teaching
+# Currently Teaching
 
 
 ## [AI-Sys LLM Edition Graduate Seminar (294-162) FA23](https://learning-systems.notion.site/AI-Systems-LLM-Edition-294-162-Fall-2023-661887583bd340fa851e6a8da8e29abb?pvs=4). 
@@ -22,7 +22,7 @@ In this course, we will study the latest trends in systems designs to better sup
 
 
 ---
-# Previously Taught
+# Previously Classes
 
 ## [Data 8: Foundations of Data Science](https://www.data8.org/sp23/)
 
