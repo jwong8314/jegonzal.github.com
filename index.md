@@ -86,7 +86,7 @@ In 2020, Joseph launched a new stealth company based on his research to radicall
 * [Eyal Sela](https://rise.cs.berkeley.edu/blog/author/ges/)
 * [Brijen Thananjeyan](https://bthananjeyan.github.io)
 * [Alvin Wan](http://alvinwan.com)
-* [Sarah Wooders](http://sarahwooders.com/)
+* [Sarah Wooders](http://sarahwooders.github.io)
 * [Justin Wong](https://www.linkedin.com/in/justin-wong-23155411b/)
 * [Tianjun Zhang](https://www.linkedin.com/in/tianjun-zhang-333bb2126)
 * [Lianmin Zheng](http://lmzheng.net/)
