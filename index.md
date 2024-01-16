@@ -27,7 +27,7 @@ order: 2
 
   <li> <b>Office:</b> 773 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley CA 94720</li>
 
-  <li> <b>Office Hours:</b> Book a meeting using using <a href="https://calendly.com/jegonzal/office-hours">calendly</a>.</li>
+  <li> <b>Office Hours:</b> Tuesdays from 3:00 to 4:30 in Soda 773.</li>
   <li> <b>New Blog:</b> <a href="https://generatingconversation.substack.com">Generating Conversation</a> </li>
 
 
