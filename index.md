@@ -57,6 +57,8 @@ In 2020, Joseph launched a new stealth company based on his research to radicall
 
 ## News 
 
+* AI generated videos are becoming more realistic by the day! 🎥 Compare videos side-by-side from cutting-edge models and check out our new leaderboard at [VideoArena](https://www.videoarena.tv). 
+
 * We release [Gorilla Large Language Model](https://gorilla.cs.berkeley.edu/) 🦍 LLMs need to interact with the world through APIs, and we teach LLMs to write APIs calls accurately without hallucination. 
 
 * POET is featured by [IEEE Spectrum](https://spectrum.ieee.org/neural-network-training)! The first demonstration on how to train SOTA ML models on smartphones and resource constrained edge devices.
@@ -65,6 +67,7 @@ In 2020, Joseph launched a new stealth company based on his research to radicall
 
 See [Google Scholar](https://scholar.google.com/citations?user=B96GkdgAAAAJ&hl=en&oi=ao) for an up-to-date list of publications.
 
+* [VideoArena](https://www.videoarena.tv)
 * [AI-SQL](https://arxiv.org/abs/2403.05821)
 * [S-LoRA](https://arxiv.org/abs/2311.03285)
 * [SG-Lang](https://github.com/sgl-project/sglang)
@@ -80,7 +83,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=B96GkdgAAAAJ&hl=e
  
 ## Current Graduate Students
 * [Sukrit Kalra](https://sukritkalra.github.io/)
-* [Tianjun Zhang](https://www.linkedin.com/in/tianjun-zhang-333bb2126)
+* [Tianjun Zhang](https://tianjunz.github.io/)
 * [Kevin Lin](https://people.eecs.berkeley.edu/~kevinlin/)
 * [Charles Packer](https://people.eecs.berkeley.edu/~cpacker/)
 * [Shishir Patil](https://shishirpatil.github.io/)
@@ -90,12 +93,12 @@ See [Google Scholar](https://scholar.google.com/citations?user=B96GkdgAAAAJ&hl=e
 * [Sarah Wooders](http://sarahwooders.github.io)
 * [Yu Gai](https://scholar.google.com/citations?user=sSvMwicAAAAJ&hl=en)
 * [Eyal Sela](https://dblp.org/pid/185/9249.html)
-* [Justin Wong](https://www.linkedin.com/in/justin-wong-23155411b/)
+* [Justin Wong](https://people.eecs.berkeley.edu/~wong.justin/)
 * [Lisa Dunlap](https://www.lisabdunlap.com/)
 * [Simon Mo](https://simon-mo.com/)
 * [Asim Biswal](https://www.linkedin.com/in/asim-biswal/)
-* [Shiyi Cao]()
-* [Dacheng Li]()
+* [Shiyi Cao](https://shiyicao.com/)
+* [Dacheng Li](https://dachengli1.github.io/)
 
 
 #### Former Students and Post-docs
